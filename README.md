@@ -36,7 +36,7 @@ For ROS workspace setup and manager, bridge, gate and RuleGuard interfaces, see 
 | [topopatch_ros/](topopatch_ros/) | Independent path admission and navigation integration |
 | [rulepatch_ros/](rulepatch_ros/) | Controller and navigation compatibility components |
 | [scripts/](scripts/) | Offline tests, data verification and analysis |
-| [experiments/](experiments/iotj_environments_20261028/) | Frozen navigation and message-diagnostic harnesses |
+| [experiments/](experiments/rulesync_experiments/) | Frozen navigation and message-diagnostic harnesses |
 
 ## Data and verification
 

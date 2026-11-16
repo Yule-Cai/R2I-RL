@@ -33,7 +33,7 @@ The Git artifact does not contain the full large navigation log corpus or all or
 
 ## ROS/Gazebo reproduction
 
-See `rulesync/README.md` for the ROS workspace build and message/service interfaces. The campaign used the recorded ROS 2 Lyrical/Nav2/Gazebo environment; image identifiers and resource settings are preserved in manifests. Prepared inputs are under `artifacts/jsa_20261116/frozen_inputs/`, retaining their original relative path layout. The manifest is `formal_dualmap_20261108_v2/manifest.json` (SHA-256 bb749f5d886ef5a0009966ce4d180b3c58e2c1d503213a918cedd94534dfef20). Launchers and formal runners are under `experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/`.
+See `rulesync/README.md` for the ROS workspace build and message/service interfaces. The campaign used the recorded ROS 2 Lyrical/Nav2/Gazebo environment; image identifiers and resource settings are preserved in manifests. Prepared inputs are under `artifacts/jsa_20261116/frozen_inputs/`, retaining their original relative path layout. The manifest is `formal_dualmap_20261108_v2/manifest.json` (SHA-256 bb749f5d886ef5a0009966ce4d180b3c58e2c1d503213a918cedd94534dfef20). Launchers and formal runners are under `experiments/rulesync_experiments/formal_dualmap_20261108_v2/`.
 
 Archived launchers retain the recorded host paths, image identifiers and mounts for provenance. Configure a separate reproduction root and compatible image/assets on a new machine; do not execute the original launch commands against an existing experiment output directory. Inputs, scientific runtime methods and seed matrix should remain pinned. No full ROS/Gazebo campaign was rerun during this repository preparation.
 

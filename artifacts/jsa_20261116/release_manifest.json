@@ -4,8 +4,8 @@
   "scientific_source_files": 93,
   "files": {
     ".gitattributes": {
-      "bytes": 151,
-      "sha256": "50f7fb765820d742ef33622481774cf10313c4d0ff999aba3a6edcc116a22b21",
+      "bytes": 145,
+      "sha256": "3cb4a6bf30eacabb3c06ef0ae996c9f23c1a10b2cac531f7fef0b1fd291e0a73",
       "rebuild_output": false
     },
     ".gitignore": {
@@ -19,8 +19,8 @@
       "rebuild_output": false
     },
     "README.md": {
-      "bytes": 3850,
-      "sha256": "1216973e26cca97a4b7717a682399756de9aec97fec36da8dac9ecb7e39d149c",
+      "bytes": 3844,
+      "sha256": "d102753700d6d5912523efb1126295557364a76a0528324acc848ddccf2342f6",
       "rebuild_output": false
     },
     "artifacts/jsa_20261116/README.md": {
@@ -1679,8 +1679,8 @@
       "rebuild_output": false
     },
     "docs/RULESYNC_REPRODUCIBILITY_20261116.md": {
-      "bytes": 4589,
-      "sha256": "de3c8f7885f89a6d7e2c49e320e0e46f37c1695183cb9e2cf3b18a7bfc0b7e93",
+      "bytes": 4583,
+      "sha256": "1d553ddae0a48b9ae2f5f97f60e8f58bb16ae98ba9ccdef462c78bedba58dff4",
       "rebuild_output": false
     },
     "docs/assets/rulesync-overview.svg": {
@@ -1688,367 +1688,367 @@
       "sha256": "484c81a44dc29790439761afd795686e7b956f5d826ce765e2dd0fc788d94136",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/audit_commit_window_nav2_v1.py": {
+    "experiments/rulesync_experiments/audit_commit_window_nav2_v1.py": {
       "bytes": 11230,
       "sha256": "d86404210b70e9210abbc14dcba9958b6395a21f50a85b4f7226b027b14e541d",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/audit_identity_exposure_v1.py": {
+    "experiments/rulesync_experiments/audit_identity_exposure_v1.py": {
       "bytes": 8378,
       "sha256": "89fa42466b4ab406427ddba784aca73482085255131386ee9661063a3b202369",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/audit_motion_prefix_v1.py": {
+    "experiments/rulesync_experiments/audit_motion_prefix_v1.py": {
       "bytes": 11164,
       "sha256": "58b0e96f3fdf2681feb212a035500ce8b8fb8dc7d2d59805b32c643b4a3a30b7",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/build_diagnostic.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/build_diagnostic.py": {
       "bytes": 6427,
       "sha256": "b30cf08bef62e63d308655a4c2f73c4d23b423500667b970511b462ed34ba2b1",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/diagnostic_guard_role.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/diagnostic_guard_role.py": {
       "bytes": 3512,
       "sha256": "6812f444e17558fd74228ecc7e42d6ec6549b834ee8b33e68ae0b7311f368e16",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/execute_one.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/execute_one.py": {
       "bytes": 2123,
       "sha256": "8ef8105438dc34cc252c6d89cbe03cdf5d7db3205905e722cd8a56b9f5a2d1e3",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/manifest.json": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/manifest.json": {
       "bytes": 1751,
       "sha256": "9ecf4b35c34cb4685c7644cefb28b9a1eca1370da632d9a9b315e43139f3da74",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/observer_ledger.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/observer_ledger.py": {
       "bytes": 1944,
       "sha256": "313c39ca939182eb8406cab125492ead57efee249110990970a6559afea6c4fb",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/probe_logic.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/probe_logic.py": {
       "bytes": 1292,
       "sha256": "508afc6b8bcdd35278b630b3e9d28719b5bfc364347c7fde19a4457e3eec1f30",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/run_diagnostic.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/run_diagnostic.py": {
       "bytes": 7373,
       "sha256": "1a73acf20de5f168a9464831012b18dcbe57b672d8ad3c41d1dbfe856fd63b85",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/scene_runner_diagnostic.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/scene_runner_diagnostic.py": {
       "bytes": 49168,
       "sha256": "0fa15fc4a7b6d94b45e6079fd78bf75dadd5fe4ccf886b3a0ce1cb037b14dcb1",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/source_pin.json": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/source_pin.json": {
       "bytes": 1048,
       "sha256": "d7feb66cf94e21c12acfd05d8becca7d69e8ac20f157f7e8edd72ebb6536dd0f",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/authorization_diagnostic_20261115/test_observer_ledger.py": {
+    "experiments/rulesync_experiments/authorization_diagnostic_20261115/test_observer_ledger.py": {
       "bytes": 1898,
       "sha256": "4a329d1005ea1d6ffa30eb8fd4a2f7c4f7ee47b8b20d71049df05a63c868c464",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/audit_phase_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/audit_phase_v1.py": {
       "bytes": 9007,
       "sha256": "722fea74231610d24a4c678625572f2af764fff1917277e6d269e8bf945b2b50",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/build_runners_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/build_runners_v1.py": {
       "bytes": 3668,
       "sha256": "eac29ce37c3a56356ef920a34c6e0b296977dc6dbcbe3c93d29296c5b190cf35",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/contract_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/contract_v1.py": {
       "bytes": 6460,
       "sha256": "b182cc80ffcf34de6976b401ebd6a67d5fcd62a5b58839ad4ec49c26e212b6f0",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/freeze_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/freeze_v1.py": {
       "bytes": 6941,
       "sha256": "70265744040cdb6e11fb448289024b7a87fb86b944eb1b73145793b364b07d70",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/launch_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/launch_v1.py": {
       "bytes": 4138,
       "sha256": "cfe3ea87b5257256721657a4808c2f6bbd5fda9db159c1632c4e37d673580e66",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/queue_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/queue_v1.py": {
       "bytes": 10379,
       "sha256": "8d94e59f14722eb56d55826066e23b45d5070664c94482c389f5e76b7ed7e0e5",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/review_frozen_inputs_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/review_frozen_inputs_v1.py": {
       "bytes": 4165,
       "sha256": "07d0242061a5c05bd7c395df246337eb77f388d0e681800015eef14a5f5bf1fa",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/runner_lineage_v1.json": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/runner_lineage_v1.json": {
       "bytes": 851,
       "sha256": "9b4bb186cbf47ca1df92990a8ba777b3280e76db130e12eadccd5a7c0d6ae042",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/scene_runner_native_formal_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/scene_runner_native_formal_v1.py": {
       "bytes": 68362,
       "sha256": "903515e2fc1c94ae801a1a84d9ab744123c55623c48639c572b0b863e7a5516f",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/scene_runner_rulesync_formal_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/scene_runner_rulesync_formal_v1.py": {
       "bytes": 38513,
       "sha256": "04a0604b829c93302dc10b5b509335408d8e0b7dc705728aad918c7090013e8c",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/formal_dualmap_20261108_v2/test_contract_v1.py": {
+    "experiments/rulesync_experiments/formal_dualmap_20261108_v2/test_contract_v1.py": {
       "bytes": 7676,
       "sha256": "f66f5de537f28461c8d7942eb5b276cb4d55b2609810edcab3c3f217b27ba864",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/localization_repair_20261108/common_arm_v1/scene_runner_rulesync_dualmap_dev_v1.py": {
+    "experiments/rulesync_experiments/localization_repair_20261108/common_arm_v1/scene_runner_rulesync_dualmap_dev_v1.py": {
       "bytes": 38488,
       "sha256": "d5d31a1e89a28b964d5a2d2d1a68cbd8da235bdb1a6b1543236be6519bade54a",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/localization_repair_20261108/common_arm_v2/scene_runner_native_dualmap_dev_v2.py": {
+    "experiments/rulesync_experiments/localization_repair_20261108/common_arm_v2/scene_runner_native_dualmap_dev_v2.py": {
       "bytes": 68025,
       "sha256": "04f7a32b8154a28b03c930ea2839ed5071859b0eed1fc479b5b4fec80f8726cc",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/prepare_hssd_scene.py": {
+    "experiments/rulesync_experiments/prepare_hssd_scene.py": {
       "bytes": 11366,
       "sha256": "23a81e845563be45894a2c2bf15c618cb7fbc56734ce527b6c68ca1b75821809",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/project_hssd_collision_map.py": {
+    "experiments/rulesync_experiments/project_hssd_collision_map.py": {
       "bytes": 5924,
       "sha256": "68fccdbf74c47b72d9c9f2668b446d431d9c773c0bfdbeb2666f024d7080ac53",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/__init__.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/__init__.py": {
       "bytes": 562,
       "sha256": "ced3401bd6838b93c271a6a2b4dc2501e8e68e1a18053f317b91ab1366eec51c",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/authority3d.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/authority3d.py": {
       "bytes": 13793,
       "sha256": "707dd39da9afff405e30d4b3f3f0e53714fc1469c6958961be9e69c0bdd5c72d",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/dry_run_quad3d_v1.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/dry_run_quad3d_v1.py": {
       "bytes": 13997,
       "sha256": "9f41e84a59f444a8625e53c9fe14319612b83b4a6134724d93c5dc5c074e3584",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/make_quad3d_case_v1.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/make_quad3d_case_v1.py": {
       "bytes": 14628,
       "sha256": "93c91a0311d44aad0e1e494ec9d7b3c1b872b6d1e10f47cfefd5688cc4cb5127",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/quad3d_case_schema_v1.json": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/quad3d_case_schema_v1.json": {
       "bytes": 7652,
       "sha256": "9db7b6ff0bb40c13bbdce887d8783ca6d0d7bdcdb898dedc8586c72d2e4b92db",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/scene3d.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/scene3d.py": {
       "bytes": 24154,
       "sha256": "4cd6fcc67343d3dd9596ac1c2bd270d8d3f68357a454336ff5d23b1dbffdec0d",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/selftest_quad3d_v1.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/selftest_quad3d_v1.py": {
       "bytes": 13750,
       "sha256": "1e76afba07c67cce5aa8f648a5ba5cd638b3834be67c31692f0e6fd977e1a0fc",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/quad3d/snapshot_history.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/quad3d/snapshot_history.py": {
       "bytes": 2496,
       "sha256": "9d1b594db7f601ef74ad1927885c74ec627a2a6b39e5f454b2938a8bbe1cd866",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/run_hssd_quad3d_attempt.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/run_hssd_quad3d_attempt.py": {
       "bytes": 18039,
       "sha256": "5a331834c33cc1dd0f1d2249de9bba4db2beea782bf2b71abb21dd2fd0bd93c1",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/scene_runner_quad3d_v1.py": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/scene_runner_quad3d_v1.py": {
       "bytes": 64020,
       "sha256": "e1268863c6a6e5eb70dbc5960f3d56d09a80b0501e3a68398393bd1cb51f240d",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_snapshot_dev_20261114_v3/source_pin.json": {
+    "experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/source_pin.json": {
       "bytes": 1268,
       "sha256": "fa335adb93c43670a7b03b4740836161ada8397e686a257b58d90124b6e5f42e",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/build_scene_voxel_v2.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/build_scene_voxel_v2.py": {
       "bytes": 4439,
       "sha256": "bf74809802c188b135a98faeb42bf7d3ca8aa2103d475b17f46888fb4c53602c",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/original_source_hashes.json": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/original_source_hashes.json": {
       "bytes": 1098,
       "sha256": "d9eba18356daaad57e3c570e8f7e038764705e93e178942686681324ea9a59ca",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/__init__.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/__init__.py": {
       "bytes": 562,
       "sha256": "ced3401bd6838b93c271a6a2b4dc2501e8e68e1a18053f317b91ab1366eec51c",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/authority3d.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/authority3d.py": {
       "bytes": 13793,
       "sha256": "707dd39da9afff405e30d4b3f3f0e53714fc1469c6958961be9e69c0bdd5c72d",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/dry_run_quad3d_v1.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/dry_run_quad3d_v1.py": {
       "bytes": 13816,
       "sha256": "a3d1bdd30ef77c147b82fc528b1f9a6388382d15bcd9bc21d8d1751f4870b34f",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/make_quad3d_case_v1.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/make_quad3d_case_v1.py": {
       "bytes": 14628,
       "sha256": "93c91a0311d44aad0e1e494ec9d7b3c1b872b6d1e10f47cfefd5688cc4cb5127",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/mesh_reader.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/mesh_reader.py": {
       "bytes": 2488,
       "sha256": "cea28063b0fed0156e0c8044fbca0ad43865437216be574267f32a05cda1f3b3",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/quad3d_case_schema_v1.json": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/quad3d_case_schema_v1.json": {
       "bytes": 7652,
       "sha256": "9db7b6ff0bb40c13bbdce887d8783ca6d0d7bdcdb898dedc8586c72d2e4b92db",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/scene3d.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/scene3d.py": {
       "bytes": 23467,
       "sha256": "ebaf5ed10c5ae5b5731ad2fafffea0a14f948657038c9a90cac21264cb8f2870",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/selftest_quad3d_v1.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/selftest_quad3d_v1.py": {
       "bytes": 13750,
       "sha256": "1e76afba07c67cce5aa8f648a5ba5cd638b3834be67c31692f0e6fd977e1a0fc",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/voxel_contract.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/voxel_contract.py": {
       "bytes": 5643,
       "sha256": "0ddcce58e5cefb222c1cc6cd00ff771c15d2333ff338a21d8670ce8e937791cb",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/quad3d/voxel_geometry.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/quad3d/voxel_geometry.py": {
       "bytes": 3868,
       "sha256": "05ae7ce08af3c3b9f26f21a03dfe234dca43906b7de974e60c1208a54d0a7c1d",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/run_hssd_quad3d_attempt.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/run_hssd_quad3d_attempt.py": {
       "bytes": 15806,
       "sha256": "55c535f991f9882e66e5ef625a7e4fba278c2b27e5301d5bfbc02eea1d25d2c3",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/scene_runner_quad3d_v1.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/scene_runner_quad3d_v1.py": {
       "bytes": 63441,
       "sha256": "2c1503204ed78e8f820a68df14d4df5a21ed724d3c0255ee2587351095d819d5",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/source_pin_v2.json": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/source_pin_v2.json": {
       "bytes": 1595,
       "sha256": "5e874c2b19959add9ea8a9df12ce7247038cbc321dc6d9b6d1da98827188e0b1",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/quad3d_voxel_dev_20261108_v2/test_voxel_v2.py": {
+    "experiments/rulesync_experiments/quad3d_voxel_dev_20261108_v2/test_voxel_v2.py": {
       "bytes": 10883,
       "sha256": "fc517bd0cc68b6daf9b11535529ed3dd92ed513d32938bdc115b61940fb69417",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/run_hssd_baseline_attempt.py": {
+    "experiments/rulesync_experiments/run_hssd_baseline_attempt.py": {
       "bytes": 6306,
       "sha256": "f9ead7ed576fea01ffd41bc876a99c238169406506af81f6bbaded62e1eaeecf",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/run_hssd_campaign_attempt.py": {
+    "experiments/rulesync_experiments/run_hssd_campaign_attempt.py": {
       "bytes": 5886,
       "sha256": "a97dd60dce002707fe7e890e6886cd94fd678311db15aa73eb9593fc55fd4fde",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/run_mechpair_attempt.py": {
+    "experiments/rulesync_experiments/run_mechpair_attempt.py": {
       "bytes": 5576,
       "sha256": "ead0636b908b5de59e36863e1f2483b0ce0fbb8841e33237a425a2ed3f3acf90",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/run_native_furnished_recovery_dev_v2.py": {
+    "experiments/rulesync_experiments/run_native_furnished_recovery_dev_v2.py": {
       "bytes": 7948,
       "sha256": "7ee3b035f84e1f25c603f01adcd978512a7825268f0a1be94eb203966960f068",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/scene_import_compat.py": {
+    "experiments/rulesync_experiments/scene_import_compat.py": {
       "bytes": 659,
       "sha256": "037478c599ac2617acd05e891c16ee294a137e35a481edcabb8ff2afca29d8aa",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/scene_mesh_projection_v4.py": {
+    "experiments/rulesync_experiments/scene_mesh_projection_v4.py": {
       "bytes": 10269,
       "sha256": "90737ba93c0fe542cca4776f633c39153b0e4128e800b6af0aa27532d5489dbb",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/scene_runner_baseline_v1.py": {
+    "experiments/rulesync_experiments/scene_runner_baseline_v1.py": {
       "bytes": 35375,
       "sha256": "d230a7b966fe6a96cb316680cf6326ddc942a57ce34a070989276535b436f467",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/scene_runner_generalization_v1.py": {
+    "experiments/rulesync_experiments/scene_runner_generalization_v1.py": {
       "bytes": 34814,
       "sha256": "a6930ebc0f4b990e9d21cdc7e1da95d17646797e38765b8eaf255076b984a3a1",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/scene_runner_mechpairs_v1.py": {
+    "experiments/rulesync_experiments/scene_runner_mechpairs_v1.py": {
       "bytes": 43170,
       "sha256": "4589b8b77171738e7c7e6de2900de52f88636d6eca020257274e307cf397c072",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/audit_authorization_probes.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/audit_authorization_probes.py": {
       "bytes": 5913,
       "sha256": "2d75948c59740ac3b8db757bb83ba1430d06dc041e32ef51f850c657f2b25e10",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/audit_matrix.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/audit_matrix.py": {
       "bytes": 8645,
       "sha256": "ef04640fa24fc133eab5aab8198deea321a9549138f994b12863fdae8401e713",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/audit_mechanism_claims.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/audit_mechanism_claims.py": {
       "bytes": 8532,
       "sha256": "789bc5f1622f216ddcfac0577fd6c79542b6d5a613a1c97720f6e93557c9ac62",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/build_repaired_runner.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/build_repaired_runner.py": {
       "bytes": 6466,
       "sha256": "c407062c1b7cf27dba4a60c0f09b9e75524a220a20b3bd1e6367cb223b883aa5",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/export_evidence.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/export_evidence.py": {
       "bytes": 2812,
       "sha256": "37de5ec68c2418bd3d7cd91c75a9577e6d8fc799516f030d8a95d3d0e97e21e2",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/export_mechanism_evidence.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/export_mechanism_evidence.py": {
       "bytes": 2315,
       "sha256": "17e88c92205f57594447d6406b657f687a97cfedb1083b2e172c6aee4b410e4f",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/snapshot_history.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/snapshot_history.py": {
       "bytes": 2496,
       "sha256": "9d1b594db7f601ef74ad1927885c74ec627a2a6b39e5f454b2938a8bbe1cd866",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/test_runner_audit.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/test_runner_audit.py": {
       "bytes": 3939,
       "sha256": "b8e0612f56c53feae723eefb35e415c2f88cfe759eed94a7a30d9cf8d3ee5acb",
       "rebuild_output": false
     },
-    "experiments/iotj_environments_20261028/snapshot_audit_repair_20261114/test_snapshot_audit.py": {
+    "experiments/rulesync_experiments/snapshot_audit_repair_20261114/test_snapshot_audit.py": {
       "bytes": 3962,
       "sha256": "577c938b0c96e5a621d37e4a16d7d74c627b6ec65c9907fcfdae0b3e33df20b4",
       "rebuild_output": false
@@ -3059,8 +3059,8 @@
       "rebuild_output": false
     },
     "scripts/check_jsa_harnesses.sh": {
-      "bytes": 562,
-      "sha256": "9c9bcb6d9b87de063e3a6474c48a0024c3c3cfa0b1d27c57bdb5bd3fb2f70935",
+      "bytes": 550,
+      "sha256": "21f009e80345764cede4891ff57df875b9c2691f2e05cdb29d83da3e486b0500",
       "rebuild_output": false
     },
     "scripts/check_rulesync_offline.sh": {
@@ -3848,5 +3848,6 @@
       "sha256": "005fd6e43bcbd680820b53857db98c3fac3787495c373a496e3a7e4432301992",
       "rebuild_output": false
     }
-  }
+  },
+  "layout_revision": "rulesync_experiments directory, 2026-11-16"
 }
