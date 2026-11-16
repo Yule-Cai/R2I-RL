@@ -1,0 +1,4 @@
+
+# Preserve byte-exact scientific records and frozen runtime inputs.
+/artifacts/jsa_20261116/** -text
+/experiments/iotj_environments_20261028/** -text

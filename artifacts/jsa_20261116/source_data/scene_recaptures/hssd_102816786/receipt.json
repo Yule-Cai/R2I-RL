@@ -1,0 +1,97 @@
+{
+  "scene": "hssd_102816786",
+  "source_world_sha256": "9aa57402bc58c1c00d80152b22ed3ab154606c17ef2705591f7dcb1d69d8374f",
+  "documentation_world_sha256": "7b58e1918c11ea582b048b9a48ea466841fa9575b54a4c66d2eba4a524cfb5f4",
+  "map_sha256": "67cbc03b6fdb840fdabd904a94a57ae14ffcb3a2c4f5d7a44a6372aebd271121",
+  "all_noncamera_content_equal": true,
+  "noncamera_canonical_sha256": "03f324d25caca7c8cc965f0b6a0d8786c84613d224c79e118f560193af0f6782",
+  "source_case": "hssd_102816786__route_01",
+  "images": {
+    "overview": {
+      "frame": "final_scene_capture_20261114/hssd_102816786_v4/images/overview/overview::camera_link::overview_1.png",
+      "sha256": "4d1fca9accbf2e03ecd93e1a48272e0d1a526820139e6e79debf3664c4edb793",
+      "camera": {
+        "eye": [
+          1.8694114218223863,
+          3.5749999999999993,
+          33.90109405947286
+        ],
+        "target": [
+          -7.0,
+          3.5749999999999993,
+          0.8
+        ],
+        "width": 2400,
+        "height": 1600,
+        "fov": 1.0,
+        "clip_near": 0.05,
+        "clip_far": 250.0,
+        "framing_bounds_xyz": [
+          -17.1,
+          3.1000000000000014,
+          -7.300000000000001,
+          14.45,
+          -0.2,
+          4.0
+        ],
+        "projected_corner_uv": [
+          [
+            0.525949791964274,
+            0.6889602620286139
+          ],
+          [
+            0.5890927540741621,
+            0.8600000000000001
+          ],
+          [
+            -0.525949791964274,
+            0.6889602620286139
+          ],
+          [
+            -0.5890927540741621,
+            0.8600000000000001
+          ],
+          [
+            0.6102443570097134,
+            -0.8429511431816865
+          ],
+          [
+            0.6969169483162095,
+            -0.8581815981289572
+          ],
+          [
+            -0.6102443570097134,
+            -0.8429511431816865
+          ],
+          [
+            -0.6969169483162095,
+            -0.8581815981289572
+          ]
+        ],
+        "minimum_normalized_image_edge_margin": 0.06999999999999995
+      }
+    },
+    "perspective": {
+      "frame": "final_scene_capture_20261114/hssd_102816786_v4/images/perspective/perspective::camera_link::perspective_1.png",
+      "sha256": "f5360b631352c422e32e11dad478a2724c4426bf23666a55a240fa310f6a5cbc",
+      "camera": {
+        "eye": [
+          -5.350000000000001,
+          3.9499999999999993,
+          1.35
+        ],
+        "target": [
+          -3.617949192431124,
+          2.95,
+          1.25
+        ],
+        "width": 2400,
+        "height": 1600,
+        "fov": 1.45,
+        "clip_near": 0.03,
+        "clip_far": 250.0
+      }
+    }
+  },
+  "scope": "later native documentation, no robot navigation, no image retouching"
+}

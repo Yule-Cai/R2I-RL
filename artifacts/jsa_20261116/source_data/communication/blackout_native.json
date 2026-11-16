@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "scope": "one same-host Nav2 DEV trace;simulator bridge input is not physical-actuator application",
+  "native_events": 1231876,
+  "native_event_kinds": {
+    "ros2:rmw_publisher_init": 147,
+    "ros2:rmw_subscription_init": 102,
+    "ros2:rmw_publish": 105018,
+    "ros2:rcl_node_init": 21,
+    "ros2:rmw_take": 470850,
+    "ros2:rcl_publisher_init": 131,
+    "ros2:rcl_publish": 104241,
+    "ros2:rcl_subscription_init": 86,
+    "ros2:rclcpp_publish": 90361,
+    "ros2:rcl_take": 460919
+  },
+  "final_publisher": "collision_monitor",
+  "final_publications": 1738,
+  "observer_takes": 1738,
+  "observer_callbacks": 1738,
+  "value_observer": "rulesync_command_witness",
+  "require_complete_values": true,
+  "primary_benchmark_native_takes": 1738,
+  "simulator_bridge_takes": 1738,
+  "publication_values_unobserved": 0,
+  "observed_nonzero_publications_after_commit_before_release": 0,
+  "late_observer_receipts_of_precommit_nonzero_publications": 0,
+  "trace_discarded_messages": 0,
+  "independent_scene_audit_passed": true,
+  "clock": "native monotonic raw nanoseconds checked against manager/observer monotonic clock",
+  "correlation": "PID-scoped handles+exact unique middleware source timestamps;not Twist-value matching",
+  "audit_source_sha256": "d29666016ddd43b98a07b6bf2b1fa857fd91c73c5a83dc9a4800433b90ed4d09"
+}

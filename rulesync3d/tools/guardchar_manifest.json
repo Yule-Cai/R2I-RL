@@ -1,0 +1,37 @@
+# GuardChar — RuleGuard characterization manifest (FROZEN, committed before runs)
+# Name: GuardChar-32 (12 surface + 12 sweeps + 8 mechanism = 32 runs).
+# Simulator/harness limits honored: vmax within supervisor caps (1.5/1.0),
+# delays ≤ 300 ms (loop budget), noise σ ≤ 0.3 m (indoor scale),
+# margins within room geometry. Seeds fixed; no tuning after results.
+{
+  "name": "GuardChar-32",
+  "base_scenario": "open_3d straight (1,10,1)->(19,10,1), V0 volume (graze geometry)",
+  "nominal": {"vmax_xy": 1.5, "vmax_z": 1.0, "monitor_every": 1,
+              "guard_delay_ms": 0, "guard_noise": 0.0,
+              "warn_margin": 0.5, "release_hyst": 0.2, "seed": 50000},
+  "surface_A": {
+    "desc": "speed x effective sensing/stop delay (arms B + C)",
+    "speeds": [0.75, 1.5],
+    "delays_ms": [0, 100, 300],
+    "arms": ["gate_geomon", "gate_guard"],
+    "runs": 12
+  },
+  "sweeps_B": {
+    "desc": "one-factor sweeps around nominal (arm C)",
+    "monitor_every": [1, 5, 20],
+    "guard_noise": [0.0, 0.1, 0.3],
+    "warn_margin": [0.3, 0.5, 0.8],
+    "release_hyst": [0.1, 0.2, 0.4],
+    "runs": 12
+  },
+  "mechanism_C": {
+    "desc": "mechanism cases x arms A/B/C",
+    "conditions": ["nominal", "graze", "strong_lat(B only; A+C reused: guard-lat-A/guard-lat-B)", "strong_vert(B only; A reused, C=vb2)",
+                   "stale(B only; A+C reused)", "missing(A/B/C)"],
+    "arms": ["gate", "gate_geomon", "gate_guard"],
+    "runs": 8,
+    "note": "A-arm + C-arm mechanism rows REUSED from guard_14/strong/vb2 (identical code+geometry); only B-arm (geometry-only) + missing-C are NEW runs"
+  },
+  "seeds": "driver epoch-derived (deterministic); disturb RNG seeded per case",
+  "stopping": "no per-run tuning; stall aborts loud; all rows counted"
+}

@@ -1,0 +1,10 @@
+# Bridge applied-state query for manager startup reconciliation.
+# The bridge reports exactly what it last applied (epoch + canonical
+# snapshot hash + complete active set). The hash covers ALL
+# authorization-relevant semantics (geometry, not just IDs): the manager
+# compares (epoch, hash) against its durable decision and NEVER adopts
+# bridge state as authoritative (correctness revision).
+---
+uint64 active_epoch
+rulesync_interfaces/RuleSpec[] active_rules
+string active_hash

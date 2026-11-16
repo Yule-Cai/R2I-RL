@@ -1,0 +1,21 @@
+{
+  "files": {
+    "build_scene_voxel_v2.py": "bf74809802c188b135a98faeb42bf7d3ca8aa2103d475b17f46888fb4c53602c",
+    "original_source_hashes.json": "d9eba18356daaad57e3c570e8f7e038764705e93e178942686681324ea9a59ca",
+    "quad3d/__init__.py": "ced3401bd6838b93c271a6a2b4dc2501e8e68e1a18053f317b91ab1366eec51c",
+    "quad3d/authority3d.py": "707dd39da9afff405e30d4b3f3f0e53714fc1469c6958961be9e69c0bdd5c72d",
+    "quad3d/dry_run_quad3d_v1.py": "a3d1bdd30ef77c147b82fc528b1f9a6388382d15bcd9bc21d8d1751f4870b34f",
+    "quad3d/make_quad3d_case_v1.py": "93c91a0311d44aad0e1e494ec9d7b3c1b872b6d1e10f47cfefd5688cc4cb5127",
+    "quad3d/mesh_reader.py": "cea28063b0fed0156e0c8044fbca0ad43865437216be574267f32a05cda1f3b3",
+    "quad3d/quad3d_case_schema_v1.json": "9db7b6ff0bb40c13bbdce887d8783ca6d0d7bdcdb898dedc8586c72d2e4b92db",
+    "quad3d/scene3d.py": "ebaf5ed10c5ae5b5731ad2fafffea0a14f948657038c9a90cac21264cb8f2870",
+    "quad3d/selftest_quad3d_v1.py": "1e76afba07c67cce5aa8f648a5ba5cd638b3834be67c31692f0e6fd977e1a0fc",
+    "quad3d/voxel_contract.py": "0ddcce58e5cefb222c1cc6cd00ff771c15d2333ff338a21d8670ce8e937791cb",
+    "quad3d/voxel_geometry.py": "05ae7ce08af3c3b9f26f21a03dfe234dca43906b7de974e60c1208a54d0a7c1d",
+    "run_hssd_quad3d_attempt.py": "55c535f991f9882e66e5ef625a7e4fba278c2b27e5301d5bfbc02eea1d25d2c3",
+    "scene_runner_quad3d_v1.py": "2c1503204ed78e8f820a68df14d4df5a21ed724d3c0255ee2587351095d819d5",
+    "test_voxel_v2.py": "fc517bd0cc68b6daf9b11535529ed3dd92ed513d32938bdc115b61940fb69417"
+  },
+  "formal_denominator": false,
+  "schema": "rulesync.quad3d.dev.source.v2"
+}

@@ -1,0 +1,42 @@
+{
+  "cohort": "AuthorizationDiagnostic3_DEV_20261115_v1",
+  "scope": "Three predeclared observer-flag settings; same cases, seed, speed and runtime; no retries; no new performance-rate denominator",
+  "rows": [
+    {
+      "scene": "hssd_102815835",
+      "case_id": "hssd_102815835__route_02",
+      "speed": 0.2,
+      "seed": 52701,
+      "probe_kind": "stale_identity",
+      "monitor_arm": "full",
+      "source_pin_sha256": "d7feb66cf94e21c12acfd05d8becca7d69e8ac20f157f7e8edd72ebb6536dd0f",
+      "original_failed_trial_id": "4591be75779f9f5e32736dfb035bd2ac13727e527a9e49d75f1d416fcccccba0",
+      "diagnostic_version": "v1",
+      "id": "ba1f7f8490660c47ec45d09bf347f06c9643b1b6bd2967c1a54123e94b562718"
+    },
+    {
+      "scene": "hssd_102816051",
+      "case_id": "hssd_102816051__route_03",
+      "speed": 0.2,
+      "seed": 52701,
+      "probe_kind": "late_authorization",
+      "monitor_arm": "full",
+      "source_pin_sha256": "d7feb66cf94e21c12acfd05d8becca7d69e8ac20f157f7e8edd72ebb6536dd0f",
+      "original_failed_trial_id": "9fc9240969af03f89aee2e7d2d92d6a1c507a698562b436377bc1f9487073d68",
+      "diagnostic_version": "v1",
+      "id": "1aaa018f37e7e8245a590c848ad98064136a1954cf33a84ac40a0b7ce75bef7c"
+    },
+    {
+      "scene": "hssd_102816786",
+      "case_id": "hssd_102816786__route_03",
+      "speed": 0.2,
+      "seed": 52701,
+      "probe_kind": "late_authorization",
+      "monitor_arm": "full",
+      "source_pin_sha256": "d7feb66cf94e21c12acfd05d8becca7d69e8ac20f157f7e8edd72ebb6536dd0f",
+      "original_failed_trial_id": "cd8ae0491b3da7c3671dc0cc36db1c60498f299760d36104195aa2941a112c01",
+      "diagnostic_version": "v1",
+      "id": "d5715ef96dd57c91afa2d87033024e4411660b7bd07a1a9c0619a5a824b008a2"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "rulesync.quad3d.volume_task.schema.v1",
+  "title": "RuleSync B1 quadrotor 3D volume task case (DEV, schema v1)",
+  "description": "One 3D KEEP_OUT volume task on a prepared HSSD scene: a 3D route, one initial rule snapshot, one mid-run replacement snapshot, declared flight band and timing. Produced by quad3d/make_quad3d_case_v1.py from a prepared 2D recovery_inputs_v1 case; consumed by scene_runner_quad3d_v1.py. All lengths in metres, all frames are the prepared scene world frame.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "kind", "id", "scene", "map_sha256", "source_case",
+    "route", "spawn_xyz", "goal_xyz", "flight", "rules", "trigger",
+    "timing", "declared_fidelity", "qualification"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "kind": {"const": "rulesync_quad3d_volume_task"},
+    "id": {"type": "string", "minLength": 1},
+    "scene": {"type": "string", "pattern": "^hssd_[0-9_]+$"},
+    "map_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "source_case": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "sha256", "schema_version"],
+      "properties": {
+        "file": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "schema_version": {"type": "integer"}
+      }
+    },
+    "route": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "route_id", "length_m", "xy_path"],
+      "properties": {
+        "source": {"type": "string"},
+        "route_id": {"type": "string"},
+        "length_m": {"type": "number", "exclusiveMinimum": 1.0},
+        "xy_path": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {"type": "number"}
+          }
+        }
+      }
+    },
+    "spawn_xyz": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"type": "number"}
+    },
+    "goal_xyz": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"type": "number"}
+    },
+    "flight": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "z_floor_m", "z_max_m", "z_plan_min_m", "z_plan_max_m",
+        "z_spawn_m", "cruise_z_m", "body_radius_m", "occ_clearance_m",
+        "voxel_res_m", "speed_xy_mps", "speed_z_mps",
+        "command_rate_hz", "position_gain", "lookahead_m",
+        "arrival_xy_tolerance_m", "arrival_z_tolerance_m",
+        "hover_hold_s", "hold_dwell_s", "guard_rho_warn_m",
+        "guard_rho_release_m"
+      ],
+      "properties": {
+        "z_floor_m": {"type": "number", "minimum": 0.0},
+        "z_max_m": {"type": "number", "exclusiveMaximum": 2.4},
+        "z_plan_min_m": {"type": "number", "minimum": 0.0},
+        "z_plan_max_m": {"type": "number"},
+        "z_spawn_m": {"type": "number", "minimum": 0.05},
+        "cruise_z_m": {"type": "number", "minimum": 0.3},
+        "body_radius_m": {"type": "number", "minimum": 0.1},
+        "occ_clearance_m": {"type": "number", "minimum": 0.0},
+        "voxel_res_m": {"type": "number", "minimum": 0.05},
+        "speed_xy_mps": {"enum": [0.1, 0.2, 0.25]},
+        "speed_z_mps": {"enum": [0.1, 0.2, 0.25]},
+        "command_rate_hz": {"type": "number", "minimum": 5.0},
+        "position_gain": {"type": "number", "exclusiveMinimum": 0.0},
+        "lookahead_m": {"type": "number", "exclusiveMinimum": 0.0},
+        "arrival_xy_tolerance_m": {"type": "number", "exclusiveMinimum": 0.0},
+        "arrival_z_tolerance_m": {"type": "number", "exclusiveMinimum": 0.0},
+        "hover_hold_s": {"type": "number", "minimum": 0.0},
+        "hold_dwell_s": {"type": "number", "minimum": 0.0},
+        "guard_rho_warn_m": {"type": "number", "minimum": 0.0},
+        "guard_rho_release_m": {"type": "number", "minimum": 0.0}
+      }
+    },
+    "rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["initial", "replacement"],
+      "properties": {
+        "initial": {"$ref": "#/$defs/ruleSnapshot"},
+        "replacement": {"$ref": "#/$defs/ruleSnapshot"}
+      }
+    },
+    "trigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "distance_m"],
+      "properties": {
+        "type": {"const": "displacement_from_spawn"},
+        "distance_m": {"type": "number", "exclusiveMinimum": 0.0}
+      }
+    },
+    "timing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["wall_budget_s", "expected_sim_budget_s"],
+      "properties": {
+        "wall_budget_s": {"type": "number", "exclusiveMinimum": 30.0},
+        "expected_sim_budget_s": {"type": "number", "exclusiveMinimum": 10.0}
+      }
+    },
+    "declared_fidelity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["body", "occupancy", "scope"],
+      "properties": {
+        "body": {"const": "velocity_level_quadrotor_no_px4_no_aero"},
+        "occupancy": {"const": "conservative_2d_projection_lifted_to_declared_band"},
+        "scope": {"const": "DEV_single_scene_single_route_not_formal_denominator"}
+      }
+    },
+    "qualification": {
+      "type": "object",
+      "description": "Generator-computed, fail-closed checks that justify the case.",
+      "additionalProperties": true,
+      "required": [
+        "initial_path_gate", "replacement_intersects_initial_path",
+        "initial_rule_clear_of_initial_path", "spawn_clear_of_rules",
+        "goal_clear_of_rules", "trigger_before_replacement_m"
+      ],
+      "properties": {
+        "initial_path_gate": {"type": "string"},
+        "replacement_intersects_initial_path": {"type": "boolean"},
+        "initial_rule_clear_of_initial_path": {"type": "boolean"},
+        "spawn_clear_of_rules": {"type": "boolean"},
+        "goal_clear_of_rules": {"type": "boolean"},
+        "trigger_before_replacement_m": {"type": "number"},
+        "initial_path_length_m": {"type": "number"},
+        "replacement_band_top_m": {"type": "number"}
+      }
+    }
+  },
+  "$defs": {
+    "ruleSnapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "declared_band", "volumes", "source_polygon_xy"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "declared_band": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["label", "zmin", "zmax"],
+          "properties": {
+            "label": {"type": "string"},
+            "zmin": {"type": "number"},
+            "zmax": {"type": "number"}
+          }
+        },
+        "volumes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": ["id", "geometry_type", "bmin", "bmax"],
+            "properties": {
+              "id": {"type": "string"},
+              "geometry_type": {"const": 0},
+              "bmin": {
+                "type": "array", "minItems": 3, "maxItems": 3,
+                "items": {"type": "number"}
+              },
+              "bmax": {
+                "type": "array", "minItems": 3, "maxItems": 3,
+                "items": {"type": "number"}
+              }
+            }
+          }
+        },
+        "source_polygon_xy": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "array", "minItems": 2, "maxItems": 2,
+            "items": {"type": "number"}
+          }
+        }
+      }
+    }
+  }
+}

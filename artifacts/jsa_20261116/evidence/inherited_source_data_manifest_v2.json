@@ -1,0 +1,158 @@
+{
+  "source_data/authorization12_review.json": {
+    "bytes": 9361,
+    "sha256": "55fb372f60ff5dc09a5f2ce7d8e56098aa4b1f9c5c20fa139da3b12893f8c7c7"
+  },
+  "source_data/authorization_qualification2.json": {
+    "bytes": 1362,
+    "sha256": "11ddfe245872e4d2b9b7097e0cb7997ff6966c468ed0d470c2612472ffe75a74"
+  },
+  "source_data/communication/blackout_native.json": {
+    "bytes": 1343,
+    "sha256": "1d98cdb23a566459ac335df586d105d2aae357e639251533b479f60a6bd8a3d2"
+  },
+  "source_data/communication/blackout_service.json": {
+    "bytes": 469995,
+    "sha256": "1d4fef682add58b85a7ffa2f3181dbcc2c734e413ee29f700d5b3cccb0ee838f"
+  },
+  "source_data/communication/clean_native.json": {
+    "bytes": 1349,
+    "sha256": "71ebff1c94af5e2fd5605f3df9afc3c534f7a4df30b0ab311655e31e165de80d"
+  },
+  "source_data/communication/clean_service.json": {
+    "bytes": 466298,
+    "sha256": "c61366f154c233adedcff80df1a03546d64c604e6ad2b6c01b80d1c21e25fe1b"
+  },
+  "source_data/communication/qualification.json": {
+    "bytes": 1620,
+    "sha256": "2e674d6a68fb4a68074be5c6f31bc8d035b52a11e1e70ef802818109c6b6a09f"
+  },
+  "source_data/formal2970.csv": {
+    "bytes": 702166,
+    "sha256": "552de57a4ab23d23f4ca3811318569e36d10587a40e59294a088676361f13727"
+  },
+  "source_data/formal_coverage.json": {
+    "bytes": 2143,
+    "sha256": "7f4a6c0ead6de95a709520fb1f4c78dadf666fd9aaa6adde8f14d472fd078444"
+  },
+  "source_data/formal_outcomes.json": {
+    "bytes": 1940,
+    "sha256": "17ed0c217fe890cda0558f078fc6e9c035c61354466716d35066633593820703"
+  },
+  "source_data/formal_wiring_recheck.json": {
+    "bytes": 589,
+    "sha256": "8a2454f6e9217caf180ad849ac3d1dfd2eda7bf4f86c91be4b9d14c9d7992c62"
+  },
+  "source_data/occupancy_comparison.json": {
+    "bytes": 3100,
+    "sha256": "a0b710fc2c2bfb0d688fc76ccba747e4066fe1ff616e7827bce38dd0f7b06ef3"
+  },
+  "source_data/protocol_matrix_2d.csv": {
+    "bytes": 3423,
+    "sha256": "f03b0bb31350d516be8044b3e510568de997c1b031de8c9c6cfec9d7c4250efe"
+  },
+  "source_data/protocol_matrix_3d.csv": {
+    "bytes": 4513,
+    "sha256": "8f42c10f624bf5bb800c8fb7dc6e8efe714c2b751edb1be1027939e4d0a180af"
+  },
+  "source_data/recapture_integrity_remote.json": {
+    "bytes": 941,
+    "sha256": "c00778455b27a8dfc328068abbce315611375c404a9057470182c46564332990"
+  },
+  "source_data/reference_audit_v1.json": {
+    "bytes": 97719,
+    "sha256": "5e9fa4c2529b6558f6dbdff4322f7030bb044ca852a200cbfb24f2edb2cea54c"
+  },
+  "source_data/retained_figure_integrity.json": {
+    "bytes": 309,
+    "sha256": "61668c1f74db375f22affc98ca644e8b0b42cb8d6d99a16656c3d4804dc2ff04"
+  },
+  "source_data/scene_recaptures/hssd_102815835/case.json": {
+    "bytes": 15351,
+    "sha256": "da9f1de0f288c4d7703c9538d9eea23e0c569ca82169c464dd4d6c5ac512d76f"
+  },
+  "source_data/scene_recaptures/hssd_102815835/gpu.log": {
+    "bytes": 875,
+    "sha256": "c517cdd86be0e18a4dbba5f4891dafef7817fb1ee76351a15f2a0a75abebfdc5"
+  },
+  "source_data/scene_recaptures/hssd_102815835/map.json": {
+    "bytes": 297171,
+    "sha256": "1fdce609d49827ace27502ad8f70ac6b54d4ebd805eca466d5ee2a6b7d6e0e60"
+  },
+  "source_data/scene_recaptures/hssd_102815835/overview.png": {
+    "bytes": 2231138,
+    "sha256": "59dbd25f30c0b3bb7e029ec873e2a44b802a5885367b66a595d6439159c82421"
+  },
+  "source_data/scene_recaptures/hssd_102815835/perspective.png": {
+    "bytes": 3919828,
+    "sha256": "ce7863204764175dc8d465f9ba290a4db70ac471e9386dd6c6a8574e36678f68"
+  },
+  "source_data/scene_recaptures/hssd_102815835/receipt.json": {
+    "bytes": 2750,
+    "sha256": "6f5668a9f0870e55ffc7927b834f52e0ec8b32429f9eb22b0d6b7fbb8eb71598"
+  },
+  "source_data/scene_recaptures/hssd_102815835/world.sdf": {
+    "bytes": 230418,
+    "sha256": "84462ed017de05f44931b0520cf6a486313c4461e803a1db48ef9e77dffc6c3f"
+  },
+  "source_data/scene_recaptures/hssd_102816051/case.json": {
+    "bytes": 25648,
+    "sha256": "09e6b02624c53e40d20f0386565be08890642d110098fc24c37109fb59c6ec09"
+  },
+  "source_data/scene_recaptures/hssd_102816051/gpu.log": {
+    "bytes": 875,
+    "sha256": "c517cdd86be0e18a4dbba5f4891dafef7817fb1ee76351a15f2a0a75abebfdc5"
+  },
+  "source_data/scene_recaptures/hssd_102816051/map.json": {
+    "bytes": 504727,
+    "sha256": "e0a55797a7a1da75ceeed0e0971475eebf9fcdd0ad7eff29269def67f67e5ca0"
+  },
+  "source_data/scene_recaptures/hssd_102816051/overview.png": {
+    "bytes": 1266947,
+    "sha256": "c3d11f50aceecf9b7ce877d6cb7f35a636a49dfec7149e1f0f0011b2690daf86"
+  },
+  "source_data/scene_recaptures/hssd_102816051/perspective.png": {
+    "bytes": 3204666,
+    "sha256": "6375e1a14c39d10867af1c1596f8d54e9a9efb5434904d5debc7a5bf80d60e87"
+  },
+  "source_data/scene_recaptures/hssd_102816051/receipt.json": {
+    "bytes": 2762,
+    "sha256": "267506c80408515727a5f1f59acad4f9a4459f52fd05b7b8342f557f29958c67"
+  },
+  "source_data/scene_recaptures/hssd_102816051/world.sdf": {
+    "bytes": 153685,
+    "sha256": "a18e7b82aea711511825e080a4de3a623c62362a52f739a7f810dcf0f8c6b4af"
+  },
+  "source_data/scene_recaptures/hssd_102816786/case.json": {
+    "bytes": 16365,
+    "sha256": "db5a36410e94213c952fbda0c0464ebc97fa7b3d49cd57d9e15cb8bfef490505"
+  },
+  "source_data/scene_recaptures/hssd_102816786/gpu.log": {
+    "bytes": 875,
+    "sha256": "c517cdd86be0e18a4dbba5f4891dafef7817fb1ee76351a15f2a0a75abebfdc5"
+  },
+  "source_data/scene_recaptures/hssd_102816786/map.json": {
+    "bytes": 688882,
+    "sha256": "67cbc03b6fdb840fdabd904a94a57ae14ffcb3a2c4f5d7a44a6372aebd271121"
+  },
+  "source_data/scene_recaptures/hssd_102816786/overview.png": {
+    "bytes": 1260369,
+    "sha256": "4d1fca9accbf2e03ecd93e1a48272e0d1a526820139e6e79debf3664c4edb793"
+  },
+  "source_data/scene_recaptures/hssd_102816786/perspective.png": {
+    "bytes": 2877496,
+    "sha256": "f5360b631352c422e32e11dad478a2724c4426bf23666a55a240fa310f6a5cbc"
+  },
+  "source_data/scene_recaptures/hssd_102816786/receipt.json": {
+    "bytes": 2746,
+    "sha256": "0a47eb47bcf88b65323673139ea3d7f0964ccbd2f7eca051a20465f448c9dd68"
+  },
+  "source_data/scene_recaptures/hssd_102816786/world.sdf": {
+    "bytes": 251361,
+    "sha256": "7b58e1918c11ea582b048b9a48ea466841fa9575b54a4c66d2eba4a524cfb5f4"
+  },
+  "source_data/volumetric140_review.json": {
+    "bytes": 261309,
+    "sha256": "fd306fd132c174bff3ded78920bafc95060519abb95a3c6194319e9c464fa308"
+  }
+}

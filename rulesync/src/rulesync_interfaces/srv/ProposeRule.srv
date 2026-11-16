@@ -1,0 +1,5 @@
+rulesync_interfaces/RuleSpec rule
+---
+bool accepted
+string reason
+uint64 staged_epoch

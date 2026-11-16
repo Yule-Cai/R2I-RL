@@ -1,0 +1,44 @@
+[
+ {
+  "map_id": "office-A-s101",
+  "family": "office",
+  "seed": 101,
+  "sha256_pgm": "0ba6219841c011d9f7eb5a696b00371fdb9f2fe39e1a53af3532342077bffe87",
+  "sha256_yaml": "9c71a7747e4d9a35f547c5ee44e5dc2874bc84bb1a480515b0c517a527bd27cc"
+ },
+ {
+  "map_id": "office-B-s102",
+  "family": "office",
+  "seed": 102,
+  "sha256_pgm": "600327241220f8c1a98d6028dac835bae1a021764c13b233a5c7441a3ddbccc1",
+  "sha256_yaml": "67954eae5fd4819cd8589d4870929d42b7539171334c8b4876f8f64fcb564872"
+ },
+ {
+  "map_id": "maze-A-s201",
+  "family": "maze",
+  "seed": 201,
+  "sha256_pgm": "d7b9f7198240cc013aa08e22651c2f315501a63bcad4219db6c6bb7b8cfdbf6b",
+  "sha256_yaml": "ad3f74552a881e09a5518511ad06cdfb409d66e3d1fe057c30d3646de71dbf77"
+ },
+ {
+  "map_id": "maze-B-s202",
+  "family": "maze",
+  "seed": 202,
+  "sha256_pgm": "d9f384194793033c14fe9daff720626ac662224c33e5c986209f937d76cf367e",
+  "sha256_yaml": "b35c90f7fe9a1938e02d4bbc4a448a774b92e108464fc23a68c79582727c9777"
+ },
+ {
+  "map_id": "narrow-A-s301",
+  "family": "narrow",
+  "seed": 301,
+  "sha256_pgm": "b5e07fc2359219599a4ccefb113cee11e42e86ca9c1e8a13708194ebdcc06af7",
+  "sha256_yaml": "a915a2eb8a5ebfdb79a48a35c7e7e028f65db31d9614f024cd4741fd63fff3d7"
+ },
+ {
+  "map_id": "narrow-B-s302",
+  "family": "narrow",
+  "seed": 302,
+  "sha256_pgm": "3074dd05e289e13eef3a77377671c9296881db06bbcd63d67be0566bf8be9cf6",
+  "sha256_yaml": "b59d6a8ead3a46313ef4e903a11095f74f140a24c5d1cb4a43793d8b25ee0474"
+ }
+]

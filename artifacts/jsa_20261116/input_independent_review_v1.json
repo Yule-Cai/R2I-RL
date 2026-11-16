@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "manifest_sha256": "bb749f5d886ef5a0009966ce4d180b3c58e2c1d503213a918cedd94534dfef20",
+  "script_sha256": "07d0242061a5c05bd7c395df246337eb77f388d0e681800015eef14a5f5bf1fa",
+  "layouts": 23,
+  "cases": 45,
+  "planned": 2970,
+  "matrix_per_arm": {
+    "full": 675,
+    "geometry_only": 405,
+    "rho0": 405,
+    "native_async": 675,
+    "native_wait": 405,
+    "native_periodic": 405
+  },
+  "qualified_spatial_inputs_unchanged": true,
+  "all_qualified_inputs_included": true,
+  "exact_cartesian_coverage": true,
+  "independent_seeds": true,
+  "runtime_core_binding_unchanged": true,
+  "asset_references": 8390,
+  "scope": "Frozen input/code review, not physical preflight or formal mission result"
+}

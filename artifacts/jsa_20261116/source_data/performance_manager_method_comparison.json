@@ -1,0 +1,26 @@
+{
+  "on_commit": {
+    "present_in_both": true,
+    "ast_identical": true
+  },
+  "on_remove": {
+    "present_in_both": true,
+    "ast_identical": true
+  },
+  "_durable_rule_target": {
+    "present_in_both": true,
+    "ast_identical": true
+  },
+  "_reconcile_compare": {
+    "present_in_both": true,
+    "ast_identical": true
+  },
+  "_run_round": {
+    "present_in_both": true,
+    "ast_identical": true
+  },
+  "on_list": {
+    "present_in_both": true,
+    "ast_identical": true
+  }
+}

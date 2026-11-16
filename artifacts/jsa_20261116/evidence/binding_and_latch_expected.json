@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "diagnostic_index": 0,
+      "fresh_usable_snapshot_observations_without_new_authorization": 11,
+      "observed_latch_interval_s": 0.593323572,
+      "nonempty_publications_before_new_authorization": 0,
+      "offline_content_mutation_refused": "authorization-path-digest-mismatch",
+      "actual_frozen_receiver_method_rejects_content_mutation": true
+    },
+    {
+      "diagnostic_index": 1,
+      "fresh_usable_snapshot_observations_without_new_authorization": 11,
+      "observed_latch_interval_s": 0.762293866,
+      "nonempty_publications_before_new_authorization": 0,
+      "offline_content_mutation_refused": "authorization-path-digest-mismatch",
+      "actual_frozen_receiver_method_rejects_content_mutation": true
+    },
+    {
+      "diagnostic_index": 2,
+      "fresh_usable_snapshot_observations_without_new_authorization": 8,
+      "observed_latch_interval_s": 0.563345077,
+      "nonempty_publications_before_new_authorization": 0,
+      "offline_content_mutation_refused": "authorization-path-digest-mismatch",
+      "actual_frozen_receiver_method_rejects_content_mutation": true
+    }
+  ],
+  "live_latch_evidence": "Existing ROS diagnostic records: repeated usable observations while awaiting a new authorization; not a new outage-and-restoration experiment",
+  "content_evidence": "Captured-message mutation and frozen handler calls with recording infrastructure; not a live ROS content-ablation campaign",
+  "new_ros_experiments": 0
+}

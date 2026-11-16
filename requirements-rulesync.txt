@@ -1,0 +1,5 @@
+# Pure-Python dependencies for offline RuleSync verification only.
+# ROS 2, Nav2, and Gazebo are installed through the ROS/system environment.
+numpy>=1.26,<3
+pytest>=8,<10
+shapely>=2.0,<3

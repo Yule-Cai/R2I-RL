@@ -1,0 +1,20 @@
+{
+  "guard_source_sha256": "368563f9e62929d3554d22ede3ccc9bddc73edd5e3c518d83ded51cd5796771f",
+  "full_launch_overrides": {
+    "rho": 0.3,
+    "rho_warn": 0.3,
+    "rho_release": 0.05,
+    "snapshot_poll_s": 0.05,
+    "hold_publish_s": 0.05
+  },
+  "retained_defaults": {
+    "snapshot_stale_s": 1.0,
+    "snapshot_request_timeout_s": 1.0,
+    "pose_stale_s": 0.5,
+    "path_start_tolerance": 0.25
+  },
+  "vote_prepare_timeout_s": 12,
+  "gate_full_rho_m": 0.3,
+  "gate_rho0_m": 0,
+  "source": "Explicit frozen-runner launch values plus unchanged guard defaults; not a new runtime parameter-query campaign"
+}

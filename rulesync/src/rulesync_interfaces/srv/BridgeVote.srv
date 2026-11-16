@@ -1,0 +1,15 @@
+# Internal bridge vote for 2-phase commit (manager -> bridge participant).
+# txn_id + target_hash bind the prepared identity (correctness revision):
+# PREPARE carries the complete target; COMMIT carries the certificate and
+# is accepted only on exact (txn_id, epoch, target_hash) match.
+rulesync_interfaces/RuleSpec[] staged_rules
+uint64 epoch
+string op
+string txn_id
+string target_hash
+---
+uint8 vote
+uint8 READY=0
+uint8 REJECT=1
+uint8 TIMEOUT=2
+string reason

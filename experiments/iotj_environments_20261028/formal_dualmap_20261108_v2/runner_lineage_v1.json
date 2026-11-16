@@ -1,0 +1,11 @@
+{
+  "parents": {
+    "/Users/yulecai/Desktop/R2I-RL/experiments/iotj_environments_20261028/localization_repair_20261108/common_arm_v1/scene_runner_rulesync_dualmap_dev_v1.py": "d5d31a1e89a28b964d5a2d2d1a68cbd8da235bdb1a6b1543236be6519bade54a",
+    "/Users/yulecai/Desktop/R2I-RL/experiments/iotj_environments_20261028/localization_repair_20261108/common_arm_v2/scene_runner_native_dualmap_dev_v2.py": "04f7a32b8154a28b03c930ea2839ed5071859b0eed1fc479b5b4fec80f8726cc"
+  },
+  "outputs": {
+    "scene_runner_rulesync_formal_v1.py": "04a0604b829c93302dc10b5b509335408d8e0b7dc705728aad918c7090013e8c",
+    "scene_runner_native_formal_v1.py": "903515e2fc1c94ae801a1a84d9ab744123c55623c48639c572b0b863e7a5516f"
+  },
+  "scope": "Strict input/cohort binding and accurate formal identity metadata; physical navigation, masks, gate/guard semantics unchanged"
+}

@@ -1,0 +1,5 @@
+# Contact-only bridge additions (loaded alongside the stock bridge).
+- topic_name: "/base_contact"
+  ros_type_name: "ros_gz_interfaces/msg/Contacts"
+  gz_type_name: "gz.msgs.Contacts"
+  direction: GZ_TO_ROS

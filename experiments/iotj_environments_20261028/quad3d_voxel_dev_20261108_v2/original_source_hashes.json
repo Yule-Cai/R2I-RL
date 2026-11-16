@@ -1,0 +1,10 @@
+{
+  "experiments/iotj_environments_20261028/scene_runner_quad3d_v1.py": "847a322076e2b2df2ff9dfa0090c1dab478ec6d1cde1f5c02c09d23d945ca72f",
+  "experiments/iotj_environments_20261028/run_hssd_quad3d_attempt.py": "dc444cf94425207731e33c56a4f93c6c10faab4dc1e8ecf0c2bf25b517323c54",
+  "experiments/iotj_environments_20261028/quad3d/selftest_quad3d_v1.py": "1e76afba07c67cce5aa8f648a5ba5cd638b3834be67c31692f0e6fd977e1a0fc",
+  "experiments/iotj_environments_20261028/quad3d/scene3d.py": "361908827088908288a5b0acd9ea259b103267bb168f14419014e38732ad159d",
+  "experiments/iotj_environments_20261028/quad3d/dry_run_quad3d_v1.py": "9f41e84a59f444a8625e53c9fe14319612b83b4a6134724d93c5dc5c074e3584",
+  "experiments/iotj_environments_20261028/quad3d/__init__.py": "ced3401bd6838b93c271a6a2b4dc2501e8e68e1a18053f317b91ab1366eec51c",
+  "experiments/iotj_environments_20261028/quad3d/authority3d.py": "707dd39da9afff405e30d4b3f3f0e53714fc1469c6958961be9e69c0bdd5c72d",
+  "experiments/iotj_environments_20261028/quad3d/make_quad3d_case_v1.py": "93c91a0311d44aad0e1e494ec9d7b3c1b872b6d1e10f47cfefd5688cc4cb5127"
+}

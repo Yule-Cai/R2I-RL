@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "scope": "two full-policy Nav2 integration DEV cases;not a matched comparative cohort",
+  "cases": [
+    {
+      "case": "channel_nav2_clean_v1",
+      "condition": "clean",
+      "seed": 52021,
+      "all_independent_audits_passed": true,
+      "native_commands": 1689,
+      "guard_requests": 2054,
+      "guard_receipts": 2054,
+      "deliberately_suppressed": 0,
+      "commit_to_renewed_release_ms": 958.568908,
+      "independent_goal_error_m": 0.17398911774951675,
+      "post_commit_body_samples": 3700,
+      "sampled_body_entries": 0,
+      "minimum_body_gap_m": 0.6139622742374851,
+      "max_sim_gap_s": 0.021,
+      "archive_sha256": "07df389f2101d21fb424300b1baf50014b41e6199c8f54c0b5247ce304496b23",
+      "original_files_byte_verified": 120
+    },
+    {
+      "case": "channel_nav2_blackout_v1",
+      "condition": "blackout",
+      "seed": 52024,
+      "all_independent_audits_passed": true,
+      "native_commands": 1738,
+      "guard_requests": 2073,
+      "guard_receipts": 2070,
+      "deliberately_suppressed": 3,
+      "commit_to_renewed_release_ms": 3216.506206,
+      "independent_goal_error_m": 0.14763776126953776,
+      "post_commit_body_samples": 3879,
+      "sampled_body_entries": 0,
+      "minimum_body_gap_m": 0.6427655973596051,
+      "max_sim_gap_s": 0.021,
+      "archive_sha256": "c601d511f11d774580bdf4138c2468ad8bd2b926997dc45584489be1eddd9d04",
+      "original_files_byte_verified": 120
+    }
+  ],
+  "total_native_commands": 3427,
+  "total_guard_requests": 4127,
+  "total_guard_receipts": 4124,
+  "formal_channel_trials": 0,
+  "formal1350_unchanged": true
+}

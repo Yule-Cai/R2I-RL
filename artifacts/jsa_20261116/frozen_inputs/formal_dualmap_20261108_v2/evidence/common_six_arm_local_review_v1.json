@@ -1,0 +1,1589 @@
+{
+  "scope": "Six fixed DEV checks: source/configuration parity and recorded prefixes, not formal success rates or completed identity ablation",
+  "script_sha256": "4846116397b3dca5c92d57ec47f752f8e48214b38cebd9aacd8502d2f9669f2e",
+  "plan_sha256": "2665763c420dee1d5da781ff4c7422ff940e11de0155cefb61ff346443a69c21",
+  "planned": 6,
+  "reviewed": 6,
+  "raw_pass": 5,
+  "independent_checks_passed": 6,
+  "rows": [
+    {
+      "arm": "full",
+      "tag": "common_full_v1",
+      "raw_result": {
+        "result": "PASS",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "recovery_follow",
+        "independent_goal_error_m": 0.11324611330759689,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 768,
+          "/cmd_vel": 768
+        },
+        "states": {
+          "planner_server": 3,
+          "controller_server": 3,
+          "collision_monitor": 3
+        },
+        "scan_messages": 295,
+        "registration_passed": true,
+        "source_unchanged": true
+      },
+      "checks": {
+        "launch_arm": true,
+        "launch_source_input_snapshots": true,
+        "input_source_unchanged": true,
+        "raw_receipt": true,
+        "no_formal_denominator": true,
+        "task_binding": true,
+        "world_only_declared_edits": true,
+        "robot_xml_equal": true,
+        "all_Nav2_parameter_values_equal": true,
+        "seed_speed_profile": true,
+        "params_hash": true,
+        "input_map_and_laser_equal_to_qualified": true,
+        "source_snapshot": true,
+        "RuleSync_core_unchanged": true,
+        "runner_binding": true,
+        "actual_arm_configuration": true,
+        "commit_geometry_matches_case": true,
+        "release_witnesses": true
+      },
+      "manifest_has_formal_denominator_field": true,
+      "recorded_prefix_review": {
+        "trial": "output/input_requalification_20261108_v1/common_disposable/input_requalification_20261108_v1/common_arm_v1/runs/common_full_v1/position_1",
+        "audit_source_sha256": "58b0e96f3fdf2681feb212a035500ce8b8fb8dc7d2d59805b32c643b4a3a30b7",
+        "cohort_id": null,
+        "formal_denominator": false,
+        "source_snapshot_integrity": true,
+        "runner_snapshot_present": true,
+        "missing_snapshot_files": [],
+        "mismatched_snapshot_files": [],
+        "log_coverage": {
+          "events": {
+            "status": "complete_file",
+            "valid_rows": 4846,
+            "errors": []
+          },
+          "world": {
+            "status": "complete_file",
+            "valid_rows": 2976,
+            "errors": []
+          },
+          "manager": {
+            "status": "complete_file",
+            "valid_rows": 2,
+            "errors": []
+          },
+          "wal": {
+            "status": "complete_file",
+            "valid_rows": 2,
+            "errors": []
+          }
+        },
+        "intended_case_commit_geometry": [
+          {
+            "epoch": 1,
+            "status": "matches_case"
+          },
+          {
+            "epoch": 2,
+            "status": "matches_case"
+          }
+        ],
+        "metrics": {
+          "epochs": [
+            {
+              "epoch": 1,
+              "durable_commit_records": 1,
+              "wal_commit_records": 1,
+              "authority_witness": "matched_manager_and_wal",
+              "geometry_status": "sparse_or_invalid_prefix",
+              "sampled_body_entries": 0,
+              "assessed_samples": 496,
+              "invalid_pose_samples": 0,
+              "recorded_samples": 496,
+              "min_sampled_body_gap_m": 0.7568286038486669,
+              "max_sim_gap_s": 0.945,
+              "planner_paths_recorded": 1,
+              "recorded_planner_paths_clear": true
+            },
+            {
+              "epoch": 2,
+              "durable_commit_records": 1,
+              "wal_commit_records": 1,
+              "authority_witness": "matched_manager_and_wal",
+              "geometry_status": "sampled_prefix_with_valid_spacing",
+              "sampled_body_entries": 0,
+              "assessed_samples": 1752,
+              "invalid_pose_samples": 0,
+              "recorded_samples": 1752,
+              "min_sampled_body_gap_m": 0.5762616590479784,
+              "max_sim_gap_s": 0.021,
+              "planner_paths_recorded": 1,
+              "recorded_planner_paths_clear": true
+            }
+          ],
+          "releases": [
+            {
+              "epoch": 1,
+              "receipt_ns": 287261107129015,
+              "witness_valid": true,
+              "commit_to_release_receipt_ms": 8987.726747
+            },
+            {
+              "epoch": 2,
+              "receipt_ns": 287264469843626,
+              "witness_valid": true,
+              "commit_to_release_receipt_ms": 639.753475
+            }
+          ],
+          "command_samples": 794,
+          "observed_nonzero_without_current_release_witness": 0,
+          "unwitnessed_command_receipt_ns": [],
+          "interlock_intervals": [
+            {
+              "request_ns": 287263813527165,
+              "hold_observed": true,
+              "first_zero_observed": true,
+              "renewed_release_observed": true,
+              "commands_in_interval": 13,
+              "request_to_hold_receipt_ms": 0.022866,
+              "hold_to_zero_receipt_ms": 73.783795,
+              "request_to_release_receipt_ms": 656.316461,
+              "last_recorded_event_ns": 287300622009088,
+              "sustained_observed_stop": {
+                "onset_after_request_ms": 263.531897,
+                "confirmation_after_request_ms": 473.970135,
+                "sustained_sim_s": 0.21,
+                "speed_threshold_mps": 0.01
+              },
+              "nonzero_after_first_zero": 0
+            }
+          ],
+          "world_samples": 2976,
+          "terminal_world_goal_error_m": 0.11297053637871828,
+          "scope": "recorded sampled body geometry and receipt-order witnesses;no continuous safety or contact certificate"
+        },
+        "assessment": "closed_recorded_trace"
+      },
+      "independent_checks_passed": true
+    },
+    {
+      "arm": "geometry_only",
+      "tag": "common_geometry_only_v1",
+      "raw_result": {
+        "result": "PASS",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "recovery_follow",
+        "independent_goal_error_m": 0.1286705506992479,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 764,
+          "/cmd_vel": 764
+        },
+        "states": {
+          "planner_server": 3,
+          "controller_server": 3,
+          "collision_monitor": 3
+        },
+        "scan_messages": 293,
+        "registration_passed": true,
+        "source_unchanged": true
+      },
+      "checks": {
+        "launch_arm": true,
+        "launch_source_input_snapshots": true,
+        "input_source_unchanged": true,
+        "raw_receipt": true,
+        "no_formal_denominator": true,
+        "task_binding": true,
+        "world_only_declared_edits": true,
+        "robot_xml_equal": true,
+        "all_Nav2_parameter_values_equal": true,
+        "seed_speed_profile": true,
+        "params_hash": true,
+        "input_map_and_laser_equal_to_qualified": true,
+        "source_snapshot": true,
+        "RuleSync_core_unchanged": true,
+        "runner_binding": true,
+        "actual_arm_configuration": true,
+        "commit_geometry_matches_case": true,
+        "release_witnesses": true
+      },
+      "manifest_has_formal_denominator_field": true,
+      "recorded_prefix_review": {
+        "trial": "output/input_requalification_20261108_v1/common_disposable/input_requalification_20261108_v1/common_arm_v1/runs/common_geometry_only_v1/position_1",
+        "audit_source_sha256": "58b0e96f3fdf2681feb212a035500ce8b8fb8dc7d2d59805b32c643b4a3a30b7",
+        "cohort_id": null,
+        "formal_denominator": false,
+        "source_snapshot_integrity": true,
+        "runner_snapshot_present": true,
+        "missing_snapshot_files": [],
+        "mismatched_snapshot_files": [],
+        "log_coverage": {
+          "events": {
+            "status": "complete_file",
+            "valid_rows": 4667,
+            "errors": []
+          },
+          "world": {
+            "status": "complete_file",
+            "valid_rows": 2823,
+            "errors": []
+          },
+          "manager": {
+            "status": "complete_file",
+            "valid_rows": 2,
+            "errors": []
+          },
+          "wal": {
+            "status": "complete_file",
+            "valid_rows": 2,
+            "errors": []
+          }
+        },
+        "intended_case_commit_geometry": [
+          {
+            "epoch": 1,
+            "status": "matches_case"
+          },
+          {
+            "epoch": 2,
+            "status": "matches_case"
+          }
+        ],
+        "metrics": {
+          "epochs": [
+            {
+              "epoch": 1,
+              "durable_commit_records": 1,
+              "wal_commit_records": 1,
+              "authority_witness": "matched_manager_and_wal",
+              "geometry_status": "sampled_prefix_with_valid_spacing",
+              "sampled_body_entries": 0,
+              "assessed_samples": 474,
+              "invalid_pose_samples": 0,
+              "recorded_samples": 474,
+              "min_sampled_body_gap_m": 0.7610428059910245,
+              "max_sim_gap_s": 0.021,
+              "planner_paths_recorded": 1,
+              "recorded_planner_paths_clear": true
+            },
+            {
+              "epoch": 2,
+              "durable_commit_records": 1,
+              "wal_commit_records": 1,
+              "authority_witness": "matched_manager_and_wal",
+              "geometry_status": "sampled_prefix_with_valid_spacing",
+              "sampled_body_entries": 0,
+              "assessed_samples": 1749,
+              "invalid_pose_samples": 0,
+              "recorded_samples": 1749,
+              "min_sampled_body_gap_m": 0.5806248952212175,
+              "max_sim_gap_s": 0.021,
+              "planner_paths_recorded": 1,
+              "recorded_planner_paths_clear": true
+            }
+          ],
+          "releases": [
+            {
+              "epoch": 1,
+              "receipt_ns": 287347003261825,
+              "witness_valid": true,
+              "commit_to_release_receipt_ms": 7799.563973
+            },
+            {
+              "epoch": 2,
+              "receipt_ns": 287350398374618,
+              "witness_valid": true,
+              "commit_to_release_receipt_ms": 709.556477
+            }
+          ],
+          "command_samples": 789,
+          "observed_nonzero_without_current_release_witness": 0,
+          "unwitnessed_command_receipt_ns": [],
+          "interlock_intervals": [
+            {
+              "request_ns": 287349671843261,
+              "hold_observed": true,
+              "first_zero_observed": true,
+              "renewed_release_observed": true,
+              "commands_in_interval": 15,
+              "request_to_hold_receipt_ms": 0.022243,
+              "hold_to_zero_receipt_ms": 46.266015,
+              "request_to_release_receipt_ms": 726.531357,
+              "last_recorded_event_ns": 287386401910793,
+              "sustained_observed_stop": {
+                "onset_after_request_ms": 230.016672,
+                "confirmation_after_request_ms": 440.84646,
+                "sustained_sim_s": 0.21,
+                "speed_threshold_mps": 0.01
+              },
+              "nonzero_after_first_zero": 0
+            }
+          ],
+          "world_samples": 2823,
+          "terminal_world_goal_error_m": 0.12840828121540027,
+          "scope": "recorded sampled body geometry and receipt-order witnesses;no continuous safety or contact certificate"
+        },
+        "assessment": "closed_recorded_trace"
+      },
+      "independent_checks_passed": true
+    },
+    {
+      "arm": "rho0",
+      "tag": "common_rho0_v1",
+      "raw_result": {
+        "result": "PASS",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "recovery_follow",
+        "independent_goal_error_m": 0.12766585205135858,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 767,
+          "/cmd_vel": 767
+        },
+        "states": {
+          "planner_server": 3,
+          "controller_server": 3,
+          "collision_monitor": 3
+        },
+        "scan_messages": 293,
+        "registration_passed": true,
+        "source_unchanged": true
+      },
+      "checks": {
+        "launch_arm": true,
+        "launch_source_input_snapshots": true,
+        "input_source_unchanged": true,
+        "raw_receipt": true,
+        "no_formal_denominator": true,
+        "task_binding": true,
+        "world_only_declared_edits": true,
+        "robot_xml_equal": true,
+        "all_Nav2_parameter_values_equal": true,
+        "seed_speed_profile": true,
+        "params_hash": true,
+        "input_map_and_laser_equal_to_qualified": true,
+        "source_snapshot": true,
+        "RuleSync_core_unchanged": true,
+        "runner_binding": true,
+        "actual_arm_configuration": true,
+        "commit_geometry_matches_case": true,
+        "release_witnesses": true
+      },
+      "manifest_has_formal_denominator_field": true,
+      "recorded_prefix_review": {
+        "trial": "output/input_requalification_20261108_v1/common_disposable/input_requalification_20261108_v1/common_arm_v1/runs/common_rho0_v1/position_1",
+        "audit_source_sha256": "58b0e96f3fdf2681feb212a035500ce8b8fb8dc7d2d59805b32c643b4a3a30b7",
+        "cohort_id": null,
+        "formal_denominator": false,
+        "source_snapshot_integrity": true,
+        "runner_snapshot_present": true,
+        "missing_snapshot_files": [],
+        "mismatched_snapshot_files": [],
+        "log_coverage": {
+          "events": {
+            "status": "complete_file",
+            "valid_rows": 4797,
+            "errors": []
+          },
+          "world": {
+            "status": "complete_file",
+            "valid_rows": 2831,
+            "errors": []
+          },
+          "manager": {
+            "status": "complete_file",
+            "valid_rows": 2,
+            "errors": []
+          },
+          "wal": {
+            "status": "complete_file",
+            "valid_rows": 2,
+            "errors": []
+          }
+        },
+        "intended_case_commit_geometry": [
+          {
+            "epoch": 1,
+            "status": "matches_case"
+          },
+          {
+            "epoch": 2,
+            "status": "matches_case"
+          }
+        ],
+        "metrics": {
+          "epochs": [
+            {
+              "epoch": 1,
+              "durable_commit_records": 1,
+              "wal_commit_records": 1,
+              "authority_witness": "matched_manager_and_wal",
+              "geometry_status": "sparse_or_invalid_prefix",
+              "sampled_body_entries": 0,
+              "assessed_samples": 498,
+              "invalid_pose_samples": 0,
+              "recorded_samples": 498,
+              "min_sampled_body_gap_m": 0.7594422467361593,
+              "max_sim_gap_s": 0.672,
+              "planner_paths_recorded": 1,
+              "recorded_planner_paths_clear": true
+            },
+            {
+              "epoch": 2,
+              "durable_commit_records": 1,
+              "wal_commit_records": 1,
+              "authority_witness": "matched_manager_and_wal",
+              "geometry_status": "sampled_prefix_with_valid_spacing",
+              "sampled_body_entries": 0,
+              "assessed_samples": 1767,
+              "invalid_pose_samples": 0,
+              "recorded_samples": 1767,
+              "min_sampled_body_gap_m": 0.5788792133884539,
+              "max_sim_gap_s": 0.021,
+              "planner_paths_recorded": 1,
+              "recorded_planner_paths_clear": true
+            }
+          ],
+          "releases": [
+            {
+              "epoch": 1,
+              "receipt_ns": 287433338791725,
+              "witness_valid": true,
+              "commit_to_release_receipt_ms": 8731.102862
+            },
+            {
+              "epoch": 2,
+              "receipt_ns": 287436772603110,
+              "witness_valid": true,
+              "commit_to_release_receipt_ms": 704.079468
+            }
+          ],
+          "command_samples": 799,
+          "observed_nonzero_without_current_release_witness": 0,
+          "unwitnessed_command_receipt_ns": [],
+          "interlock_intervals": [
+            {
+              "request_ns": 287436050229654,
+              "hold_observed": true,
+              "first_zero_observed": true,
+              "renewed_release_observed": true,
+              "commands_in_interval": 15,
+              "request_to_hold_receipt_ms": 0.024983,
+              "hold_to_zero_receipt_ms": 44.042417,
+              "request_to_release_receipt_ms": 722.373456,
+              "last_recorded_event_ns": 287473179431467,
+              "sustained_observed_stop": {
+                "onset_after_request_ms": 227.229422,
+                "confirmation_after_request_ms": 437.760518,
+                "sustained_sim_s": 0.21,
+                "speed_threshold_mps": 0.01
+              },
+              "nonzero_after_first_zero": 0
+            }
+          ],
+          "world_samples": 2831,
+          "terminal_world_goal_error_m": 0.12740887211882831,
+          "scope": "recorded sampled body geometry and receipt-order witnesses;no continuous safety or contact certificate"
+        },
+        "assessment": "closed_recorded_trace"
+      },
+      "independent_checks_passed": true
+    },
+    {
+      "arm": "native_async",
+      "tag": "common_native_async_v1",
+      "raw_result": {
+        "result": "FAIL",
+        "arm": "NATIVE_ASYNC",
+        "mode": "async",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "update",
+        "scene": "hssd_102815835",
+        "task_id": "hssd_102815835_route_02_replace",
+        "seed": 52421,
+        "requested_speed_mps": 0.2,
+        "spawn": [
+          -1.1500000000000004,
+          6.950000000000001
+        ],
+        "goal": [
+          5.450000000000001,
+          5.950000000000001
+        ],
+        "mission_success": false,
+        "arrival_definition": {
+          "final_action_status_success": false,
+          "independent_world_goal_error_m": 4.542203882441957,
+          "world_goal_error_max_m": 0.2,
+          "world_capture_errors": []
+        },
+        "final_action_status": 6,
+        "final_action_error_code": 104,
+        "final_action_error_message": "Controller patience exceeded",
+        "independent_goal_error_m": 4.542203882441957,
+        "map_frame_goal_error_m": 4.579457272945088,
+        "last_world_xyz": [
+          1.072317540074879,
+          7.161409257738572,
+          0.010007115699587557
+        ],
+        "last_map_xy": [
+          1.0244384074119965,
+          7.127214298647275
+        ],
+        "error": "final FollowPath action terminal status 6 (Controller patience exceeded)",
+        "wall_duration_s": 28.47948148404248,
+        "sim_duration_s": 22.308,
+        "wall_motion_s": 11.919882789021358,
+        "sim_motion_s": 11.943,
+        "wall_post_trigger_s": 9.213019118004013,
+        "sim_post_trigger_s": 9.213,
+        "budgets": {
+          "sim_budget_s": 131.75,
+          "wall_budget_s": 419.375
+        },
+        "trigger": {
+          "type": "displacement_from_spawn",
+          "distance_m": 0.5,
+          "fired": true,
+          "displacement_m": 2.182127425806338,
+          "sim_ns": 13095000000,
+          "latency_from_motion_start_s": 2.73
+        },
+        "mask_events": [
+          {
+            "epoch": 1,
+            "rule_source": "initial_rule",
+            "stamp_ns": 10302000000,
+            "receipt_ns": 287507828974253,
+            "wall_ns": 1794103480505458638,
+            "polygon_sha256": "34ab5f7886cfacd727e19242dd944f6366b9040c02563b68075091eeae2e3927",
+            "mask_sha256": "c1ca2523534259ae8c1034d2f8dd50995379f438596725b742b761431251c029",
+            "dilation_m": 0.4,
+            "resolution": 0.05,
+            "width": 255,
+            "height": 318,
+            "origin": [
+              -6.4,
+              -7.9
+            ],
+            "raw_occupied_cells": 144,
+            "mask_occupied_cells": 692,
+            "filter_info_topic": "/pilot/filter_info",
+            "mask_topic": "/pilot/mask",
+            "filter_type": 0,
+            "filter_base": 0.0,
+            "filter_multiplier": 1.0
+          },
+          {
+            "epoch": 2,
+            "rule_source": "replacement_rule",
+            "stamp_ns": 13095000000,
+            "receipt_ns": 287510620615350,
+            "wall_ns": 1794103483297099173,
+            "polygon_sha256": "190a87be78c406757a053c110e8891e0bfffbf4a918f50a2af96e4183429e6a8",
+            "mask_sha256": "d11c183de4328385217f855a66587d3a188458518b8175826265200ec08d6ead",
+            "dilation_m": 0.4,
+            "resolution": 0.05,
+            "width": 255,
+            "height": 318,
+            "origin": [
+              -6.4,
+              -7.9
+            ],
+            "raw_occupied_cells": 144,
+            "mask_occupied_cells": 692,
+            "filter_info_topic": "/pilot/filter_info",
+            "mask_topic": "/pilot/mask",
+            "filter_type": 0,
+            "filter_base": 0.0,
+            "filter_multiplier": 1.0
+          }
+        ],
+        "costmap_updates": {
+          "1": {
+            "global_costmap": {
+              "update_time_ns": 10362000000,
+              "mask_stamp_ns": 10302000000,
+              "latency_sim_s": 0.06,
+              "latency_wall_s": null
+            },
+            "local_costmap": {
+              "update_time_ns": 10362000000,
+              "mask_stamp_ns": 10302000000,
+              "latency_sim_s": 0.06,
+              "latency_wall_s": null
+            }
+          },
+          "2": {
+            "global_costmap": {
+              "update_time_ns": 13122000000,
+              "mask_stamp_ns": 13095000000,
+              "latency_sim_s": 0.027,
+              "latency_wall_s": 0.2318147630430758
+            },
+            "local_costmap": {
+              "update_time_ns": 13122000000,
+              "mask_stamp_ns": 13095000000,
+              "latency_sim_s": 0.027,
+              "latency_wall_s": 0.2318147630430758
+            }
+          }
+        },
+        "mask_reflection_done": true,
+        "mask_reflection_epoch2_costmaps": [
+          "global_costmap",
+          "local_costmap"
+        ],
+        "plans": [
+          {
+            "epoch": 1,
+            "label": "initial",
+            "points": 276,
+            "length_m": 6.94020306845027,
+            "receipt_ns": 287507893570277
+          }
+        ],
+        "replans": 0,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 224,
+          "/cmd_vel": 224
+        },
+        "clearance_samples": 334,
+        "min_clearance_to_initial_rule_m": 0.687255002790913,
+        "min_clearance_to_replacement_rule_m": 0.7164406238091967,
+        "min_clearance_post_trigger_initial_rule_m": 0.687255002790913,
+        "min_clearance_post_trigger_replacement_rule_m": 0.7164406238091967,
+        "body_entered_original_rule_polygon": false,
+        "body_entered_initial_rule_polygon": false,
+        "body_entered_replacement_rule_polygon": false,
+        "body_entered_initial_rule_pre_trigger": false,
+        "body_entered_initial_rule_post_trigger": false,
+        "body_entered_replacement_rule_pre_trigger": false,
+        "body_entered_replacement_rule_post_trigger": false,
+        "clearance_phases": {
+          "initial_rule": {
+            "min_all_m": 0.687255002790913,
+            "min_pre_trigger_m": 0.7669621605907798,
+            "min_post_trigger_m": 0.687255002790913
+          },
+          "replacement_rule": {
+            "min_all_m": 0.7164406238091967,
+            "min_pre_trigger_m": 2.3643691699751965,
+            "min_post_trigger_m": 0.7164406238091967
+          }
+        },
+        "initial_plan_min_distance_to_replacement_m": 0.0,
+        "initial_rule": [
+          [
+            -0.05,
+            5.65
+          ],
+          [
+            0.55,
+            5.65
+          ],
+          [
+            0.55,
+            6.25
+          ],
+          [
+            -0.05,
+            6.25
+          ]
+        ],
+        "replacement_rule": [
+          [
+            1.853529,
+            6.48964
+          ],
+          [
+            2.453529,
+            6.48964
+          ],
+          [
+            2.453529,
+            7.08964
+          ],
+          [
+            1.853529,
+            7.08964
+          ]
+        ],
+        "case_sha256": "34677f77e01a584dc5e81f8ebdd8f791f48d60ed8792048752f8f0ab3bb62652",
+        "map_sha256": "1fdce609d49827ace27502ad8f70ac6b54d4ebd805eca466d5ee2a6b7d6e0e60",
+        "world_sha256": "1011b90d6b9676173c0b967742fa060b8085e0f8cf580c922f73ae80a288aa9f",
+        "keepout_mask": {
+          "dilation_m": 0.4,
+          "filter_info_topic": "/pilot/filter_info",
+          "mask_topic": "/pilot/mask",
+          "filter_type": 0
+        },
+        "rulesync_components_started": [],
+        "runner_sha256": "e9db5f6f20154ad22feb83dcd5f33a4d4a513717dfba23ff9234efd588923742",
+        "parameters_sha256": "de695c1da1adf06bc7ece3988098351a2f3c1d44020ddaf1be9fc3650ecb402c",
+        "world_errors": [],
+        "source_unchanged": true
+      },
+      "checks": {
+        "launch_arm": true,
+        "launch_source_input_snapshots": true,
+        "input_source_unchanged": true,
+        "raw_receipt": true,
+        "no_formal_denominator": true,
+        "task_binding": true,
+        "world_only_declared_edits": true,
+        "robot_xml_equal": true,
+        "all_Nav2_parameter_values_equal": true,
+        "seed_speed_profile": true,
+        "params_hash": true,
+        "input_map_and_laser_equal_to_qualified": true,
+        "source_snapshot": true,
+        "runner_binding": true,
+        "native_mode": true,
+        "published_masks_match_case": true
+      },
+      "manifest_has_formal_denominator_field": false,
+      "recorded_prefix_review": {
+        "scope": "Native masks and sampled world-body geometry; authorization witness not applicable",
+        "log_coverage": {
+          "events": {
+            "status": "complete_file",
+            "valid_rows": 14,
+            "errors": []
+          },
+          "world": {
+            "status": "complete_file",
+            "valid_rows": 1016,
+            "errors": []
+          }
+        },
+        "epochs": [
+          {
+            "epoch": 1,
+            "authority": "native mask publication; no RuleSync durable authorization",
+            "assessed_samples": 133,
+            "sampled_body_entries": 0,
+            "status": "sampled_prefix",
+            "invalid_pose_samples": 0,
+            "min_sampled_body_gap_m": 0.7612197662280553,
+            "max_sim_gap_s": 0.021,
+            "spacing_valid": true
+          },
+          {
+            "epoch": 2,
+            "authority": "native mask publication; no RuleSync durable authorization",
+            "assessed_samples": 439,
+            "sampled_body_entries": 0,
+            "status": "sampled_prefix",
+            "invalid_pose_samples": 0,
+            "min_sampled_body_gap_m": 0.6738235413821476,
+            "max_sim_gap_s": 0.021,
+            "spacing_valid": true
+          }
+        ],
+        "masks_match_case": [
+          true,
+          true
+        ],
+        "per_pose_frame_fields_recorded": false,
+        "frame_evidence_scope": "Native callback validates frame IDs before recording; per-pose frame strings absent in this runner, not independently reconstructed",
+        "actual_trigger_events": [
+          {
+            "kind": "trigger",
+            "receipt_ns": 287510616338363,
+            "sim_ns": 13095000000,
+            "displacement_m": 0.5026315255846248,
+            "trigger_distance_m": 0.5
+          }
+        ],
+        "terminal_world_goal_error_m": 4.542204020385892,
+        "raw_summary_trigger_displacement_is_final_pose_not_trigger": true
+      },
+      "independent_checks_passed": true
+    },
+    {
+      "arm": "native_wait",
+      "tag": "common_native_wait_v1",
+      "raw_result": {
+        "result": "PASS",
+        "arm": "NATIVE_WAIT",
+        "mode": "wait",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "arrived",
+        "scene": "hssd_102815835",
+        "task_id": "hssd_102815835_route_02_replace",
+        "seed": 52421,
+        "requested_speed_mps": 0.2,
+        "spawn": [
+          -1.1500000000000004,
+          6.950000000000001
+        ],
+        "goal": [
+          5.450000000000001,
+          5.950000000000001
+        ],
+        "mission_success": true,
+        "arrival_definition": {
+          "final_action_status_success": true,
+          "independent_world_goal_error_m": 0.11244312455727436,
+          "world_goal_error_max_m": 0.2,
+          "world_capture_errors": []
+        },
+        "final_action_status": 4,
+        "final_action_error_code": 0,
+        "final_action_error_message": "",
+        "independent_goal_error_m": 0.11244312455727436,
+        "map_frame_goal_error_m": 0.09849354499485058,
+        "last_world_xyz": [
+          5.4020486192270205,
+          6.051706053616132,
+          0.010007115918023288
+        ],
+        "last_map_xy": [
+          5.367618070237082,
+          6.0039832942139535
+        ],
+        "wall_duration_s": 57.10039759700885,
+        "sim_duration_s": 50.871,
+        "wall_motion_s": 38.663125698047224,
+        "sim_motion_s": 38.682,
+        "wall_post_trigger_s": 35.995825913967565,
+        "sim_post_trigger_s": 35.994,
+        "budgets": {
+          "sim_budget_s": 131.75,
+          "wall_budget_s": 419.375
+        },
+        "trigger": {
+          "type": "displacement_from_spawn",
+          "distance_m": 0.5,
+          "fired": true,
+          "displacement_m": 6.585706110270007,
+          "sim_ns": 14877000000,
+          "latency_from_motion_start_s": 2.688
+        },
+        "mask_events": [
+          {
+            "epoch": 1,
+            "rule_source": "initial_rule",
+            "stamp_ns": 12063000000,
+            "receipt_ns": 287555892689821,
+            "wall_ns": 1794103528569174272,
+            "polygon_sha256": "34ab5f7886cfacd727e19242dd944f6366b9040c02563b68075091eeae2e3927",
+            "mask_sha256": "c1ca2523534259ae8c1034d2f8dd50995379f438596725b742b761431251c029",
+            "dilation_m": 0.4,
+            "resolution": 0.05,
+            "width": 255,
+            "height": 318,
+            "origin": [
+              -6.4,
+              -7.9
+            ],
+            "raw_occupied_cells": 144,
+            "mask_occupied_cells": 692,
+            "filter_info_topic": "/pilot/filter_info",
+            "mask_topic": "/pilot/mask",
+            "filter_type": 0,
+            "filter_base": 0.0,
+            "filter_multiplier": 1.0
+          },
+          {
+            "epoch": 2,
+            "rule_source": "replacement_rule",
+            "stamp_ns": 14877000000,
+            "receipt_ns": 287558704297186,
+            "wall_ns": 1794103531380781253,
+            "polygon_sha256": "190a87be78c406757a053c110e8891e0bfffbf4a918f50a2af96e4183429e6a8",
+            "mask_sha256": "d11c183de4328385217f855a66587d3a188458518b8175826265200ec08d6ead",
+            "dilation_m": 0.4,
+            "resolution": 0.05,
+            "width": 255,
+            "height": 318,
+            "origin": [
+              -6.4,
+              -7.9
+            ],
+            "raw_occupied_cells": 144,
+            "mask_occupied_cells": 692,
+            "filter_info_topic": "/pilot/filter_info",
+            "mask_topic": "/pilot/mask",
+            "filter_type": 0,
+            "filter_base": 0.0,
+            "filter_multiplier": 1.0
+          }
+        ],
+        "costmap_updates": {
+          "1": {
+            "global_costmap": {
+              "update_time_ns": 12183000000,
+              "mask_stamp_ns": 12063000000,
+              "latency_sim_s": 0.12,
+              "latency_wall_s": null
+            },
+            "local_costmap": {
+              "update_time_ns": 12183000000,
+              "mask_stamp_ns": 12063000000,
+              "latency_sim_s": 0.12,
+              "latency_wall_s": null
+            }
+          },
+          "2": {
+            "global_costmap": {
+              "update_time_ns": 14934000000,
+              "mask_stamp_ns": 14877000000,
+              "latency_sim_s": 0.057,
+              "latency_wall_s": null
+            },
+            "local_costmap": {
+              "update_time_ns": 14934000000,
+              "mask_stamp_ns": 14877000000,
+              "latency_sim_s": 0.057,
+              "latency_wall_s": null
+            }
+          }
+        },
+        "mask_reflection_done": true,
+        "mask_reflection_epoch2_costmaps": [
+          "global_costmap",
+          "local_costmap"
+        ],
+        "plans": [
+          {
+            "epoch": 1,
+            "label": "initial",
+            "points": 276,
+            "length_m": 6.94020306845027,
+            "receipt_ns": 287556016704894
+          },
+          {
+            "epoch": 2,
+            "label": "recovery",
+            "points": 273,
+            "length_m": 6.970381356929052,
+            "receipt_ns": 287558789109812
+          }
+        ],
+        "replans": 0,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 765,
+          "/cmd_vel": 765
+        },
+        "clearance_samples": 1079,
+        "min_clearance_to_initial_rule_m": 0.0,
+        "min_clearance_to_replacement_rule_m": 0.617752521728212,
+        "min_clearance_post_trigger_initial_rule_m": 0.0,
+        "min_clearance_post_trigger_replacement_rule_m": 0.617752521728212,
+        "body_entered_original_rule_polygon": true,
+        "body_entered_initial_rule_polygon": true,
+        "body_entered_replacement_rule_polygon": false,
+        "body_entered_initial_rule_pre_trigger": false,
+        "body_entered_initial_rule_post_trigger": true,
+        "body_entered_replacement_rule_pre_trigger": false,
+        "body_entered_replacement_rule_post_trigger": false,
+        "clearance_phases": {
+          "initial_rule": {
+            "min_all_m": 0.0,
+            "min_pre_trigger_m": 0.7674097807114916,
+            "min_post_trigger_m": 0.0
+          },
+          "replacement_rule": {
+            "min_all_m": 0.617752521728212,
+            "min_pre_trigger_m": 2.3645216788505996,
+            "min_post_trigger_m": 0.617752521728212
+          }
+        },
+        "initial_plan_min_distance_to_replacement_m": 0.0,
+        "initial_rule": [
+          [
+            -0.05,
+            5.65
+          ],
+          [
+            0.55,
+            5.65
+          ],
+          [
+            0.55,
+            6.25
+          ],
+          [
+            -0.05,
+            6.25
+          ]
+        ],
+        "replacement_rule": [
+          [
+            1.853529,
+            6.48964
+          ],
+          [
+            2.453529,
+            6.48964
+          ],
+          [
+            2.453529,
+            7.08964
+          ],
+          [
+            1.853529,
+            7.08964
+          ]
+        ],
+        "case_sha256": "34677f77e01a584dc5e81f8ebdd8f791f48d60ed8792048752f8f0ab3bb62652",
+        "map_sha256": "1fdce609d49827ace27502ad8f70ac6b54d4ebd805eca466d5ee2a6b7d6e0e60",
+        "world_sha256": "1011b90d6b9676173c0b967742fa060b8085e0f8cf580c922f73ae80a288aa9f",
+        "keepout_mask": {
+          "dilation_m": 0.4,
+          "filter_info_topic": "/pilot/filter_info",
+          "mask_topic": "/pilot/mask",
+          "filter_type": 0
+        },
+        "rulesync_components_started": [],
+        "runner_sha256": "e9db5f6f20154ad22feb83dcd5f33a4d4a513717dfba23ff9234efd588923742",
+        "parameters_sha256": "de695c1da1adf06bc7ece3988098351a2f3c1d44020ddaf1be9fc3650ecb402c",
+        "world_errors": [],
+        "source_unchanged": true
+      },
+      "checks": {
+        "launch_arm": true,
+        "launch_source_input_snapshots": true,
+        "input_source_unchanged": true,
+        "raw_receipt": true,
+        "no_formal_denominator": true,
+        "task_binding": true,
+        "world_only_declared_edits": true,
+        "robot_xml_equal": true,
+        "all_Nav2_parameter_values_equal": true,
+        "seed_speed_profile": true,
+        "params_hash": true,
+        "input_map_and_laser_equal_to_qualified": true,
+        "source_snapshot": true,
+        "runner_binding": true,
+        "native_mode": true,
+        "published_masks_match_case": true
+      },
+      "manifest_has_formal_denominator_field": false,
+      "recorded_prefix_review": {
+        "scope": "Native masks and sampled world-body geometry; authorization witness not applicable",
+        "log_coverage": {
+          "events": {
+            "status": "complete_file",
+            "valid_rows": 16,
+            "errors": []
+          },
+          "world": {
+            "status": "complete_file",
+            "valid_rows": 2388,
+            "errors": []
+          }
+        },
+        "epochs": [
+          {
+            "epoch": 1,
+            "authority": "native mask publication; no RuleSync durable authorization",
+            "assessed_samples": 134,
+            "sampled_body_entries": 0,
+            "status": "sampled_prefix",
+            "invalid_pose_samples": 0,
+            "min_sampled_body_gap_m": 0.7619355056542587,
+            "max_sim_gap_s": 0.021,
+            "spacing_valid": true
+          },
+          {
+            "epoch": 2,
+            "authority": "native mask publication; no RuleSync durable authorization",
+            "assessed_samples": 1714,
+            "sampled_body_entries": 0,
+            "status": "sampled_prefix",
+            "invalid_pose_samples": 0,
+            "min_sampled_body_gap_m": 0.5796877766658931,
+            "max_sim_gap_s": 0.021,
+            "spacing_valid": true
+          }
+        ],
+        "masks_match_case": [
+          true,
+          true
+        ],
+        "per_pose_frame_fields_recorded": false,
+        "frame_evidence_scope": "Native callback validates frame IDs before recording; per-pose frame strings absent in this runner, not independently reconstructed",
+        "actual_trigger_events": [
+          {
+            "kind": "trigger",
+            "receipt_ns": 287558699907187,
+            "sim_ns": 14877000000,
+            "displacement_m": 0.5023209449818996,
+            "trigger_distance_m": 0.5
+          }
+        ],
+        "terminal_world_goal_error_m": 0.11230598825143899,
+        "raw_summary_trigger_displacement_is_final_pose_not_trigger": true
+      },
+      "independent_checks_passed": true
+    },
+    {
+      "arm": "native_periodic",
+      "tag": "common_native_periodic_v1",
+      "raw_result": {
+        "result": "PASS",
+        "arm": "NATIVE_PERIODIC",
+        "mode": "periodic",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "arrived",
+        "scene": "hssd_102815835",
+        "task_id": "hssd_102815835_route_02_replace",
+        "seed": 52421,
+        "requested_speed_mps": 0.2,
+        "spawn": [
+          -1.1500000000000004,
+          6.950000000000001
+        ],
+        "goal": [
+          5.450000000000001,
+          5.950000000000001
+        ],
+        "mission_success": true,
+        "arrival_definition": {
+          "final_action_status_success": true,
+          "independent_world_goal_error_m": 0.13365333649706124,
+          "world_goal_error_max_m": 0.2,
+          "world_capture_errors": []
+        },
+        "final_action_status": 4,
+        "final_action_error_code": 0,
+        "final_action_error_message": "",
+        "independent_goal_error_m": 0.13365333649706124,
+        "map_frame_goal_error_m": 0.0954294379559823,
+        "last_world_xyz": [
+          5.367176812726532,
+          6.054897731179758,
+          0.010007115919734971
+        ],
+        "last_map_xy": [
+          5.374001224572391,
+          6.007714502181847
+        ],
+        "wall_duration_s": 56.188692200987134,
+        "sim_duration_s": 50.031,
+        "wall_motion_s": 40.034816918952856,
+        "sim_motion_s": 40.044,
+        "wall_post_trigger_s": 37.31664441898465,
+        "sim_post_trigger_s": 37.305,
+        "budgets": {
+          "sim_budget_s": 131.75,
+          "wall_budget_s": 419.375
+        },
+        "trigger": {
+          "type": "displacement_from_spawn",
+          "distance_m": 0.5,
+          "fired": true,
+          "displacement_m": 6.592147711935907,
+          "sim_ns": 12726000000,
+          "latency_from_motion_start_s": 2.739
+        },
+        "mask_events": [
+          {
+            "epoch": 1,
+            "rule_source": "initial_rule",
+            "stamp_ns": 9867000000,
+            "receipt_ns": 287628486699573,
+            "wall_ns": 1794103601163183579,
+            "polygon_sha256": "34ab5f7886cfacd727e19242dd944f6366b9040c02563b68075091eeae2e3927",
+            "mask_sha256": "c1ca2523534259ae8c1034d2f8dd50995379f438596725b742b761431251c029",
+            "dilation_m": 0.4,
+            "resolution": 0.05,
+            "width": 255,
+            "height": 318,
+            "origin": [
+              -6.4,
+              -7.9
+            ],
+            "raw_occupied_cells": 144,
+            "mask_occupied_cells": 692,
+            "filter_info_topic": "/pilot/filter_info",
+            "mask_topic": "/pilot/mask",
+            "filter_type": 0,
+            "filter_base": 0.0,
+            "filter_multiplier": 1.0
+          },
+          {
+            "epoch": 2,
+            "rule_source": "replacement_rule",
+            "stamp_ns": 12726000000,
+            "receipt_ns": 287631344585318,
+            "wall_ns": 1794103604021069408,
+            "polygon_sha256": "190a87be78c406757a053c110e8891e0bfffbf4a918f50a2af96e4183429e6a8",
+            "mask_sha256": "d11c183de4328385217f855a66587d3a188458518b8175826265200ec08d6ead",
+            "dilation_m": 0.4,
+            "resolution": 0.05,
+            "width": 255,
+            "height": 318,
+            "origin": [
+              -6.4,
+              -7.9
+            ],
+            "raw_occupied_cells": 144,
+            "mask_occupied_cells": 692,
+            "filter_info_topic": "/pilot/filter_info",
+            "mask_topic": "/pilot/mask",
+            "filter_type": 0,
+            "filter_base": 0.0,
+            "filter_multiplier": 1.0
+          }
+        ],
+        "costmap_updates": {
+          "1": {
+            "global_costmap": {
+              "update_time_ns": 9981000000,
+              "mask_stamp_ns": 9867000000,
+              "latency_sim_s": 0.114,
+              "latency_wall_s": null
+            },
+            "local_costmap": {
+              "update_time_ns": 9981000000,
+              "mask_stamp_ns": 9867000000,
+              "latency_sim_s": 0.114,
+              "latency_wall_s": null
+            }
+          },
+          "2": {
+            "global_costmap": {
+              "update_time_ns": 12753000000,
+              "mask_stamp_ns": 12726000000,
+              "latency_sim_s": 0.027,
+              "latency_wall_s": 0.2327186990296468
+            },
+            "local_costmap": {
+              "update_time_ns": 12753000000,
+              "mask_stamp_ns": 12726000000,
+              "latency_sim_s": 0.027,
+              "latency_wall_s": 0.2327186990296468
+            }
+          }
+        },
+        "mask_reflection_done": true,
+        "mask_reflection_epoch2_costmaps": [
+          "global_costmap",
+          "local_costmap"
+        ],
+        "plans": [
+          {
+            "epoch": 1,
+            "label": "initial",
+            "points": 276,
+            "length_m": 6.94020306845027,
+            "receipt_ns": 287628606401082
+          },
+          {
+            "epoch": 1,
+            "label": "periodic",
+            "points": 261,
+            "length_m": 6.557489936705935,
+            "receipt_ns": 287630621101327
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 262,
+            "length_m": 6.680688287360449,
+            "receipt_ns": 287633347937028
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 254,
+            "length_m": 6.476506937358985,
+            "receipt_ns": 287635353975454
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 232,
+            "length_m": 5.9383509212009224,
+            "receipt_ns": 287637357940849
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 217,
+            "length_m": 5.557070790209962,
+            "receipt_ns": 287639364057579
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 200,
+            "length_m": 5.138953032659048,
+            "receipt_ns": 287641348146493
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 184,
+            "length_m": 4.731374898905831,
+            "receipt_ns": 287643352351950
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 166,
+            "length_m": 4.251430968122355,
+            "receipt_ns": 287645357783372
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 149,
+            "length_m": 3.7638791573320143,
+            "receipt_ns": 287647361194635
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 133,
+            "length_m": 3.371809386246328,
+            "receipt_ns": 287649361991123
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 117,
+            "length_m": 2.955694799806003,
+            "receipt_ns": 287651344370636
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 100,
+            "length_m": 2.5315951882463055,
+            "receipt_ns": 287653346259848
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 83,
+            "length_m": 2.117084101052855,
+            "receipt_ns": 287655349693575
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 68,
+            "length_m": 1.7329069109812911,
+            "receipt_ns": 287657350212251
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 52,
+            "length_m": 1.3282143976440444,
+            "receipt_ns": 287659356567635
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 36,
+            "length_m": 0.9287288720043761,
+            "receipt_ns": 287661360258752
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 20,
+            "length_m": 0.5287089786984668,
+            "receipt_ns": 287663361030593
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 5,
+            "length_m": 0.19142847410352817,
+            "receipt_ns": 287665362143282
+          },
+          {
+            "epoch": 2,
+            "label": "periodic",
+            "points": 4,
+            "length_m": 0.12072204330762296,
+            "receipt_ns": 287667369260114
+          }
+        ],
+        "replans": 19,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 789,
+          "/cmd_vel": 789
+        },
+        "clearance_samples": 1116,
+        "min_clearance_to_initial_rule_m": 0.0,
+        "min_clearance_to_replacement_rule_m": 0.6217582768291388,
+        "min_clearance_post_trigger_initial_rule_m": 0.0,
+        "min_clearance_post_trigger_replacement_rule_m": 0.6217582768291388,
+        "body_entered_original_rule_polygon": true,
+        "body_entered_initial_rule_polygon": true,
+        "body_entered_replacement_rule_polygon": false,
+        "body_entered_initial_rule_pre_trigger": false,
+        "body_entered_initial_rule_post_trigger": true,
+        "body_entered_replacement_rule_pre_trigger": false,
+        "body_entered_replacement_rule_post_trigger": false,
+        "clearance_phases": {
+          "initial_rule": {
+            "min_all_m": 0.0,
+            "min_pre_trigger_m": 0.7655695898456015,
+            "min_post_trigger_m": 0.0
+          },
+          "replacement_rule": {
+            "min_all_m": 0.6217582768291388,
+            "min_pre_trigger_m": 2.3613580480890444,
+            "min_post_trigger_m": 0.6217582768291388
+          }
+        },
+        "initial_plan_min_distance_to_replacement_m": 0.0,
+        "initial_rule": [
+          [
+            -0.05,
+            5.65
+          ],
+          [
+            0.55,
+            5.65
+          ],
+          [
+            0.55,
+            6.25
+          ],
+          [
+            -0.05,
+            6.25
+          ]
+        ],
+        "replacement_rule": [
+          [
+            1.853529,
+            6.48964
+          ],
+          [
+            2.453529,
+            6.48964
+          ],
+          [
+            2.453529,
+            7.08964
+          ],
+          [
+            1.853529,
+            7.08964
+          ]
+        ],
+        "case_sha256": "34677f77e01a584dc5e81f8ebdd8f791f48d60ed8792048752f8f0ab3bb62652",
+        "map_sha256": "1fdce609d49827ace27502ad8f70ac6b54d4ebd805eca466d5ee2a6b7d6e0e60",
+        "world_sha256": "1011b90d6b9676173c0b967742fa060b8085e0f8cf580c922f73ae80a288aa9f",
+        "keepout_mask": {
+          "dilation_m": 0.4,
+          "filter_info_topic": "/pilot/filter_info",
+          "mask_topic": "/pilot/mask",
+          "filter_type": 0
+        },
+        "rulesync_components_started": [],
+        "runner_sha256": "e9db5f6f20154ad22feb83dcd5f33a4d4a513717dfba23ff9234efd588923742",
+        "parameters_sha256": "de695c1da1adf06bc7ece3988098351a2f3c1d44020ddaf1be9fc3650ecb402c",
+        "world_errors": [],
+        "source_unchanged": true
+      },
+      "checks": {
+        "launch_arm": true,
+        "launch_source_input_snapshots": true,
+        "input_source_unchanged": true,
+        "raw_receipt": true,
+        "no_formal_denominator": true,
+        "task_binding": true,
+        "world_only_declared_edits": true,
+        "robot_xml_equal": true,
+        "all_Nav2_parameter_values_equal": true,
+        "seed_speed_profile": true,
+        "params_hash": true,
+        "input_map_and_laser_equal_to_qualified": true,
+        "source_snapshot": true,
+        "runner_binding": true,
+        "native_mode": true,
+        "published_masks_match_case": true
+      },
+      "manifest_has_formal_denominator_field": false,
+      "recorded_prefix_review": {
+        "scope": "Native masks and sampled world-body geometry; authorization witness not applicable",
+        "log_coverage": {
+          "events": {
+            "status": "complete_file",
+            "valid_rows": 90,
+            "errors": []
+          },
+          "world": {
+            "status": "complete_file",
+            "valid_rows": 2350,
+            "errors": []
+          }
+        },
+        "epochs": [
+          {
+            "epoch": 1,
+            "authority": "native mask publication; no RuleSync durable authorization",
+            "assessed_samples": 136,
+            "sampled_body_entries": 0,
+            "status": "sampled_prefix",
+            "invalid_pose_samples": 0,
+            "min_sampled_body_gap_m": 0.7582779592915889,
+            "max_sim_gap_s": 0.021,
+            "spacing_valid": true
+          },
+          {
+            "epoch": 2,
+            "authority": "native mask publication; no RuleSync durable authorization",
+            "assessed_samples": 1776,
+            "sampled_body_entries": 0,
+            "status": "sampled_prefix",
+            "invalid_pose_samples": 0,
+            "min_sampled_body_gap_m": 0.5836696390416739,
+            "max_sim_gap_s": 0.021,
+            "spacing_valid": true
+          }
+        ],
+        "masks_match_case": [
+          true,
+          true
+        ],
+        "per_pose_frame_fields_recorded": false,
+        "frame_evidence_scope": "Native callback validates frame IDs before recording; per-pose frame strings absent in this runner, not independently reconstructed",
+        "actual_trigger_events": [
+          {
+            "kind": "trigger",
+            "receipt_ns": 287631340544950,
+            "sim_ns": 12726000000,
+            "displacement_m": 0.5057176293038964,
+            "trigger_distance_m": 0.5
+          }
+        ],
+        "terminal_world_goal_error_m": 0.13356972106486517,
+        "raw_summary_trigger_displacement_is_final_pose_not_trigger": true
+      },
+      "independent_checks_passed": true
+    }
+  ]
+}

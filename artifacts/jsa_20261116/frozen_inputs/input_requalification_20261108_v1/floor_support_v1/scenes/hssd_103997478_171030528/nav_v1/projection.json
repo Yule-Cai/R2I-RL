@@ -1,0 +1,34 @@
+{
+  "world_sha256": "ac901dfaa891a1c6dbd08498061f0478352935f5cdbd1e91ba376ffa325edba6",
+  "map_sha256": "89fd837bf80b467d12ed4dd16d4160d3a4b965ecaa019b8bf7ae80e48ebe9e98",
+  "resolution": 0.05,
+  "floor_support_area_m2": 174.09772546080993,
+  "obstacle_slab_m": [
+    0.005,
+    0.28
+  ],
+  "triangles": 379582,
+  "safe_poses_xy": [
+    [
+      -1.1750000000000007,
+      -3.7249999999999996
+    ],
+    [
+      8.775,
+      2.875
+    ],
+    [
+      -6.875,
+      4.825000000000001
+    ]
+  ],
+  "cells": {
+    "-1": 28682,
+    "0": 53658,
+    "100": 16724
+  },
+  "original_map_sha256": "7fa1b1fda65aa4010d667e4f382ae7efacc72927bfcd112b908ec2683ee41a96",
+  "repair_scope": "body clearance map; laser localization map separate",
+  "upstream_map_sha256": "ed05f9cf8285845d80122af890fbcfee2ed0bd2a9b2d065a4ceab5adb5df946a",
+  "floor_domain_policy": "Unknown outside retained floor-support domain is explicit lethal navigation occupancy; scanner-localization map unchanged"
+}

@@ -1,0 +1,4 @@
+numpy>=1.24
+torch>=2.0  # training / eval only; ROS nodes use rp/infer_numpy.py (no torch)
+Pillow>=9    # map pgm loading (extraction)
+pytest>=7

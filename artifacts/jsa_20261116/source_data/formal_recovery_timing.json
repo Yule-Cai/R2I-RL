@@ -1,0 +1,115 @@
+{
+  "primary_campaign_rows": 2970,
+  "rulesync_family_rows": 1485,
+  "units": "host monotonic receipt intervals in milliseconds",
+  "scope": "Descriptive recovery-composition timings from ALL retained independent prefix reviews; not isolated authorization overhead, native-arm fairness comparison, moving-update detection bounds, or worst-case deadlines.",
+  "by_arm": {
+    "full": {
+      "commit_to_renewed_release_receipt_ms": {
+        "n": 673,
+        "p50_ms": 784.093772,
+        "p95_ms": 927.3029406,
+        "p99_ms": 984.0718850399999,
+        "min_ms": 600.918211,
+        "max_ms": 1048.228065
+      },
+      "request_to_hold_receipt_ms": {
+        "n": 673,
+        "p50_ms": 0.046563,
+        "p95_ms": 0.08467839999999999,
+        "p99_ms": 0.3777389199999926,
+        "min_ms": 0.021406,
+        "max_ms": 10.104059
+      },
+      "hold_to_zero_receipt_ms": {
+        "n": 673,
+        "p50_ms": 48.306877,
+        "p95_ms": 82.5572892,
+        "p99_ms": 128.02838655999966,
+        "min_ms": 4.949985,
+        "max_ms": 194.272502
+      },
+      "request_to_release_receipt_ms": {
+        "n": 673,
+        "p50_ms": 808.771314,
+        "p95_ms": 955.1742886,
+        "p99_ms": 1014.9492669599998,
+        "min_ms": 617.294429,
+        "max_ms": 2482.778642
+      }
+    },
+    "geometry_only": {
+      "commit_to_renewed_release_receipt_ms": {
+        "n": 405,
+        "p50_ms": 794.884026,
+        "p95_ms": 935.9732316,
+        "p99_ms": 995.9077791199999,
+        "min_ms": 626.335052,
+        "max_ms": 2217.195254
+      },
+      "request_to_hold_receipt_ms": {
+        "n": 405,
+        "p50_ms": 0.047836,
+        "p95_ms": 0.07411859999999999,
+        "p99_ms": 0.30199635999999896,
+        "min_ms": 0.026435,
+        "max_ms": 3.456461
+      },
+      "hold_to_zero_receipt_ms": {
+        "n": 405,
+        "p50_ms": 49.006138,
+        "p95_ms": 83.83961079999996,
+        "p99_ms": 147.40039891999993,
+        "min_ms": 35.15008,
+        "max_ms": 179.439571
+      },
+      "request_to_release_receipt_ms": {
+        "n": 405,
+        "p50_ms": 818.176312,
+        "p95_ms": 966.3353897999999,
+        "p99_ms": 1027.3441048,
+        "min_ms": 644.028206,
+        "max_ms": 2448.92492
+      }
+    },
+    "rho0": {
+      "commit_to_renewed_release_receipt_ms": {
+        "n": 404,
+        "p50_ms": 769.177719,
+        "p95_ms": 894.15687325,
+        "p99_ms": 928.56129215,
+        "min_ms": 605.952157,
+        "max_ms": 1098.13185
+      },
+      "request_to_hold_receipt_ms": {
+        "n": 404,
+        "p50_ms": 0.0461795,
+        "p95_ms": 0.07217074999999996,
+        "p99_ms": 0.19785971999999857,
+        "min_ms": 0.024825,
+        "max_ms": 1.089752
+      },
+      "hold_to_zero_receipt_ms": {
+        "n": 404,
+        "p50_ms": 48.430413,
+        "p95_ms": 81.66553939999999,
+        "p99_ms": 100.46115733999994,
+        "min_ms": 2.603739,
+        "max_ms": 153.045729
+      },
+      "request_to_release_receipt_ms": {
+        "n": 404,
+        "p50_ms": 791.8668405000001,
+        "p95_ms": 920.5814747999999,
+        "p99_ms": 959.2363278099998,
+        "min_ms": 624.07002,
+        "max_ms": 1123.16391
+      }
+    }
+  },
+  "missing_renewed_release_by_arm": {
+    "full": 2,
+    "geometry_only": 0,
+    "rho0": 1
+  }
+}

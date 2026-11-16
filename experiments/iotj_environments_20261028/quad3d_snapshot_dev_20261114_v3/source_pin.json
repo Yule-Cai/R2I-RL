@@ -1,0 +1,20 @@
+{
+  "schema": "rulesync.snapshot-audit-repair.v3",
+  "files": {
+    "quad3d/__init__.py": "ced3401bd6838b93c271a6a2b4dc2501e8e68e1a18053f317b91ab1366eec51c",
+    "quad3d/authority3d.py": "707dd39da9afff405e30d4b3f3f0e53714fc1469c6958961be9e69c0bdd5c72d",
+    "quad3d/dry_run_quad3d_v1.py": "9f41e84a59f444a8625e53c9fe14319612b83b4a6134724d93c5dc5c074e3584",
+    "quad3d/make_quad3d_case_v1.py": "93c91a0311d44aad0e1e494ec9d7b3c1b872b6d1e10f47cfefd5688cc4cb5127",
+    "quad3d/quad3d_case_schema_v1.json": "9db7b6ff0bb40c13bbdce887d8783ca6d0d7bdcdb898dedc8586c72d2e4b92db",
+    "quad3d/scene3d.py": "4cd6fcc67343d3dd9596ac1c2bd270d8d3f68357a454336ff5d23b1dbffdec0d",
+    "quad3d/selftest_quad3d_v1.py": "1e76afba07c67cce5aa8f648a5ba5cd638b3834be67c31692f0e6fd977e1a0fc",
+    "quad3d/snapshot_history.py": "9d1b594db7f601ef74ad1927885c74ec627a2a6b39e5f454b2938a8bbe1cd866",
+    "run_hssd_quad3d_attempt.py": "5a331834c33cc1dd0f1d2249de9bba4db2beea782bf2b71abb21dd2fd0bd93c1",
+    "scene_runner_quad3d_v1.py": "e1268863c6a6e5eb70dbc5960f3d56d09a80b0501e3a68398393bd1cb51f240d"
+  },
+  "original_runner_sha256": "847a322076e2b2df2ff9dfa0090c1dab478ec6d1cde1f5c02c09d23d945ca72f",
+  "changed_mission_methods": [
+    "audit"
+  ],
+  "original_formal_results_untouched": true
+}

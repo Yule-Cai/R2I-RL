@@ -1,0 +1,29 @@
+{
+  "scenes": [
+    {
+      "scene": "hssd_102815835",
+      "frozen_files_verified": 6,
+      "asset_files_verified": 422,
+      "all_noncamera_xml_equal": true,
+      "images_verified": 2,
+      "receipt_sha256": "6f5668a9f0870e55ffc7927b834f52e0ec8b32429f9eb22b0d6b7fbb8eb71598"
+    },
+    {
+      "scene": "hssd_102816051",
+      "frozen_files_verified": 6,
+      "asset_files_verified": 388,
+      "all_noncamera_xml_equal": true,
+      "images_verified": 2,
+      "receipt_sha256": "267506c80408515727a5f1f59acad4f9a4459f52fd05b7b8342f557f29958c67"
+    },
+    {
+      "scene": "hssd_102816786",
+      "frozen_files_verified": 6,
+      "asset_files_verified": 346,
+      "all_noncamera_xml_equal": true,
+      "images_verified": 2,
+      "receipt_sha256": "0a47eb47bcf88b65323673139ea3d7f0964ccbd2f7eca051a20465f448c9dd68"
+    }
+  ],
+  "scope": "Documentation-only native renderer captures; no navigation or additional formal trials"
+}

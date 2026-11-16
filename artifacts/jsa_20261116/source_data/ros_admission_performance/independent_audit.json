@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "total_pairs": 840,
+  "measured_pairs": 720,
+  "warmup_pairs": 120,
+  "measured_calls": 1440,
+  "cells": 24,
+  "source_hashes": 12,
+  "scope": "offline record/statistics/token/cache audit; not transport replay"
+}

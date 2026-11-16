@@ -1,0 +1,3 @@
+# Read independently of the blocking volume transaction callback group.
+---
+rulesync_interfaces/VolumeAuthority authority

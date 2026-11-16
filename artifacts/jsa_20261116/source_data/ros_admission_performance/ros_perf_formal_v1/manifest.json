@@ -1,0 +1,92 @@
+{
+  "pilot": false,
+  "cells": [
+    [
+      "separated",
+      10,
+      100
+    ],
+    [
+      "separated",
+      100,
+      1000
+    ],
+    [
+      "corridor",
+      10,
+      100
+    ],
+    [
+      "corridor",
+      100,
+      1000
+    ],
+    [
+      "dense",
+      10,
+      100
+    ],
+    [
+      "dense",
+      100,
+      1000
+    ]
+  ],
+  "repeats": 30,
+  "warmups": 5,
+  "rho": 0.2,
+  "map": {
+    "width": 100,
+    "height": 100,
+    "resolution": 2.0,
+    "origin": [
+      -20.0,
+      -50.0
+    ],
+    "free": true
+  },
+  "scope": "manager+bridge+two production gate callbacks; no controller, RuleGuard or perception",
+  "cold": "real commit advances epoch/full hash with unchanged geometry; assert cache miss",
+  "reuse": "same committed identity immediately after cold; assert cache hit",
+  "timing": "same-host monotonic_ns; receipt=publish-to-original-status; node=candidate-to-verdict entry; full_gate=geometry plus sampled occupancy; service_wait includes ROS scheduling",
+  "pair_order": "alternating by repeat; serialized input; timestamp before receipt verification",
+  "rejection_observation_s": 0.05,
+  "platform": "Linux-7.2.1-sk2-skchos-1-x86_64-with-glibc2.43",
+  "python": "3.14.4",
+  "numpy": "2.3.5",
+  "ros_distro": "lyrical",
+  "rmw": "rmw_fastrtps_cpp",
+  "domain": "188",
+  "source_sha256": {
+    "scripts/verify_polygon_index_ros.py": "6ce08e2b5cd32fe6a79d3b255bd663d5f9a59b81f7abc774744bacfaf2054b60",
+    "topopatch_ros/topopatch_ros/gate_node.py": "2b7df979289eaa714a38475ebaad4f2feedf047fd0162809ce03e8df05e98696",
+    "rulesync3d/rulesync3d/gate2d.py": "e67c6e1febc5f423602d9b716487f10dd20b0bbbeaa45bae6bd334072a1fe92f",
+    "rulesync3d/rulesync3d/authorization.py": "8c6ca852b65b35ec6513c56d6192d0b1fc4b63abc112ad91629e24fb4c491be6",
+    "rulesync3d/rulesync3d/ruleguard.py": "8fd86f7b1fa3887bc12928475d4aab56c3b79fdadddf8e05750d09484e4ee0ff",
+    "rulesync/src/rulesync_manager/rulesync_manager/manager_node.py": "2f10a86426074f18132133ac36b6719a8a34e37aa09662ac76166f6a4a0fac37",
+    "rulesync/src/rulesync_manager/rulesync_manager/snapshot_identity.py": "d84b2296c4eade82e1cae696cbe607d89922ad07830087c56fec18b24d8924ec",
+    "rulesync/src/rulesync_manager/rulesync_manager/vote_coordinator.py": "6222edfa096c41b700bd1c8f262afb337e30f2156eaab550ab34ff486f542ae6",
+    "rulesync/src/rulesync_nav2_bridge/rulesync_nav2_bridge/bridge_node.py": "b5a4b6b4f15eb47822e1b1e5c8e49eb171589741e978eb32b3d98181a7794259",
+    "rulesync/src/rulesync_guard/rulesync_guard/guard_node.py": "368563f9e62929d3554d22ede3ccc9bddc73edd5e3c518d83ded51cd5796771f",
+    "scripts/benchmark_polygon_index.py": "e0d41dd3ea8091e4c636f3539b2ac255c55cb9ae42d498897fb2cf4ba4b1d52e",
+    "scripts/benchmark_polygon_index_ros.py": "15c296d4af7d9716c2f02f1b8e86370f2a795a02fa40f59a6451f968ad8928b6"
+  },
+  "installed_sha256": {
+    "topopatch_ros.gate_node": "2b7df979289eaa714a38475ebaad4f2feedf047fd0162809ce03e8df05e98696",
+    "rulesync3d.gate2d": "e67c6e1febc5f423602d9b716487f10dd20b0bbbeaa45bae6bd334072a1fe92f",
+    "rulesync_manager.manager_node": "2f10a86426074f18132133ac36b6719a8a34e37aa09662ac76166f6a4a0fac37",
+    "rulesync_nav2_bridge.bridge_node": "b5a4b6b4f15eb47822e1b1e5c8e49eb171589741e978eb32b3d98181a7794259"
+  },
+  "cpu_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "instrumentation": "benchmark-only subclass/timer wrappers; original callbacks/predicates delegated unchanged",
+  "intervals": "descriptive repeated-run distributions, not independent robot trials or hard real-time bounds"
+}

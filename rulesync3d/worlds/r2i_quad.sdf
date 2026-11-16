@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!-- r2i_quad: gantry-suspended quadrotor SITL-lite for RuleSync-3D.
+FIDELITY (documented): position/velocity/acceleration limits, gravity,
+inertia, and CONTACTS are fully simulated (DART). Attitude coupling is
+NOT simulated (gantry constrains roll/pitch; yaw free). This tests the
+transaction/gate/race/fault thesis identically to a free flyer; attitude
+dynamics are an explicit non-goal (see feasibility report).
+Joints: jx/jy/jz prismatic (m), jyaw revolute (rad). Control via
+JointController cmd_vel topics (bridged to ROS Float64). State via
+JointStatePublisher (bridged to sensor_msgs/JointState). -->
+<sdf version="1.9" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<model name="r2i_quad">
+  <link name="x_car">
+    <inertial><mass>0.5</mass><inertia><ixx>0.01</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0.01</iyy><iyz>0</iyz><izz>0.01</izz></inertia></inertial>
+    <visual name="v"><geometry><box><size>0.12 0.12 0.12</size></box></geometry></visual>
+  </link>
+  <link name="y_car">
+    <inertial><mass>0.5</mass><inertia><ixx>0.01</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0.01</iyy><iyz>0</iyz><izz>0.01</izz></inertia></inertial>
+    <visual name="v"><geometry><box><size>0.1 0.1 0.1</size></box></geometry></visual>
+  </link>
+  <link name="z_car">
+    <inertial><mass>0.5</mass><inertia><ixx>0.01</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0.01</iyy><iyz>0</iyz><izz>0.01</izz></inertia></inertial>
+    <visual name="v"><geometry><box><size>0.08 0.08 0.08</size></box></geometry></visual>
+  </link>
+  <link name="yaw_col">
+    <inertial><mass>0.2</mass><inertia><ixx>0.005</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0.005</iyy><iyz>0</iyz><izz>0.005</izz></inertia></inertial>
+  </link>
+  <link name="base_link">
+    <inertial><mass>1.2</mass><inertia><ixx>0.02</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0.02</iyy><iyz>0</iyz><izz>0.035</izz></inertia></inertial>
+    <collision name="base_collision">
+      <geometry><box><size>0.34 0.34 0.12</size></box></geometry>
+    </collision>
+    <visual name="base_visual">
+      <geometry><box><size>0.34 0.34 0.12</size></box></geometry>
+      <material><ambient>0.2 0.4 0.8 1</ambient></material>
+    </visual>
+    <sensor name="body_contact" type="contact">
+      <topic>/body_contact</topic>
+      <update_rate>30</update_rate>
+      <contact><collision>base_collision</collision></contact>
+    </sensor>
+    <visual name="arm_x">
+      <geometry><box><size>0.56 0.06 0.02</size></box></geometry>
+      <material><ambient>0.5 0.5 0.5 1</ambient></material>
+    </visual>
+    <visual name="arm_y">
+      <geometry><box><size>0.06 0.56 0.02</size></box></geometry>
+      <material><ambient>0.5 0.5 0.5 1</ambient></material>
+    </visual>
+  </link>
+  <!-- Joint ranges are WIDE CENTERED spans (jx/jy ±15, jz ±4) so that a
+  per-world clear spawn covers all starts/goals/detours with ≥1.0 joint
+  margin and no limit contact anywhere (2D-era corner spawn + [0,20]/
+  [0.2,6] limits put all joints on lower limits: unreachable goals,
+  gravity-loaded liftoff failures, limit-slam lockups). -->
+  <joint name="jx" type="prismatic">
+    <parent>world</parent><child>x_car</child>
+    <axis><xyz>1 0 0</xyz><limit><lower>-15</lower><upper>15</upper><effort>50</effort><velocity>2.0</velocity></limit></axis>
+  </joint>
+  <joint name="jy" type="prismatic">
+    <parent>x_car</parent><child>y_car</child>
+    <axis><xyz>0 1 0</xyz><limit><lower>-15</lower><upper>15</upper><effort>50</effort><velocity>2.0</velocity></limit></axis>
+  </joint>
+  <joint name="jz" type="prismatic">
+    <parent>y_car</parent><child>z_car</child>
+    <axis><xyz>0 0 1</xyz><limit><lower>-4.0</lower><upper>4.0</upper><effort>60</effort><velocity>1.2</velocity></limit></axis>
+  </joint>
+  <joint name="jyaw" type="revolute">
+    <parent>z_car</parent><child>yaw_col</child>
+    <axis><xyz>0 0 1</xyz><limit><lower>-3.14</lower><upper>3.14</upper><effort>5</effort><velocity>1.5</velocity></limit></axis>
+  </joint>
+  <joint name="yfix" type="fixed"><parent>yaw_col</parent><child>base_link</child></joint>
+  <!-- RGBD perception (OctoMap pipeline): forward-facing depth camera with
+  native point-cloud output. Genuine sensor cost (llvmpipe-slow but real);
+  NOT decorative rendering. Frame: rgbd_link (see TF map->base + static
+  base->rgbd in pose_tf_node). -->
+  <link name="rgbd_link">
+    <inertial><mass>0.1</mass><inertia><ixx>0.001</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0.001</iyy><iyz>0</iyz><izz>0.001</izz></inertia></inertial>
+    <visual name="v"><geometry><box><size>0.06 0.06 0.06</size></box></geometry></visual>
+    <sensor name="rgbd_camera" type="rgbd_camera">
+      <topic>rgbd</topic>
+      <update_rate>5</update_rate>
+      <camera><horizontal_fov>1.047</horizontal_fov>
+        <image><width>320</width><height>240</height></image>
+        <clip><near>0.1</near><far>30.0</far></clip></camera>
+    </sensor>
+  </link>
+  <joint name="rgbd_fix" type="fixed"><parent>base_link</parent><child>rgbd_link</child><pose>0.25 0 0.05 0 0 0</pose></joint>
+  <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+    <joint_name>jx</joint_name><topic>/r2i_quad/jx/cmd_vel</topic><use_velocity_commands>true</use_velocity_commands><p_gain>15.0</p_gain><i_gain>2.0</i_gain><d_gain>1.0</d_gain><i_max>20.0</i_max><i_min>-20.0</i_min><cmd_max>2.0</cmd_max><cmd_min>-2.0</cmd_min>
+  </plugin>
+  <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+    <joint_name>jy</joint_name><topic>/r2i_quad/jy/cmd_vel</topic><use_velocity_commands>true</use_velocity_commands><p_gain>15.0</p_gain><i_gain>2.0</i_gain><d_gain>1.0</d_gain><i_max>20.0</i_max><i_min>-20.0</i_min><cmd_max>2.0</cmd_max><cmd_min>-2.0</cmd_min>
+  </plugin>
+  <!-- jz fights gravity (~19 N on the column): needs integral authority
+  well above hover load (i_max 5 could never lift; joint pinned at the
+  lower limit on every stack). Tuned for velocity tracking, not minimal. -->
+  <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+    <joint_name>jz</joint_name><topic>/r2i_quad/jz/cmd_vel</topic><use_velocity_commands>true</use_velocity_commands><p_gain>25.0</p_gain><i_gain>8.0</i_gain><d_gain>2.0</d_gain><i_max>45.0</i_max><i_min>-45.0</i_min><cmd_max>1.2</cmd_max><cmd_min>-1.2</cmd_min>
+  </plugin>
+  <plugin filename="gz-sim-joint-controller-system" name="gz::sim::systems::JointController">
+    <joint_name>jyaw</joint_name><topic>/r2i_quad/jyaw/cmd_vel</topic><use_velocity_commands>true</use_velocity_commands><p_gain>4.0</p_gain><i_gain>0.2</i_gain><d_gain>0.5</d_gain><i_max>2.0</i_max><i_min>-2.0</i_min><cmd_max>1.5</cmd_max><cmd_min>-1.5</cmd_min>
+  </plugin>
+  <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+    <topic>/r2i_quad/joint_state</topic>
+  </plugin>
+  <plugin filename="gz-sim-pose-publisher-system" name="gz::sim::systems::PosePublisher">
+    <publish_link_pose>true</publish_link_pose>
+    <use_pose_vector_msg>true</use_pose_vector_msg>
+    <topic>/model/r2i_quad/pose</topic>
+  </plugin>
+</model>
+</sdf>

@@ -1,0 +1,487 @@
+{
+  "archive": "identity_exposure_full_dev_v1.tar.gz",
+  "bytes": 41148335,
+  "sha256": "478e5a0b5d44822148f125332856d7880a0fffdf17e0d6be38dbeda38a0e777a",
+  "files": {
+    "runs/identity_exposure_full_dev_v1/trace_commands.jsonl": {
+      "bytes": 2905,
+      "sha256": "710cdbfa1ec42c8c45183dd6ec267f788b691ad10ca1e27e08c311dccf95d2cb"
+    },
+    "runs/identity_exposure_full_dev_v1/command_witness.console.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/identity_exposure_full_dev_v1/command_witness.jsonl": {
+      "bytes": 210294,
+      "sha256": "e950531e210cf609ff22c426ec6f3743222bd157a652b6f176bf94e54db17e42"
+    },
+    "runs/identity_exposure_full_dev_v1/command_witness.ready": {
+      "bytes": 115,
+      "sha256": "01e450192db12bbfa9884f2b6cba42f94e6282a118fcb7b65fb915921d3e7ed0"
+    },
+    "runs/identity_exposure_full_dev_v1/command_witness.endpoints.json": {
+      "bytes": 124,
+      "sha256": "c9dcff40e3027147a48fffc7409ebf05513d699b3ee62bc4361260c19cab36b8"
+    },
+    "runs/identity_exposure_full_dev_v1/command_witness.stop": {
+      "bytes": 14,
+      "sha256": "019a35a4a131dcd2bfc78f77cf015fd375b731817764ed206ed2a69de14d9c84"
+    },
+    "runs/identity_exposure_full_dev_v1/cgroup_resources.json": {
+      "bytes": 379,
+      "sha256": "57f9b8fe55f42618ca4038f05004bbea17a49fb3c72b78128fabd42d4cc3c7b4"
+    },
+    "runs/identity_exposure_full_dev_v1/native_events.jsonl": {
+      "bytes": 359596742,
+      "sha256": "d2976068b6043fb8837e6c60e71218d43672cc11c0fc82a0daa9f4f31b65d980"
+    },
+    "runs/identity_exposure_full_dev_v1/trace_result.json": {
+      "bytes": 1439,
+      "sha256": "ed398223f3132a8ab07aec00c4da0f4520e170c8546227d19e4f3e910c8ba312"
+    },
+    "runs/identity_exposure_full_dev_v1/service_decode.log": {
+      "bytes": 305,
+      "sha256": "8b018864efc0021ee1d11577369fcb595d19978e4493d6fa78cb8cb99ce02a17"
+    },
+    "runs/identity_exposure_full_dev_v1/service_cdr_decoded.json": {
+      "bytes": 6923,
+      "sha256": "b9918d83e509ea55730fd9a78e4e887fc08df004b2bdbc60d9efebd45aed9680"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/world.sdf": {
+      "bytes": 4027,
+      "sha256": "d0dc1336aeeb85eec90050395e0eeaa017ef2e13c20a204adb226e1c9f396f6c"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/params.yaml": {
+      "bytes": 5603,
+      "sha256": "c70bec801d9dcf97a3806505dfa489c1b7026e0081a5447faed7326937d64e82"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/gpu_renderer.log": {
+      "bytes": 875,
+      "sha256": "c517cdd86be0e18a4dbba5f4891dafef7817fb1ee76351a15f2a0a75abebfdc5"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/manifest.json": {
+      "bytes": 6452,
+      "sha256": "eed3fb50dcec48a3c0ba529e9cb2f24312174155416c9478f9e0ef23098bcfbc"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/channel_adapter.json": {
+      "bytes": 1414,
+      "sha256": "1f759a67e821bd0c3ff729ebf9691e4d2dc36fb9326e751de465bbfd1b025a93"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/robot_world_pose.sdf": {
+      "bytes": 13908,
+      "sha256": "967819c1c1db48dad97a15f359256b0afbcd241d66a0bedd6488809549f18df4"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/gazebo.log": {
+      "bytes": 1048,
+      "sha256": "54a7c03172ee4fddf6f3dbbe93fdfdd6fbcdcba7db8317084fe056ba7328c65a"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/spawn.log": {
+      "bytes": 4484,
+      "sha256": "821716c4d1daa2b9a7cca76317cc936c523ba90a3a399687287c0f77fb436ce1"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/world_bridge.log": {
+      "bytes": 1362,
+      "sha256": "2951f84ac7c8ed62c9accf99a81386739ce37e639b26c6dd48978395c5a181e0"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/robot_state.log": {
+      "bytes": 177,
+      "sha256": "2e9c3c56d7e6029ada128aaf3b928f92efd1b36d74886e149c41d0766aa7a72d"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/events.jsonl": {
+      "bytes": 1983327,
+      "sha256": "8e2e7609bcc19f4aeddd27d8becf27990c6480848a8d227c1abc34114c1aaf25"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/world_pose.jsonl": {
+      "bytes": 1604263,
+      "sha256": "d200587f42b956c286ba7f3a3e928974db33452d770cad77736d375cd17fbfab"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/localization.jsonl": {
+      "bytes": 595111,
+      "sha256": "1130e6f01069bb90bc4ea165ad0f94cbecdc593b3a228b91e6fb4f08fe65cf1c"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/gpu_activity.jsonl": {
+      "bytes": 39172,
+      "sha256": "eb8d477f71881e1d24089c5f1a1cd81dfabf721a8ce2bcd5019c37b61ccf06d2"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/registration.json": {
+      "bytes": 32825,
+      "sha256": "36b587155239b83d1e72ad9e48806fbbf92c1806b1114597c038e92b8b64c099"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/stationary_scan.json": {
+      "bytes": 8482,
+      "sha256": "6b4d3d6e48136273bd6ae3bb9dbc22222fa69905980c38f5493787a3d8d10103"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/camera_perspective.log": {
+      "bytes": 6401282,
+      "sha256": "58400a9bba2c215e592d44ac81da8b77e7a430781b09479125559ddc6104d391"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/camera_overview.log": {
+      "bytes": 6401276,
+      "sha256": "3216c687a0c9466e5be6a828a998942f0a2b14a29236c8796a835ac29bb16284"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/amcl.log": {
+      "bytes": 1500,
+      "sha256": "7632f6ed58564aa290e4a5654b4070bab7a03d57592c007c26e089d4be53ed4d"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/bridge.log": {
+      "bytes": 3371,
+      "sha256": "ca972fbd2e775b8377bc8a4ff4dd360b88c44e72a672ffc98f2444a41f6cf5f3"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/manager.log": {
+      "bytes": 2724,
+      "sha256": "f430402289f85add13fc7cffa043d2caa00b1c28ccfdfd43e6b9d3c37d4d5204"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/gate.log": {
+      "bytes": 1805,
+      "sha256": "73d21a6d814f4c4fbdad6f76bd846e9adb6751eb5ca015dbba3eb1cb2660e72e"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/snapshot_channel.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/guard.log": {
+      "bytes": 60715,
+      "sha256": "cee301d0a84e9d65aa2a299d705fa18f6719aaeae8b75f9d34621394746ac232"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/guard_events.jsonl": {
+      "bytes": 2130146,
+      "sha256": "8bc00c264e48112ba00e1266fcf7ffe8eb6aaece77c2979868b051dc341291dd"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/txn.log": {
+      "bytes": 3622,
+      "sha256": "0476b590e0dc0b2c1af333416abec3d284c0987eaf36765d32682d4f5e5980ca"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/mask_14904000000.json": {
+      "bytes": 245,
+      "sha256": "2899d383f7056b8ebc6ba2c83db4aa1b6823f54221bb4b37ff41e97f7b3694fc"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/wal.jsonl": {
+      "bytes": 1356,
+      "sha256": "a0e9f7d664df3a4594f5da3783a215f13ce874720d90d387810e57ea4397754a"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/manager_events.jsonl": {
+      "bytes": 350,
+      "sha256": "04d4bccded3d04e97fb8a50045fe2fb83d55eed0c19181a99d542838810adf5e"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/mask_15054000000.json": {
+      "bytes": 2833,
+      "sha256": "6b27476be3c16f5c308f0df65244ba4c42fbf09bac1035bdc2b8afa4d1ca976b"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/planner_server.log": {
+      "bytes": 5474,
+      "sha256": "f3e795f677af4fca5d872ef986a48621ad4f85819af08bc28b50ba76aff65d7c"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/controller_server.log": {
+      "bytes": 6395,
+      "sha256": "95a66808dc8eac2770560c2bea09490edb4ffd4d948e418f17d89563b6620192"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/collision_monitor.log": {
+      "bytes": 8643,
+      "sha256": "f03e74d37fb83ff2689898ec985221a96e5f5df0e93693b5a1d352d8c6ec41db"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/lifecycle.log": {
+      "bytes": 2533,
+      "sha256": "6f63b264fda9f6169bbd8e6ce0b963785d8db5f3dc4fe45023ee41e3b0f0dfa2"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/costmap_epoch1_global_costmap.json": {
+      "bytes": 8446632,
+      "sha256": "4d3b2d3dd0f39ca4fff555b6b5a5633af4350fa353a05164cac9b0bf89525310"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/costmap_epoch1_local_costmap.json": {
+      "bytes": 115164,
+      "sha256": "b62331cbc6605735a3520c65ff7a2add27c45c7bbed9044ee43b730d44f42fcb"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/state.json": {
+      "bytes": 421,
+      "sha256": "9ecb5a735d89574a4c8a24ada84e06b49a8b9254ed91507567daa19e973b17fe"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/mask_31443000000.json": {
+      "bytes": 6929,
+      "sha256": "0c1b083c516abfca1cdf0217bf7f90ccf9a9014f8ec6c7c86f504510dbef612a"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/costmap_epoch2_global_costmap.json": {
+      "bytes": 8447657,
+      "sha256": "02c8dfb7d95fb9e60e67ac2a9ed53dc612fa7e05b07b8b13636c851ea4a01041"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/costmap_epoch2_local_costmap.json": {
+      "bytes": 116163,
+      "sha256": "e5ddd4593115b3804634d36027d9cceb9feefa9ea397356532b9b523538909dd"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/channel_process_exit.json": {
+      "bytes": 40,
+      "sha256": "9905327a6b8e282c55c56af7b06bd2bb07b788bfdc2089684773d59dc9c147eb"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/result.json": {
+      "bytes": 454,
+      "sha256": "c09a7994ad80c1b501ee69834a482aa3652fcddf96501ff8d3a0045e4d00005e"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/scene_runner_channel_dev_v1.py": {
+      "bytes": 7260,
+      "sha256": "cadeaa761cf1eb54b3bd2a706a85a33c6c96e98f0c712cc74366b6cd5b7a9c99"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/channel_window_schedule_v1.py": {
+      "bytes": 2474,
+      "sha256": "cf7f2b5b2ed7db37c4feba544f35422db3c17a32b4bc873017cfa6be4b3ce2e3"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/snapshot_response_proxy_v1.py": {
+      "bytes": 6489,
+      "sha256": "53f67637b576e6f930c9745a9a41efee80e4b0216ed4ddfc8a112d6c7b69000a"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/snapshot_response_proxy_v2.py": {
+      "bytes": 3746,
+      "sha256": "0ab7820cec1e416f9e94ccaace806fdc2f9b79f2f94160c879a80d861ac374e6"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/channel_guard_observer_v1.py": {
+      "bytes": 3393,
+      "sha256": "8c77ff9df5497c08f535566fe74c6b20fccdc7fbf15395382f0a348d5d6714a7"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/nav2_trace_dev_v1.py": {
+      "bytes": 5372,
+      "sha256": "f2dc0a6f8f4bcd19e179ec06cc047406f5e15a3293d7f5c156d91101db31d4ea"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/channel_trace_probe_v1.py": {
+      "bytes": 8165,
+      "sha256": "1ec271744d411d61f57eda25ed73d77048adf215f89d67d2511b4b3a8ae2b936"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/command_witness_v1.py": {
+      "bytes": 2168,
+      "sha256": "d51ce532e795b158c28de2f97c9f3b236b214e079be060d4e16726489234cee0"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/identity_exposure_full_dev_v1.json": {
+      "bytes": 958,
+      "sha256": "363f0df8e23ac7f2e2ccbec284cd8847531c1cdd4a3496427e8ee08c27ffc88f"
+    },
+    "runs/identity_exposure_full_dev_v1/instrumentation_source/identity_exposure_full_dev_v1_prerun.json": {
+      "bytes": 1290,
+      "sha256": "6da2485a56c64e531466871d5d88b0f792ad4c3dad0fc7a046125b2c192c7a31"
+    },
+    "runs/identity_exposure_full_dev_v1/analysis_source/decode_snapshot_proxy_cdr_v1.py": {
+      "bytes": 2398,
+      "sha256": "7f85c02586034e211cc27d879fb332e663772a721ada28da4ce9312007ee4856"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/00_benchmark_nav2_combination.py": {
+      "bytes": 28033,
+      "sha256": "f5f584f516ba15cee5cdfdc73f7ca672f22c7fbe6b52d0e59c9a300b222665a0"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/01_audit_nav2_combination.py": {
+      "bytes": 7686,
+      "sha256": "b020d3dad1481360609bc65b47ad7101d1445a78d20c439b2148d851f000af69"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/02_nav2_combination_pilot.py": {
+      "bytes": 17417,
+      "sha256": "2155250eac0b8c85899df66ce52751e6147691fc52c3321a78a9d6c2dcdc9165"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/03_gazebo_world_pose.py": {
+      "bytes": 14367,
+      "sha256": "6b99b02066aebc9d6b9e7768bf99e68bacb1764205377da0b888cb2c16b0c5a4"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/04_benchmark_dynamic_rule_update.py": {
+      "bytes": 26796,
+      "sha256": "7027262a7713b33d03ffec261b27087038de5b0cb76646633021905462ff9dbd"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/05_benchmark_rule_churn.py": {
+      "bytes": 19785,
+      "sha256": "fae542e020e9505fa79b613bb1cbe9f9ec4e5c05e45162019febd507e3552e80"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/06_manager_node.py": {
+      "bytes": 73383,
+      "sha256": "27a1c7617fd345c03a5c57f905ad7ee5c36ce71abafb7c575ca5acaebdc90aaf"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/07_snapshot_identity.py": {
+      "bytes": 10044,
+      "sha256": "d84b2296c4eade82e1cae696cbe607d89922ad07830087c56fec18b24d8924ec"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/08_vote_coordinator.py": {
+      "bytes": 6880,
+      "sha256": "6222edfa096c41b700bd1c8f262afb337e30f2156eaab550ab34ff486f542ae6"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/09_validator.py": {
+      "bytes": 4679,
+      "sha256": "2a405e9e305e72f5b6bde2132375c0fd976f1f339e417eecee9a207ce4d45998"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/10_bridge_node.py": {
+      "bytes": 30031,
+      "sha256": "b5a4b6b4f15eb47822e1b1e5c8e49eb171589741e978eb32b3d98181a7794259"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/11_guard_node.py": {
+      "bytes": 15366,
+      "sha256": "368563f9e62929d3554d22ede3ccc9bddc73edd5e3c518d83ded51cd5796771f"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/12_gate_node.py": {
+      "bytes": 9937,
+      "sha256": "2b7df979289eaa714a38475ebaad4f2feedf047fd0162809ce03e8df05e98696"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/13_ruleguard.py": {
+      "bytes": 17340,
+      "sha256": "8fd86f7b1fa3887bc12928475d4aab56c3b79fdadddf8e05750d09484e4ee0ff"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/14_gate2d.py": {
+      "bytes": 13190,
+      "sha256": "e67c6e1febc5f423602d9b716487f10dd20b0bbbeaa45bae6bd334072a1fe92f"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/15_authorization.py": {
+      "bytes": 3304,
+      "sha256": "8c6ca852b65b35ec6513c56d6192d0b1fc4b63abc112ad91629e24fb4c491be6"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/16_tb3_empty_world.sdf.xacro": {
+      "bytes": 3023,
+      "sha256": "8a171c785730ab16b5c2d58923f361bd3f9fe75cf24b4574cf69b7108ec99312"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/17_gz_waffle.sdf.xacro": {
+      "bytes": 14603,
+      "sha256": "1681baf60c92c5be045a40c6fb1b8a6e7ca903365b8ac93aeb7be81b707f3e1d"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/18_turtlebot3_waffle.urdf": {
+      "bytes": 8298,
+      "sha256": "d381b55d119d70d5cd78d2261107d386455fc93d553151dbe25da7013f8cfba5"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/19_turtlebot3_waffle_bridge.yaml": {
+      "bytes": 1213,
+      "sha256": "8166a3562d4505edebc53b4d7b3320e363a4bb23e46eb08e149ba123a6c1e2dc"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/scene_scene_runner_generalization_v1.py": {
+      "bytes": 34814,
+      "sha256": "a6930ebc0f4b990e9d21cdc7e1da95d17646797e38765b8eaf255076b984a3a1"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/scene_office.sdf": {
+      "bytes": 3915,
+      "sha256": "173ca7ef270ac9ea74f4d18442fbc698e70576f3ed255e91de201a3c63bdc046"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/scene_migration_manifest.json": {
+      "bytes": 5847,
+      "sha256": "78b294430095bba4d7a4c333359797ffd23c79327d230557d645b1cc881e43ed"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/scene_map.json": {
+      "bytes": 4392167,
+      "sha256": "0539889af80b8ae5c62b8f621a5b25d47a49292208f2f9e6ee69e68bd1adb8aa"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/scene_case.json": {
+      "bytes": 45726,
+      "sha256": "93fd3714e7eb43a8129151fbacb6ccdf4a3f5a501c960f5c4f688ea5192a78e8"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/channel_scene_runner_channel_dev_v1.py": {
+      "bytes": 7260,
+      "sha256": "cadeaa761cf1eb54b3bd2a706a85a33c6c96e98f0c712cc74366b6cd5b7a9c99"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/channel_snapshot_response_proxy_v1.py": {
+      "bytes": 6489,
+      "sha256": "53f67637b576e6f930c9745a9a41efee80e4b0216ed4ddfc8a112d6c7b69000a"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/channel_snapshot_response_proxy_v2.py": {
+      "bytes": 3746,
+      "sha256": "0ab7820cec1e416f9e94ccaace806fdc2f9b79f2f94160c879a80d861ac374e6"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/channel_channel_window_schedule_v1.py": {
+      "bytes": 2474,
+      "sha256": "cf7f2b5b2ed7db37c4feba544f35422db3c17a32b4bc873017cfa6be4b3ce2e3"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/channel_identity_exposure_full_dev_v1.json": {
+      "bytes": 958,
+      "sha256": "363f0df8e23ac7f2e2ccbec284cd8847531c1cdd4a3496427e8ee08c27ffc88f"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/source/channel_channel_guard_observer_v1.py": {
+      "bytes": 3393,
+      "sha256": "8c77ff9df5497c08f535566fe74c6b20fccdc7fbf15395382f0a348d5d6714a7"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/snapshot_channel/schedule.json": {
+      "bytes": 958,
+      "sha256": "363f0df8e23ac7f2e2ccbec284cd8847531c1cdd4a3496427e8ee08c27ffc88f"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/snapshot_channel/proxy.jsonl": {
+      "bytes": 3908694,
+      "sha256": "eda9510c578bbe0cf15ae783aebf6552a1cad16f176cf510d6523d82881ad3a9"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/snapshot_channel/ready.json": {
+      "bytes": 48,
+      "sha256": "3062f9ae7da7feb0322231b95deb4c0b23390ce6f74232df91513c743ecc1d3a"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/snapshot_channel/stop": {
+      "bytes": 23,
+      "sha256": "abeb00d5223d6d2868f7f75b51420537b084c9f0e936ff5a1aad4edb817610eb"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/images/perspective/perspective::camera_link::perspective_0.png": {
+      "bytes": 1691302,
+      "sha256": "d89f498e87bebb6e105bf6ea3a2a0bd190390f1403afe177ae532a69b719b895"
+    },
+    "runs/identity_exposure_full_dev_v1/mission/images/overview/overview::camera_link::overview_0.png": {
+      "bytes": 1070316,
+      "sha256": "67ffe1e87ecca8556a3f3be2bdeb298a14ac036cb3e6047c23e210a5e8b6dfff"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_0": {
+      "bytes": 8396800,
+      "sha256": "cbe1a68f93d7ab89d6cf1bd4e77a0146ca3efc6240181b4be8e0c419f4d18512"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_1": {
+      "bytes": 8273920,
+      "sha256": "c33b321a320d848788e36ce313baa3f40adbec3112f2048a90aa2c5029ecb56e"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_2": {
+      "bytes": 7471104,
+      "sha256": "ea311ec1dfdf52cd556c15cfb23b8bf64529b733b7378113d78c6fa0efa0a4b6"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_3": {
+      "bytes": 7270400,
+      "sha256": "1c8d183be5a6d5ace55febdb36e585da87164f12acc1ae541b9fe22b9a426c3a"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_4": {
+      "bytes": 8556544,
+      "sha256": "21dec9af0b4fd3f1735ffb754d01d24b6f13f6ca2cbd559f000df1405cb2f69a"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_5": {
+      "bytes": 8192000,
+      "sha256": "93f33fcecd916456b5461593dbfb6e32eee77f006726fd63329c5b5ed625cdb8"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_6": {
+      "bytes": 7700480,
+      "sha256": "98231bc2f4b689f0f1faf9ec5dcfb02f27963b37707bba7d808f658d11744775"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_7": {
+      "bytes": 7426048,
+      "sha256": "835ad61f73f54fc33db22b0d949cfdf6b180bca1a5906052dfc8b1d74448537b"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/metadata": {
+      "bytes": 4861,
+      "sha256": "325b70af9c50ce2f37b3e0d31a015da25b9665da95010c97ccd328f2bd7ca2ce"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_0.idx": {
+      "bytes": 9304,
+      "sha256": "0b12d909a7e53acbe1f15a71b4982d3e0b892b38d1c125a47f213996d5071b09"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_1.idx": {
+      "bytes": 9160,
+      "sha256": "5bebb5af0194338c0d17197b2a6579183653992d8b74210ecaa9601e605c9338"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_2.idx": {
+      "bytes": 8224,
+      "sha256": "ea2d22242472a79ab1063f75240f7b59d4b4b5b03d748919119d1d6b2bb5b9f3"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_3.idx": {
+      "bytes": 8008,
+      "sha256": "dfa9af8f1cda6c4a9f7ba988a6b55ff88892f70e74ccef057fd4c4a909baae0c"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_4.idx": {
+      "bytes": 9448,
+      "sha256": "33d5905f1d962813507bc14e51641f60bd0fe603280188cd19c852d6adf2a464"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_5.idx": {
+      "bytes": 9016,
+      "sha256": "2248f628e5105202590e767b79d784d838307c2d321c700a53d4ceb9a1d3a009"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_6.idx": {
+      "bytes": 8512,
+      "sha256": "da2d84e3d8d765477d2b2687f82442ce74ffa4f7655ab803731e77339db16f31"
+    },
+    "runs/identity_exposure_full_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_7.idx": {
+      "bytes": 8224,
+      "sha256": "5c89159427d63215458004f1543ba255f0669b9b402e7139b085d1b96e90af03"
+    },
+    "runs/identity_exposure_full_dev_v1_exit.json": {
+      "bytes": 17,
+      "sha256": "e89df0eae5ec7db81135aed16463968955c578bcc4f2ec43172eff351f080c17"
+    },
+    "runs/identity_exposure_full_dev_v1_host.log": {
+      "bytes": 1839,
+      "sha256": "29e2f89bdf0a8baa33cbd62e26eb45d575cd1e238001412bb9c738bfd8e678c2"
+    }
+  }
+}

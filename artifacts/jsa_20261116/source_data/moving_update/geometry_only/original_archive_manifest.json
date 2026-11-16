@@ -1,0 +1,487 @@
+{
+  "archive": "identity_exposure_geometry_only_dev_v1.tar.gz",
+  "bytes": 40351551,
+  "sha256": "1ed811f655dce485b7b53b0a0d5accd6d0cdc89caf033f05eae7a911d2897516",
+  "files": {
+    "runs/identity_exposure_geometry_only_dev_v1/trace_commands.jsonl": {
+      "bytes": 2923,
+      "sha256": "b2b24e7ca01a60b29f6b145b14e3c92a534ee2a96be05215644099d0a91bae35"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/command_witness.console.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/command_witness.jsonl": {
+      "bytes": 205901,
+      "sha256": "97fc5d541dc6115ece486cac1109666af048fec058b7db3abdd363f37a3228a6"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/command_witness.ready": {
+      "bytes": 115,
+      "sha256": "15f2109f6113d4d021f834e43e5387f51af1f6025230ed3cef18ad91ef5f50fb"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/command_witness.endpoints.json": {
+      "bytes": 124,
+      "sha256": "c9dcff40e3027147a48fffc7409ebf05513d699b3ee62bc4361260c19cab36b8"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/command_witness.stop": {
+      "bytes": 14,
+      "sha256": "8eab4d1faec61e34385f803f8d16abeff618ef5a21bbfb022e69682049a01c7c"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/cgroup_resources.json": {
+      "bytes": 380,
+      "sha256": "1c142a0aa81518c0ebaafb0c6ffed3b664c994b8c1d109a07776a6477ecde297"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/native_events.jsonl": {
+      "bytes": 352230453,
+      "sha256": "9f441a05275ca3fdc457be5b34f55ff2fbfa6f8fb51f67957d6a105a5a1e7b8b"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/trace_result.json": {
+      "bytes": 1448,
+      "sha256": "787c1d9cd6b3d17656cccc0c655043889eda9c2d596eb8d3d00b053747068d6a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/service_decode.log": {
+      "bytes": 305,
+      "sha256": "f6914fa985e61b390ba37d3c624e2567337e85e65a89421e703bda38e2f71363"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/service_cdr_decoded.json": {
+      "bytes": 5470,
+      "sha256": "27baefcdf7cbf56963e30630ed9fc37847d17293fb2ed3bd1df1881d307a3122"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/world.sdf": {
+      "bytes": 4045,
+      "sha256": "1ede7b7f8f9a43fe638c20828e417de4c512d03b124dfb36d7a127c719a3f4d3"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/params.yaml": {
+      "bytes": 5603,
+      "sha256": "c70bec801d9dcf97a3806505dfa489c1b7026e0081a5447faed7326937d64e82"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/gpu_renderer.log": {
+      "bytes": 875,
+      "sha256": "c517cdd86be0e18a4dbba5f4891dafef7817fb1ee76351a15f2a0a75abebfdc5"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/manifest.json": {
+      "bytes": 6471,
+      "sha256": "1dbcefa5520d73e1652f3ad8deffa4d3c18edb3ea7fad52536da70def5a76fe3"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/channel_adapter.json": {
+      "bytes": 1432,
+      "sha256": "70ce3d1e1064bf3d4015c34d432a38f613be8e6dc53c952a9c9c2f2a0b4c5cc5"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/robot_world_pose.sdf": {
+      "bytes": 13908,
+      "sha256": "967819c1c1db48dad97a15f359256b0afbcd241d66a0bedd6488809549f18df4"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/gazebo.log": {
+      "bytes": 1048,
+      "sha256": "54a7c03172ee4fddf6f3dbbe93fdfdd6fbcdcba7db8317084fe056ba7328c65a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/spawn.log": {
+      "bytes": 4484,
+      "sha256": "4855c91a67f457849e7fc4f4fbb1420571bbe439477352abd5b7c652c989e87d"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/world_bridge.log": {
+      "bytes": 1362,
+      "sha256": "07c825e3d97ced0a5df3973c2cbb0de1e63f75c402d69efdad61281d536a23f6"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/robot_state.log": {
+      "bytes": 242,
+      "sha256": "49c503fbec1f4799323bf20314c81ed637f1cf8da20063e9bda4d1424d7b3710"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/events.jsonl": {
+      "bytes": 1964111,
+      "sha256": "4c2ada7552e1d15c8ca8c1503158a6b2769f249373d569076070de394704bd8b"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/world_pose.jsonl": {
+      "bytes": 1597155,
+      "sha256": "5cb3734ce5f65d1d1283f3739843c094c1b31154199e12b608cacae9f836255e"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/localization.jsonl": {
+      "bytes": 592849,
+      "sha256": "702de9a3b1cd60bb513b95eda7df0a7949e1b193e413736fd958de28497ac650"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/gpu_activity.jsonl": {
+      "bytes": 38501,
+      "sha256": "97b1ae8cbbfbabf21153600683e9237497997f8f6a8416e8393da1c35918df06"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/registration.json": {
+      "bytes": 32836,
+      "sha256": "468b2bb2d8bdd11b4dfd678ffe595b2f3f05a1ddc94699f6dfcdd9855a1385ee"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/stationary_scan.json": {
+      "bytes": 8496,
+      "sha256": "baff610740171b8abe8d9ed609fcd2139b6a512e140de74db855618ccd4810b5"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/camera_perspective.log": {
+      "bytes": 6401282,
+      "sha256": "e8fdfbe36d867d54ed5088c54b3c3645bcf413adfe889cd6e4c3d0f05f3f9797"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/camera_overview.log": {
+      "bytes": 6401276,
+      "sha256": "e91540736ae9feac810c44f944c8b8cd90db8cf9bac1974f301b8d12505b7028"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/amcl.log": {
+      "bytes": 1565,
+      "sha256": "33c954f144fab355d08358eb7c24ff7e97a68bbec0e34b7750a58730369d0a5d"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/bridge.log": {
+      "bytes": 2965,
+      "sha256": "d762cb33a1f8d2bd023992a251e6f39a574d3213799300e1411e661c4e5999c0"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/manager.log": {
+      "bytes": 2724,
+      "sha256": "9eab295c43339db39a538aeaf7e043862842e2f41a272d3fe29942d5f0cea7be"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/gate.log": {
+      "bytes": 1805,
+      "sha256": "db2b31c5bafbaca420d08a58a4f55c6eff388dfce7e02816278359e42e4f35c1"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/snapshot_channel.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/guard.log": {
+      "bytes": 43373,
+      "sha256": "51a23b4135ca9908529aa6a2b9e1000c6048adc9dc7153b77269a279482b139f"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/guard_events.jsonl": {
+      "bytes": 2077163,
+      "sha256": "c6d0451d43f38df045dc36bd347a7e5e37d08b3c8e5fdb490d2e2d6c5353cd94"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/txn.log": {
+      "bytes": 3630,
+      "sha256": "fb669de71cb897e4858c12d2c6911da52094283ee27ebf09a2775ad247db91f8"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/mask_14721000000.json": {
+      "bytes": 245,
+      "sha256": "eb1e0e47bb5ab34ef2f191d78c5651d7e3a90e3850eb1455ca07ccabe8a2c437"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/wal.jsonl": {
+      "bytes": 1358,
+      "sha256": "86c08952554b0af0c122ef3c76f6ed18e42aaf39fced2e999214bac3a2bddd5c"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/manager_events.jsonl": {
+      "bytes": 350,
+      "sha256": "8f7b9d8e7f1aa54edb0c69f7a543cf030793b4c5d77574bb913f6d78d24c9a13"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/mask_14880000000.json": {
+      "bytes": 2833,
+      "sha256": "84f2cee40304cecc16dd61b6d71f94bec483ff2ea61080cffa9d6d811db7c138"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/planner_server.log": {
+      "bytes": 5400,
+      "sha256": "37eed4db9d4c77203124fb8cb8b77c13c71adabe5fce3b84198baa0d9f847883"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/controller_server.log": {
+      "bytes": 7158,
+      "sha256": "60598de6a0be42160279fa67df13f2bb5d2d7b214bcfb41a6d8738fb48f17521"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/collision_monitor.log": {
+      "bytes": 1681,
+      "sha256": "8c136aa9212d3f8ad025850d3f446bb86c5355d344c111d1db2177685ba67469"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/lifecycle.log": {
+      "bytes": 2425,
+      "sha256": "65d981d3f7427b3e55b83cf54e3d6d27373be7d27641bd9ebe18b05e118b2489"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/costmap_epoch1_global_costmap.json": {
+      "bytes": 8446632,
+      "sha256": "838567bf4766f2610c8705d65a08e18dde2f82f90e2f21168398dc827dc5dc92"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/costmap_epoch1_local_costmap.json": {
+      "bytes": 115164,
+      "sha256": "3e1584d79e2b52d61e3e44629c230d3d1e5d7ea9924a44995e2891747fe48525"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/state.json": {
+      "bytes": 421,
+      "sha256": "9ecb5a735d89574a4c8a24ada84e06b49a8b9254ed91507567daa19e973b17fe"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/mask_28920000000.json": {
+      "bytes": 6929,
+      "sha256": "d6cf769d0fc553f173cd276959fd561c6331cb9bf1ab3dd4db00c80a577fc8e0"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/costmap_epoch2_global_costmap.json": {
+      "bytes": 8447657,
+      "sha256": "cf89e44e8f6d5ebb39804092b286e0e7f3a9d60d927043c4e0880b84432b6f16"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/costmap_epoch2_local_costmap.json": {
+      "bytes": 116163,
+      "sha256": "7bdf2a75194a4009238226d9296664b35b8e0e5a01f13aa4c07f0f64d9d71c39"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/channel_process_exit.json": {
+      "bytes": 40,
+      "sha256": "9905327a6b8e282c55c56af7b06bd2bb07b788bfdc2089684773d59dc9c147eb"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/result.json": {
+      "bytes": 453,
+      "sha256": "3de76c4830d871517d24c6ebfdee149826f157f0473358faced4b66f9cfe5403"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/scene_runner_channel_dev_v1.py": {
+      "bytes": 7260,
+      "sha256": "cadeaa761cf1eb54b3bd2a706a85a33c6c96e98f0c712cc74366b6cd5b7a9c99"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/channel_window_schedule_v1.py": {
+      "bytes": 2474,
+      "sha256": "cf7f2b5b2ed7db37c4feba544f35422db3c17a32b4bc873017cfa6be4b3ce2e3"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/snapshot_response_proxy_v1.py": {
+      "bytes": 6489,
+      "sha256": "53f67637b576e6f930c9745a9a41efee80e4b0216ed4ddfc8a112d6c7b69000a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/snapshot_response_proxy_v2.py": {
+      "bytes": 3746,
+      "sha256": "0ab7820cec1e416f9e94ccaace806fdc2f9b79f2f94160c879a80d861ac374e6"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/channel_guard_observer_v1.py": {
+      "bytes": 3393,
+      "sha256": "8c77ff9df5497c08f535566fe74c6b20fccdc7fbf15395382f0a348d5d6714a7"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/nav2_trace_dev_v1.py": {
+      "bytes": 5372,
+      "sha256": "f2dc0a6f8f4bcd19e179ec06cc047406f5e15a3293d7f5c156d91101db31d4ea"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/channel_trace_probe_v1.py": {
+      "bytes": 8165,
+      "sha256": "1ec271744d411d61f57eda25ed73d77048adf215f89d67d2511b4b3a8ae2b936"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/command_witness_v1.py": {
+      "bytes": 2168,
+      "sha256": "d51ce532e795b158c28de2f97c9f3b236b214e079be060d4e16726489234cee0"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/identity_exposure_geometry_only_dev_v1.json": {
+      "bytes": 967,
+      "sha256": "a08117e9bac8af36c75a6e25f7a0f64b1c07c982346813942a88ead3f97a8a62"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/instrumentation_source/identity_exposure_geometry_only_dev_v1_prerun.json": {
+      "bytes": 1308,
+      "sha256": "bb88f22c13f930884576c5996463916e1dfd5a5e7d413ca4d81e516688de6191"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/analysis_source/decode_snapshot_proxy_cdr_v1.py": {
+      "bytes": 2398,
+      "sha256": "7f85c02586034e211cc27d879fb332e663772a721ada28da4ce9312007ee4856"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/00_benchmark_nav2_combination.py": {
+      "bytes": 28033,
+      "sha256": "f5f584f516ba15cee5cdfdc73f7ca672f22c7fbe6b52d0e59c9a300b222665a0"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/01_audit_nav2_combination.py": {
+      "bytes": 7686,
+      "sha256": "b020d3dad1481360609bc65b47ad7101d1445a78d20c439b2148d851f000af69"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/02_nav2_combination_pilot.py": {
+      "bytes": 17417,
+      "sha256": "2155250eac0b8c85899df66ce52751e6147691fc52c3321a78a9d6c2dcdc9165"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/03_gazebo_world_pose.py": {
+      "bytes": 14367,
+      "sha256": "6b99b02066aebc9d6b9e7768bf99e68bacb1764205377da0b888cb2c16b0c5a4"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/04_benchmark_dynamic_rule_update.py": {
+      "bytes": 26796,
+      "sha256": "7027262a7713b33d03ffec261b27087038de5b0cb76646633021905462ff9dbd"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/05_benchmark_rule_churn.py": {
+      "bytes": 19785,
+      "sha256": "fae542e020e9505fa79b613bb1cbe9f9ec4e5c05e45162019febd507e3552e80"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/06_manager_node.py": {
+      "bytes": 73383,
+      "sha256": "27a1c7617fd345c03a5c57f905ad7ee5c36ce71abafb7c575ca5acaebdc90aaf"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/07_snapshot_identity.py": {
+      "bytes": 10044,
+      "sha256": "d84b2296c4eade82e1cae696cbe607d89922ad07830087c56fec18b24d8924ec"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/08_vote_coordinator.py": {
+      "bytes": 6880,
+      "sha256": "6222edfa096c41b700bd1c8f262afb337e30f2156eaab550ab34ff486f542ae6"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/09_validator.py": {
+      "bytes": 4679,
+      "sha256": "2a405e9e305e72f5b6bde2132375c0fd976f1f339e417eecee9a207ce4d45998"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/10_bridge_node.py": {
+      "bytes": 30031,
+      "sha256": "b5a4b6b4f15eb47822e1b1e5c8e49eb171589741e978eb32b3d98181a7794259"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/11_guard_node.py": {
+      "bytes": 15366,
+      "sha256": "368563f9e62929d3554d22ede3ccc9bddc73edd5e3c518d83ded51cd5796771f"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/12_gate_node.py": {
+      "bytes": 9937,
+      "sha256": "2b7df979289eaa714a38475ebaad4f2feedf047fd0162809ce03e8df05e98696"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/13_ruleguard.py": {
+      "bytes": 17340,
+      "sha256": "8fd86f7b1fa3887bc12928475d4aab56c3b79fdadddf8e05750d09484e4ee0ff"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/14_gate2d.py": {
+      "bytes": 13190,
+      "sha256": "e67c6e1febc5f423602d9b716487f10dd20b0bbbeaa45bae6bd334072a1fe92f"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/15_authorization.py": {
+      "bytes": 3304,
+      "sha256": "8c6ca852b65b35ec6513c56d6192d0b1fc4b63abc112ad91629e24fb4c491be6"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/16_tb3_empty_world.sdf.xacro": {
+      "bytes": 3023,
+      "sha256": "8a171c785730ab16b5c2d58923f361bd3f9fe75cf24b4574cf69b7108ec99312"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/17_gz_waffle.sdf.xacro": {
+      "bytes": 14603,
+      "sha256": "1681baf60c92c5be045a40c6fb1b8a6e7ca903365b8ac93aeb7be81b707f3e1d"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/18_turtlebot3_waffle.urdf": {
+      "bytes": 8298,
+      "sha256": "d381b55d119d70d5cd78d2261107d386455fc93d553151dbe25da7013f8cfba5"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/19_turtlebot3_waffle_bridge.yaml": {
+      "bytes": 1213,
+      "sha256": "8166a3562d4505edebc53b4d7b3320e363a4bb23e46eb08e149ba123a6c1e2dc"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/scene_scene_runner_generalization_v1.py": {
+      "bytes": 34814,
+      "sha256": "a6930ebc0f4b990e9d21cdc7e1da95d17646797e38765b8eaf255076b984a3a1"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/scene_office.sdf": {
+      "bytes": 3915,
+      "sha256": "173ca7ef270ac9ea74f4d18442fbc698e70576f3ed255e91de201a3c63bdc046"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/scene_migration_manifest.json": {
+      "bytes": 5847,
+      "sha256": "78b294430095bba4d7a4c333359797ffd23c79327d230557d645b1cc881e43ed"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/scene_map.json": {
+      "bytes": 4392167,
+      "sha256": "0539889af80b8ae5c62b8f621a5b25d47a49292208f2f9e6ee69e68bd1adb8aa"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/scene_case.json": {
+      "bytes": 45726,
+      "sha256": "93fd3714e7eb43a8129151fbacb6ccdf4a3f5a501c960f5c4f688ea5192a78e8"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/channel_scene_runner_channel_dev_v1.py": {
+      "bytes": 7260,
+      "sha256": "cadeaa761cf1eb54b3bd2a706a85a33c6c96e98f0c712cc74366b6cd5b7a9c99"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/channel_snapshot_response_proxy_v1.py": {
+      "bytes": 6489,
+      "sha256": "53f67637b576e6f930c9745a9a41efee80e4b0216ed4ddfc8a112d6c7b69000a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/channel_snapshot_response_proxy_v2.py": {
+      "bytes": 3746,
+      "sha256": "0ab7820cec1e416f9e94ccaace806fdc2f9b79f2f94160c879a80d861ac374e6"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/channel_channel_window_schedule_v1.py": {
+      "bytes": 2474,
+      "sha256": "cf7f2b5b2ed7db37c4feba544f35422db3c17a32b4bc873017cfa6be4b3ce2e3"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/channel_identity_exposure_geometry_only_dev_v1.json": {
+      "bytes": 967,
+      "sha256": "a08117e9bac8af36c75a6e25f7a0f64b1c07c982346813942a88ead3f97a8a62"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/source/channel_channel_guard_observer_v1.py": {
+      "bytes": 3393,
+      "sha256": "8c77ff9df5497c08f535566fe74c6b20fccdc7fbf15395382f0a348d5d6714a7"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/snapshot_channel/schedule.json": {
+      "bytes": 967,
+      "sha256": "a08117e9bac8af36c75a6e25f7a0f64b1c07c982346813942a88ead3f97a8a62"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/snapshot_channel/proxy.jsonl": {
+      "bytes": 3774061,
+      "sha256": "f7b3f4e4b3d579b0d7caaa3581cc995cc2fa7be7d9b568e71e1274cb69fd3fd4"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/snapshot_channel/ready.json": {
+      "bytes": 48,
+      "sha256": "7c521df89a2a46b76b22548940c65fefc38f5a76fdc200f2ddd04c4ce0eea5bc"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/snapshot_channel/stop": {
+      "bytes": 23,
+      "sha256": "abeb00d5223d6d2868f7f75b51420537b084c9f0e936ff5a1aad4edb817610eb"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/images/perspective/perspective::camera_link::perspective_0.png": {
+      "bytes": 1691302,
+      "sha256": "d89f498e87bebb6e105bf6ea3a2a0bd190390f1403afe177ae532a69b719b895"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/mission/images/overview/overview::camera_link::overview_0.png": {
+      "bytes": 1070316,
+      "sha256": "96aad024624d092f20ff1c6984b5f5ea1404f88b2082366e9ac2ce0a854146a8"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_0": {
+      "bytes": 8151040,
+      "sha256": "85ecf3a0bda151a84828724779ef9a0ab3a58a99d302234b45f1e39ea4301be0"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_1": {
+      "bytes": 8581120,
+      "sha256": "e0d8f53806fcf584b65c358d8b71d29388b9207af08e27cbe1a55b23ab267f1a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_2": {
+      "bytes": 6967296,
+      "sha256": "6d99b7234ec53a597fe86ab3dc2dfcf468b22423d39b4306426072b410920c7c"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_3": {
+      "bytes": 6746112,
+      "sha256": "d5c76c852d9b5501a034bffee4d7de5e9a85d17700cb6c45d4e2b48a70117ee1"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_4": {
+      "bytes": 8396800,
+      "sha256": "a14a05cc2cd967cc5f0c22cb3129d23d19825091a061b9e52338aac879991a3a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_5": {
+      "bytes": 8708096,
+      "sha256": "dc9d5504a0b93ab690c889a1a1fc45f9ed6756e8f0d5b903427604188315af9a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_6": {
+      "bytes": 7282688,
+      "sha256": "d293fdc48f8a9dc69e7861e58b6a79cd854197275556950e91f4778362f10672"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/nav2_channel_7": {
+      "bytes": 7151616,
+      "sha256": "e26d73c4c4bda4bc3af580b1d061d300b7bc1cd1e645ff7088fbf8a7a9edc5f1"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/metadata": {
+      "bytes": 4861,
+      "sha256": "ebc04619551bb4ab19ca9bb698f2c2068d51af61d66cc70acc26d86df9bb8aff"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_0.idx": {
+      "bytes": 9016,
+      "sha256": "1589802b6e2fec5864fc452e295609a2b073abec9fb79d4b3820e51743a881d6"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_1.idx": {
+      "bytes": 9448,
+      "sha256": "a4ebe55debe6cb1d311406307eb3b4194cb0149ca03c8df4ed63c640d3aa4580"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_2.idx": {
+      "bytes": 7720,
+      "sha256": "13b1979242e65fd538762b5c7a12750385f7a96d6deb18b3c15b9098e57d4ed1"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_3.idx": {
+      "bytes": 7432,
+      "sha256": "9492292d891d8b987f4a3acaada43bca5186082f7b0a7eb6d6c45ed69846428d"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_4.idx": {
+      "bytes": 9304,
+      "sha256": "02364f6b27e3a8c17b9c7ac220e48911424bb0ce934cc49c323938d9acfe5b31"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_5.idx": {
+      "bytes": 9592,
+      "sha256": "483fce6aec988b46d6f88b781a5e655a0f477e8e048bad9d0181b0f40c58a39e"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_6.idx": {
+      "bytes": 8080,
+      "sha256": "b258650c39d03e74fa8f7cffbf96278b07af857021f14ef073d2c130f564d3dd"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1/ctf/ust/uid/0/64-bit/index/nav2_channel_7.idx": {
+      "bytes": 7936,
+      "sha256": "0e7539b78678d86e3704303446acec75207ea639838be22803a202ce0568393a"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1_exit.json": {
+      "bytes": 17,
+      "sha256": "e89df0eae5ec7db81135aed16463968955c578bcc4f2ec43172eff351f080c17"
+    },
+    "runs/identity_exposure_geometry_only_dev_v1_host.log": {
+      "bytes": 1847,
+      "sha256": "2b833e2a4e809ea8b257b43f7d5179403f51144a5449f0b847baa8300f6b6b2b"
+    }
+  }
+}

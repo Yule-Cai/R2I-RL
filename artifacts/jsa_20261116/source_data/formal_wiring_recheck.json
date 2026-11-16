@@ -1,0 +1,28 @@
+{
+  "rows": 1485,
+  "bad": [],
+  "counts": [
+    {
+      "expected_arm": "full",
+      "actual_baseline": "full",
+      "actual_monitor": "full",
+      "rho": 0.3,
+      "n": 675
+    },
+    {
+      "expected_arm": "geometry_only",
+      "actual_baseline": "geometry_only",
+      "actual_monitor": "geometry_only",
+      "rho": 0.3,
+      "n": 405
+    },
+    {
+      "expected_arm": "rho0",
+      "actual_baseline": "rho0",
+      "actual_monitor": "full",
+      "rho": 0.0,
+      "n": 405
+    }
+  ],
+  "manifest_sha256": "bb749f5d886ef5a0009966ce4d180b3c58e2c1d503213a918cedd94534dfef20"
+}

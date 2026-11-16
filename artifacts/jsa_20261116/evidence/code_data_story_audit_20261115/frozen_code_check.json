@@ -1,0 +1,122 @@
+[
+  {
+    "original": "/reference/benchmark_nav2_combination.py",
+    "expected": "f5f584f516ba15cee5cdfdc73f7ca672f22c7fbe6b52d0e59c9a300b222665a0",
+    "found": "f5f584f516ba15cee5cdfdc73f7ca672f22c7fbe6b52d0e59c9a300b222665a0",
+    "match": true
+  },
+  {
+    "original": "/reference/audit_nav2_combination.py",
+    "expected": "b020d3dad1481360609bc65b47ad7101d1445a78d20c439b2148d851f000af69",
+    "found": "b020d3dad1481360609bc65b47ad7101d1445a78d20c439b2148d851f000af69",
+    "match": true
+  },
+  {
+    "original": "/reference/nav2_combination_pilot.py",
+    "expected": "2155250eac0b8c85899df66ce52751e6147691fc52c3321a78a9d6c2dcdc9165",
+    "found": "2155250eac0b8c85899df66ce52751e6147691fc52c3321a78a9d6c2dcdc9165",
+    "match": true
+  },
+  {
+    "original": "/work/scripts/gazebo_world_pose.py",
+    "expected": "6b99b02066aebc9d6b9e7768bf99e68bacb1764205377da0b888cb2c16b0c5a4",
+    "found": "6b99b02066aebc9d6b9e7768bf99e68bacb1764205377da0b888cb2c16b0c5a4",
+    "match": true
+  },
+  {
+    "original": "/work/scripts/benchmark_dynamic_rule_update.py",
+    "expected": "7027262a7713b33d03ffec261b27087038de5b0cb76646633021905462ff9dbd",
+    "found": "7027262a7713b33d03ffec261b27087038de5b0cb76646633021905462ff9dbd",
+    "match": true
+  },
+  {
+    "original": "/work/scripts/benchmark_rule_churn.py",
+    "expected": "fae542e020e9505fa79b613bb1cbe9f9ec4e5c05e45162019febd507e3552e80",
+    "found": "fae542e020e9505fa79b613bb1cbe9f9ec4e5c05e45162019febd507e3552e80",
+    "match": true
+  },
+  {
+    "original": "/work/build/rulesync_manager/rulesync_manager/manager_node.py",
+    "expected": "27a1c7617fd345c03a5c57f905ad7ee5c36ce71abafb7c575ca5acaebdc90aaf",
+    "found": "27a1c7617fd345c03a5c57f905ad7ee5c36ce71abafb7c575ca5acaebdc90aaf",
+    "match": true
+  },
+  {
+    "original": "/work/build/rulesync_manager/rulesync_manager/snapshot_identity.py",
+    "expected": "d84b2296c4eade82e1cae696cbe607d89922ad07830087c56fec18b24d8924ec",
+    "found": "d84b2296c4eade82e1cae696cbe607d89922ad07830087c56fec18b24d8924ec",
+    "match": true
+  },
+  {
+    "original": "/work/build/rulesync_manager/rulesync_manager/vote_coordinator.py",
+    "expected": "6222edfa096c41b700bd1c8f262afb337e30f2156eaab550ab34ff486f542ae6",
+    "found": "6222edfa096c41b700bd1c8f262afb337e30f2156eaab550ab34ff486f542ae6",
+    "match": true
+  },
+  {
+    "original": "/work/build/rulesync_manager/rulesync_manager/validator.py",
+    "expected": "2a405e9e305e72f5b6bde2132375c0fd976f1f339e417eecee9a207ce4d45998",
+    "found": "2a405e9e305e72f5b6bde2132375c0fd976f1f339e417eecee9a207ce4d45998",
+    "match": true
+  },
+  {
+    "original": "/work/install/rulesync_nav2_bridge/lib/python3.14/site-packages/rulesync_nav2_bridge/bridge_node.py",
+    "expected": "b5a4b6b4f15eb47822e1b1e5c8e49eb171589741e978eb32b3d98181a7794259",
+    "found": "b5a4b6b4f15eb47822e1b1e5c8e49eb171589741e978eb32b3d98181a7794259",
+    "match": true
+  },
+  {
+    "original": "/work/install/rulesync_guard/lib/python3.14/site-packages/rulesync_guard/guard_node.py",
+    "expected": "368563f9e62929d3554d22ede3ccc9bddc73edd5e3c518d83ded51cd5796771f",
+    "found": "368563f9e62929d3554d22ede3ccc9bddc73edd5e3c518d83ded51cd5796771f",
+    "match": true
+  },
+  {
+    "original": "/work/install/topopatch_ros/lib/python3.14/site-packages/topopatch_ros/gate_node.py",
+    "expected": "2b7df979289eaa714a38475ebaad4f2feedf047fd0162809ce03e8df05e98696",
+    "found": "2b7df979289eaa714a38475ebaad4f2feedf047fd0162809ce03e8df05e98696",
+    "match": true
+  },
+  {
+    "original": "/work/install/rulesync3d/lib/python3.14/site-packages/rulesync3d/ruleguard.py",
+    "expected": "8fd86f7b1fa3887bc12928475d4aab56c3b79fdadddf8e05750d09484e4ee0ff",
+    "found": "8fd86f7b1fa3887bc12928475d4aab56c3b79fdadddf8e05750d09484e4ee0ff",
+    "match": true
+  },
+  {
+    "original": "/work/install/rulesync3d/lib/python3.14/site-packages/rulesync3d/gate2d.py",
+    "expected": "e67c6e1febc5f423602d9b716487f10dd20b0bbbeaa45bae6bd334072a1fe92f",
+    "found": "e67c6e1febc5f423602d9b716487f10dd20b0bbbeaa45bae6bd334072a1fe92f",
+    "match": true
+  },
+  {
+    "original": "/work/install/rulesync3d/lib/python3.14/site-packages/rulesync3d/authorization.py",
+    "expected": "8c6ca852b65b35ec6513c56d6192d0b1fc4b63abc112ad91629e24fb4c491be6",
+    "found": "8c6ca852b65b35ec6513c56d6192d0b1fc4b63abc112ad91629e24fb4c491be6",
+    "match": true
+  },
+  {
+    "original": "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/worlds/tb3_empty_world.sdf.xacro",
+    "expected": "8a171c785730ab16b5c2d58923f361bd3f9fe75cf24b4574cf69b7108ec99312",
+    "found": "8a171c785730ab16b5c2d58923f361bd3f9fe75cf24b4574cf69b7108ec99312",
+    "match": true
+  },
+  {
+    "original": "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/urdf/gz_waffle.sdf.xacro",
+    "expected": "1681baf60c92c5be045a40c6fb1b8a6e7ca903365b8ac93aeb7be81b707f3e1d",
+    "found": "1681baf60c92c5be045a40c6fb1b8a6e7ca903365b8ac93aeb7be81b707f3e1d",
+    "match": true
+  },
+  {
+    "original": "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle.urdf",
+    "expected": "d381b55d119d70d5cd78d2261107d386455fc93d553151dbe25da7013f8cfba5",
+    "found": "d381b55d119d70d5cd78d2261107d386455fc93d553151dbe25da7013f8cfba5",
+    "match": true
+  },
+  {
+    "original": "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_bridge.yaml",
+    "expected": "8166a3562d4505edebc53b4d7b3320e363a4bb23e46eb08e149ba123a6c1e2dc",
+    "found": "8166a3562d4505edebc53b4d7b3320e363a4bb23e46eb08e149ba123a6c1e2dc",
+    "match": true
+  }
+]

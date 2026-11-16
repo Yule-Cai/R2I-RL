@@ -1,0 +1,21 @@
+{
+ "map_id": "office-B-s102",
+ "family": "office",
+ "variant": "B",
+ "seed": 102,
+ "size": 384,
+ "res": 0.05,
+ "origin": [
+  -10.0,
+  -10.0,
+  0.0
+ ],
+ "validation": {
+  "shape_ok": true,
+  "values_ok": true,
+  "free_frac": 0.923583984375,
+  "free_frac_ok": true,
+  "connectivity": 1.0,
+  "connectivity_ok": true
+ }
+}

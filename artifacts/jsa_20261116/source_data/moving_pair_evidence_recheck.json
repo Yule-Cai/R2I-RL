@@ -1,0 +1,57 @@
+{
+  "moving_p0": [
+    {
+      "arm": "full",
+      "archive_sha256": "478e5a0b5d44822148f125332856d7880a0fffdf17e0d6be38dbeda38a0e777a",
+      "original_files_verified": 120,
+      "fresh_scientific_reaudit_matches_original": true,
+      "prior_hold_reasons": [],
+      "first_fresh_observation_after_commit_ms": 84.203094,
+      "first_hold_ms": 84.643806,
+      "post_observation_nonzero_native_publications": 0,
+      "status": "new_hold"
+    },
+    {
+      "arm": "geometry_only",
+      "archive_sha256": "1ed811f655dce485b7b53b0a0d5accd6d0cdc89caf033f05eae7a911d2897516",
+      "original_files_verified": 120,
+      "fresh_scientific_reaudit_matches_original": true,
+      "prior_hold_reasons": [],
+      "first_fresh_observation_after_commit_ms": 83.242928,
+      "first_hold_ms": null,
+      "post_observation_nonzero_native_publications": 2,
+      "status": "right_censored_at_window_end"
+    }
+  ],
+  "hssd_p1_p2": [
+    {
+      "scene": "102343992",
+      "arm": "full",
+      "runner_sha256": "47380480f27a2feaae3e8f5195e8cc8107148784904209e146c0a1897a65e57c",
+      "proactive_stop_confirmed": true,
+      "motion_revocation_causal_replicate": false
+    },
+    {
+      "scene": "102343992",
+      "arm": "geometry_only",
+      "runner_sha256": "47380480f27a2feaae3e8f5195e8cc8107148784904209e146c0a1897a65e57c",
+      "proactive_stop_confirmed": true,
+      "motion_revocation_causal_replicate": false
+    },
+    {
+      "scene": "102344193",
+      "arm": "full",
+      "runner_sha256": "47380480f27a2feaae3e8f5195e8cc8107148784904209e146c0a1897a65e57c",
+      "proactive_stop_confirmed": true,
+      "motion_revocation_causal_replicate": false
+    },
+    {
+      "scene": "102344193",
+      "arm": "geometry_only",
+      "runner_sha256": "47380480f27a2feaae3e8f5195e8cc8107148784904209e146c0a1897a65e57c",
+      "proactive_stop_confirmed": true,
+      "motion_revocation_causal_replicate": false
+    }
+  ],
+  "interpretation": "P0 is one externally updated moving matched pair. P1/P2 demonstrate monitor-state differences within proactive recovery; do not pool them as three moving-update causal pairs."
+}

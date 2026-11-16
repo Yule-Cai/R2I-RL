@@ -1,0 +1,5 @@
+rulesync_interfaces/RuleVolume volume
+---
+bool accepted
+string reason
+uint64 staged_epoch

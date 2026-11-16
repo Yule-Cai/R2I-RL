@@ -1,0 +1,52 @@
+{
+  "evidence_valid": true,
+  "arm": "full",
+  "seed": 52031,
+  "scene": "office",
+  "task_id": "office_route_03_replace",
+  "parameter_sha256": "c70bec801d9dcf97a3806505dfa489c1b7026e0081a5447faed7326937d64e82",
+  "initial_path_invalidated": true,
+  "new_snapshot_hash": "fbe1f876df44f7376ca07c39f743e4c9572863e77bc6537cc1c58c15ec4c1c49",
+  "first_fresh_observation_after_commit_ms": 84.203094,
+  "intervention_status": "new_hold",
+  "first_hold_reason": "epoch-disagreement",
+  "commit_to_first_monitor_hold_ms": 84.643806,
+  "callback_to_first_monitor_hold_ms": 0.440712,
+  "hold_to_native_zero_ms": 88.360138,
+  "prior_hold_reasons": [],
+  "fixed_window_s": 5.0,
+  "actual_common_stop_overshoot_ms": 0.201984,
+  "observed_window_travel_m": 0.05086976042915262,
+  "travel_after_fresh_observation_m": 0.038288000293607204,
+  "post_observation_nonzero_native_publications": 0,
+  "first_hold_body_gap_m": 0.704264192528773,
+  "first_hold_nearest_world_receipt_gap_ms": 21.807437,
+  "sampled_body_entries_during_window": 0,
+  "minimum_body_gap_during_window_m": 0.6616274100917191,
+  "fresh_authority_with_old_execution_state_counts": {
+    "0": 0,
+    "1": 0,
+    "2": 197
+  },
+  "guard_receipts_verified": 2257,
+  "native_commands_verified": 1805,
+  "observed_window_samples": 238,
+  "max_window_sim_gap_s": 0.021,
+  "task_complete": true,
+  "retained_failure": null,
+  "readmission_witnesses": [
+    {
+      "epoch": 1,
+      "receipt_ns": 31808060149086,
+      "witness_valid": true,
+      "commit_to_release_receipt_ms": 11528.780189
+    },
+    {
+      "epoch": 2,
+      "receipt_ns": 31819800680430,
+      "witness_valid": true,
+      "commit_to_release_receipt_ms": 5676.039849
+    }
+  ],
+  "scope": "paired causal monitor ablation in a5s fixed window;no invented stopping time for censored outcomes"
+}

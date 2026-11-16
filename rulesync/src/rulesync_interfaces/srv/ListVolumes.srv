@@ -1,0 +1,6 @@
+---
+rulesync_interfaces/RuleVolume[] active
+rulesync_interfaces/RuleVolume[] staged
+uint64 epoch
+string active_hash
+bool degraded

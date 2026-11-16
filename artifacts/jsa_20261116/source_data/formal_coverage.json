@@ -1,0 +1,64 @@
+{
+  "manifest_sha256": "bb749f5d886ef5a0009966ce4d180b3c58e2c1d503213a918cedd94534dfef20",
+  "rows": 2970,
+  "unique_trial_ids": 2970,
+  "archive_count": 45,
+  "original_files_verified": 233210,
+  "compressed_bytes_verified": 14797329349,
+  "raw_file_bytes_verified": 135714833168,
+  "source_verified_all": true,
+  "task_outcomes_match_queue": true,
+  "by_arm": {
+    "full": {
+      "rows": 675,
+      "epoch2_assessed": 673,
+      "epoch2_unassessed": 2,
+      "command_receipts_with_authorization_witness_assessed": 675,
+      "all_recorded_releases_assessed": 674,
+      "invalid_recorded_release_witness_trials": 0
+    },
+    "geometry_only": {
+      "rows": 405,
+      "epoch2_assessed": 405,
+      "epoch2_unassessed": 0,
+      "command_receipts_with_authorization_witness_assessed": 405,
+      "all_recorded_releases_assessed": 405,
+      "invalid_recorded_release_witness_trials": 0
+    },
+    "rho0": {
+      "rows": 405,
+      "epoch2_assessed": 404,
+      "epoch2_unassessed": 1,
+      "command_receipts_with_authorization_witness_assessed": 404,
+      "all_recorded_releases_assessed": 404,
+      "invalid_recorded_release_witness_trials": 0
+    },
+    "native_async": {
+      "rows": 675,
+      "epoch2_assessed": 662,
+      "epoch2_unassessed": 13,
+      "command_receipts_with_authorization_witness_assessed": null,
+      "all_recorded_releases_assessed": null,
+      "invalid_recorded_release_witness_trials": null
+    },
+    "native_wait": {
+      "rows": 405,
+      "epoch2_assessed": 398,
+      "epoch2_unassessed": 7,
+      "command_receipts_with_authorization_witness_assessed": null,
+      "all_recorded_releases_assessed": null,
+      "invalid_recorded_release_witness_trials": null
+    },
+    "native_periodic": {
+      "rows": 405,
+      "epoch2_assessed": 401,
+      "epoch2_unassessed": 4,
+      "command_receipts_with_authorization_witness_assessed": null,
+      "all_recorded_releases_assessed": null,
+      "invalid_recorded_release_witness_trials": null
+    }
+  },
+  "epoch2_assessed_total": 2943,
+  "epoch2_unassessed_total": 27,
+  "scope": "Unassessed evidence stays unassessed; no continuous-safety claim"
+}

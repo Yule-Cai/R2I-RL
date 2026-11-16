@@ -1,0 +1,15 @@
+{
+  "scope": "Three fixed failed settings; diagnostic instrumentation only; independent DEV, no replacement of original outcomes",
+  "files": {
+    "build_diagnostic.py": "b30cf08bef62e63d308655a4c2f73c4d23b423500667b970511b462ed34ba2b1",
+    "diagnostic_guard_role.py": "6812f444e17558fd74228ecc7e42d6ec6549b834ee8b33e68ae0b7311f368e16",
+    "execute_one.py": "8ef8105438dc34cc252c6d89cbe03cdf5d7db3205905e722cd8a56b9f5a2d1e3",
+    "observer_ledger.py": "313c39ca939182eb8406cab125492ead57efee249110990970a6559afea6c4fb",
+    "probe_logic.py": "508afc6b8bcdd35278b630b3e9d28719b5bfc364347c7fde19a4457e3eec1f30",
+    "run_diagnostic.py": "1a73acf20de5f168a9464831012b18dcbe57b672d8ad3c41d1dbfe856fd63b85",
+    "scene_runner_diagnostic.py": "0fa15fc4a7b6d94b45e6079fd78bf75dadd5fe4ccf886b3a0ce1cb037b14dcb1",
+    "test_observer_ledger.py": "4a329d1005ea1d6ffa30eb8fd4a2f7c4f7ee47b8b20d71049df05a63c868c464"
+  },
+  "original_runner_sha256": "65bf9136d1cd406d8d6e823b6821d9ac64d4018363bd620cf590aa5fd527f2cb",
+  "runtime_predicates_modified": false
+}

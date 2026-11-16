@@ -1,0 +1,492 @@
+{
+  "scope": "Fixed DEV integration, including failed prefixes; sampled geometry and receipt-order witnesses, not autonomous-revocation or continuous physical safety certification",
+  "script_sha256": "946dce3628af817dfcd675b9493045521a6c078153cc1d8fe6033e21f451031e",
+  "plan_sha256": "52c4853c16670fee6e218840d18c81d387fd522dbfbc46c7faa72ec87921f81d",
+  "planned": 3,
+  "reviewed": 3,
+  "raw_pass": 2,
+  "independent_source_and_trace_checks_passed": 3,
+  "rows": [
+    {
+      "trial": "output/input_requalification_20261108_v1/motion_disposable/input_requalification_20261108_v1/runs/motion_integrate_v1_00/position_1",
+      "audit_source_sha256": "58b0e96f3fdf2681feb212a035500ce8b8fb8dc7d2d59805b32c643b4a3a30b7",
+      "cohort_id": null,
+      "formal_denominator": false,
+      "source_snapshot_integrity": true,
+      "runner_snapshot_present": true,
+      "missing_snapshot_files": [],
+      "mismatched_snapshot_files": [],
+      "log_coverage": {
+        "events": {
+          "status": "complete_file",
+          "valid_rows": 4379,
+          "errors": []
+        },
+        "world": {
+          "status": "complete_file",
+          "valid_rows": 2587,
+          "errors": []
+        },
+        "manager": {
+          "status": "complete_file",
+          "valid_rows": 2,
+          "errors": []
+        },
+        "wal": {
+          "status": "complete_file",
+          "valid_rows": 2,
+          "errors": []
+        }
+      },
+      "intended_case_commit_geometry": [
+        {
+          "epoch": 1,
+          "status": "matches_case"
+        },
+        {
+          "epoch": 2,
+          "status": "matches_case"
+        }
+      ],
+      "metrics": {
+        "epochs": [
+          {
+            "epoch": 1,
+            "durable_commit_records": 1,
+            "wal_commit_records": 1,
+            "authority_witness": "matched_manager_and_wal",
+            "geometry_status": "sparse_or_invalid_prefix",
+            "sampled_body_entries": 0,
+            "assessed_samples": 679,
+            "invalid_pose_samples": 0,
+            "recorded_samples": 679,
+            "min_sampled_body_gap_m": 0.7479284656936216,
+            "max_sim_gap_s": 0.315,
+            "planner_paths_recorded": 1,
+            "recorded_planner_paths_clear": true
+          },
+          {
+            "epoch": 2,
+            "durable_commit_records": 1,
+            "wal_commit_records": 1,
+            "authority_witness": "matched_manager_and_wal",
+            "geometry_status": "sampled_prefix_with_valid_spacing",
+            "sampled_body_entries": 0,
+            "assessed_samples": 1332,
+            "invalid_pose_samples": 0,
+            "recorded_samples": 1332,
+            "min_sampled_body_gap_m": 0.6929612749137395,
+            "max_sim_gap_s": 0.021,
+            "planner_paths_recorded": 1,
+            "recorded_planner_paths_clear": true
+          }
+        ],
+        "releases": [
+          {
+            "epoch": 1,
+            "receipt_ns": 286549127134759,
+            "witness_valid": true,
+            "commit_to_release_receipt_ms": 8231.092484
+          },
+          {
+            "epoch": 2,
+            "receipt_ns": 286556377987668,
+            "witness_valid": true,
+            "commit_to_release_receipt_ms": 725.83349
+          }
+        ],
+        "command_samples": 693,
+        "observed_nonzero_without_current_release_witness": 0,
+        "unwitnessed_command_receipt_ns": [],
+        "interlock_intervals": [
+          {
+            "request_ns": 286555635219196,
+            "hold_observed": true,
+            "first_zero_observed": true,
+            "renewed_release_observed": true,
+            "commands_in_interval": 14,
+            "request_to_hold_receipt_ms": 0.03834,
+            "hold_to_zero_receipt_ms": 41.552946,
+            "request_to_release_receipt_ms": 742.768472,
+            "last_recorded_event_ns": 286583626625097,
+            "sustained_observed_stop": {
+              "onset_after_request_ms": 232.843208,
+              "confirmation_after_request_ms": 443.110299,
+              "sustained_sim_s": 0.21,
+              "speed_threshold_mps": 0.01
+            },
+            "nonzero_after_first_zero": 0
+          }
+        ],
+        "world_samples": 2587,
+        "terminal_world_goal_error_m": 3.5561516036795298,
+        "scope": "recorded sampled body geometry and receipt-order witnesses;no continuous safety or contact certificate"
+      },
+      "assessment": "closed_recorded_trace",
+      "tag": "motion_integrate_v1_00",
+      "scene": "hssd_102816051",
+      "route": "route_03",
+      "checks": {
+        "selected_input_qualified": true,
+        "source_snapshot": true,
+        "spatial_case_unchanged": true,
+        "common_core": true,
+        "runner": true,
+        "task_binding": true,
+        "real_motion_case": true,
+        "robot_unchanged": true,
+        "world_only_declared_edits": true,
+        "launch_snapshots": true,
+        "raw_receipt": true,
+        "inputs_unchanged": true,
+        "actual_configuration": true,
+        "dev_only": true,
+        "qualified_map.json": true,
+        "qualified_localization_map.json": true,
+        "release_witnesses": true,
+        "committed_geometry_matches_case": true,
+        "complete_raw_logs": true
+      },
+      "raw_result": {
+        "result": "FAIL",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "recovery_follow",
+        "error": "AssertionError({'status': 6, 'error_code': 104, 'message': 'Controller patience exceeded'})",
+        "source_unchanged": true
+      },
+      "observed_goal_within_original_limit": false,
+      "independent_checks_passed": true
+    },
+    {
+      "trial": "output/input_requalification_20261108_v1/motion_disposable/input_requalification_20261108_v1/runs/motion_integrate_v1_01/position_1",
+      "audit_source_sha256": "58b0e96f3fdf2681feb212a035500ce8b8fb8dc7d2d59805b32c643b4a3a30b7",
+      "cohort_id": null,
+      "formal_denominator": false,
+      "source_snapshot_integrity": true,
+      "runner_snapshot_present": true,
+      "missing_snapshot_files": [],
+      "mismatched_snapshot_files": [],
+      "log_coverage": {
+        "events": {
+          "status": "complete_file",
+          "valid_rows": 4831,
+          "errors": []
+        },
+        "world": {
+          "status": "complete_file",
+          "valid_rows": 2822,
+          "errors": []
+        },
+        "manager": {
+          "status": "complete_file",
+          "valid_rows": 2,
+          "errors": []
+        },
+        "wal": {
+          "status": "complete_file",
+          "valid_rows": 2,
+          "errors": []
+        }
+      },
+      "intended_case_commit_geometry": [
+        {
+          "epoch": 1,
+          "status": "matches_case"
+        },
+        {
+          "epoch": 2,
+          "status": "matches_case"
+        }
+      ],
+      "metrics": {
+        "epochs": [
+          {
+            "epoch": 1,
+            "durable_commit_records": 1,
+            "wal_commit_records": 1,
+            "authority_witness": "matched_manager_and_wal",
+            "geometry_status": "sparse_or_invalid_prefix",
+            "sampled_body_entries": 0,
+            "assessed_samples": 500,
+            "invalid_pose_samples": 0,
+            "recorded_samples": 500,
+            "min_sampled_body_gap_m": 0.75815283655559,
+            "max_sim_gap_s": 0.987,
+            "planner_paths_recorded": 1,
+            "recorded_planner_paths_clear": true
+          },
+          {
+            "epoch": 2,
+            "durable_commit_records": 1,
+            "wal_commit_records": 1,
+            "authority_witness": "matched_manager_and_wal",
+            "geometry_status": "sampled_prefix_with_valid_spacing",
+            "sampled_body_entries": 0,
+            "assessed_samples": 1752,
+            "invalid_pose_samples": 0,
+            "recorded_samples": 1752,
+            "min_sampled_body_gap_m": 0.5776234020847799,
+            "max_sim_gap_s": 0.021,
+            "planner_paths_recorded": 1,
+            "recorded_planner_paths_clear": true
+          }
+        ],
+        "releases": [
+          {
+            "epoch": 1,
+            "receipt_ns": 286630779808370,
+            "witness_valid": true,
+            "commit_to_release_receipt_ms": 9164.781002
+          },
+          {
+            "epoch": 2,
+            "receipt_ns": 286634177077110,
+            "witness_valid": true,
+            "commit_to_release_receipt_ms": 638.62786
+          }
+        ],
+        "command_samples": 794,
+        "observed_nonzero_without_current_release_witness": 0,
+        "unwitnessed_command_receipt_ns": [],
+        "interlock_intervals": [
+          {
+            "request_ns": 286633521490962,
+            "hold_observed": true,
+            "first_zero_observed": true,
+            "renewed_release_observed": true,
+            "commands_in_interval": 13,
+            "request_to_hold_receipt_ms": 0.030407,
+            "hold_to_zero_receipt_ms": 43.61692,
+            "request_to_release_receipt_ms": 655.586148,
+            "last_recorded_event_ns": 286670330071947,
+            "sustained_observed_stop": {
+              "onset_after_request_ms": 227.66879,
+              "confirmation_after_request_ms": 438.261954,
+              "sustained_sim_s": 0.21,
+              "speed_threshold_mps": 0.01
+            },
+            "nonzero_after_first_zero": 0
+          }
+        ],
+        "world_samples": 2822,
+        "terminal_world_goal_error_m": 0.11144441466318421,
+        "scope": "recorded sampled body geometry and receipt-order witnesses;no continuous safety or contact certificate"
+      },
+      "assessment": "closed_recorded_trace",
+      "tag": "motion_integrate_v1_01",
+      "scene": "hssd_102815835",
+      "route": "route_02",
+      "checks": {
+        "selected_input_qualified": true,
+        "source_snapshot": true,
+        "spatial_case_unchanged": true,
+        "common_core": true,
+        "runner": true,
+        "task_binding": true,
+        "real_motion_case": true,
+        "robot_unchanged": true,
+        "world_only_declared_edits": true,
+        "launch_snapshots": true,
+        "raw_receipt": true,
+        "inputs_unchanged": true,
+        "actual_configuration": true,
+        "dev_only": true,
+        "qualified_map.json": true,
+        "qualified_localization_map.json": true,
+        "release_witnesses": true,
+        "committed_geometry_matches_case": true,
+        "complete_raw_logs": true
+      },
+      "raw_result": {
+        "result": "PASS",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "recovery_follow",
+        "independent_goal_error_m": 0.11167601701409849,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 768,
+          "/cmd_vel": 768
+        },
+        "states": {
+          "planner_server": 3,
+          "controller_server": 3,
+          "collision_monitor": 3
+        },
+        "scan_messages": 293,
+        "registration_passed": true,
+        "source_unchanged": true
+      },
+      "observed_goal_within_original_limit": true,
+      "independent_checks_passed": true
+    },
+    {
+      "trial": "output/input_requalification_20261108_v1/motion_disposable/input_requalification_20261108_v1/runs/motion_integrate_v1_02/position_1",
+      "audit_source_sha256": "58b0e96f3fdf2681feb212a035500ce8b8fb8dc7d2d59805b32c643b4a3a30b7",
+      "cohort_id": null,
+      "formal_denominator": false,
+      "source_snapshot_integrity": true,
+      "runner_snapshot_present": true,
+      "missing_snapshot_files": [],
+      "mismatched_snapshot_files": [],
+      "log_coverage": {
+        "events": {
+          "status": "complete_file",
+          "valid_rows": 5013,
+          "errors": []
+        },
+        "world": {
+          "status": "complete_file",
+          "valid_rows": 2924,
+          "errors": []
+        },
+        "manager": {
+          "status": "complete_file",
+          "valid_rows": 2,
+          "errors": []
+        },
+        "wal": {
+          "status": "complete_file",
+          "valid_rows": 2,
+          "errors": []
+        }
+      },
+      "intended_case_commit_geometry": [
+        {
+          "epoch": 1,
+          "status": "matches_case"
+        },
+        {
+          "epoch": 2,
+          "status": "matches_case"
+        }
+      ],
+      "metrics": {
+        "epochs": [
+          {
+            "epoch": 1,
+            "durable_commit_records": 1,
+            "wal_commit_records": 1,
+            "authority_witness": "matched_manager_and_wal",
+            "geometry_status": "sampled_prefix_with_valid_spacing",
+            "sampled_body_entries": 0,
+            "assessed_samples": 497,
+            "invalid_pose_samples": 0,
+            "recorded_samples": 497,
+            "min_sampled_body_gap_m": 0.798213558968922,
+            "max_sim_gap_s": 0.021,
+            "planner_paths_recorded": 1,
+            "recorded_planner_paths_clear": true
+          },
+          {
+            "epoch": 2,
+            "durable_commit_records": 1,
+            "wal_commit_records": 1,
+            "authority_witness": "matched_manager_and_wal",
+            "geometry_status": "sampled_prefix_with_valid_spacing",
+            "sampled_body_entries": 0,
+            "assessed_samples": 1859,
+            "invalid_pose_samples": 0,
+            "recorded_samples": 1859,
+            "min_sampled_body_gap_m": 0.5950319160309746,
+            "max_sim_gap_s": 0.021,
+            "planner_paths_recorded": 1,
+            "recorded_planner_paths_clear": true
+          }
+        ],
+        "releases": [
+          {
+            "epoch": 1,
+            "receipt_ns": 286716139173419,
+            "witness_valid": true,
+            "commit_to_release_receipt_ms": 8018.105736
+          },
+          {
+            "epoch": 2,
+            "receipt_ns": 286719602560441,
+            "witness_valid": true,
+            "commit_to_release_receipt_ms": 701.094175
+          }
+        ],
+        "command_samples": 839,
+        "observed_nonzero_without_current_release_witness": 0,
+        "unwitnessed_command_receipt_ns": [],
+        "interlock_intervals": [
+          {
+            "request_ns": 286718874401566,
+            "hold_observed": true,
+            "first_zero_observed": true,
+            "renewed_release_observed": true,
+            "commands_in_interval": 15,
+            "request_to_hold_receipt_ms": 0.042488,
+            "hold_to_zero_receipt_ms": 38.983539,
+            "request_to_release_receipt_ms": 728.158875,
+            "last_recorded_event_ns": 286757954263790,
+            "sustained_observed_stop": {
+              "onset_after_request_ms": 237.306534,
+              "confirmation_after_request_ms": 447.469558,
+              "sustained_sim_s": 0.21,
+              "speed_threshold_mps": 0.01
+            },
+            "nonzero_after_first_zero": 0
+          }
+        ],
+        "world_samples": 2924,
+        "terminal_world_goal_error_m": 0.1268135855428594,
+        "scope": "recorded sampled body geometry and receipt-order witnesses;no continuous safety or contact certificate"
+      },
+      "assessment": "closed_recorded_trace",
+      "tag": "motion_integrate_v1_02",
+      "scene": "hssd_102816786",
+      "route": "route_01",
+      "checks": {
+        "selected_input_qualified": true,
+        "source_snapshot": true,
+        "spatial_case_unchanged": true,
+        "common_core": true,
+        "runner": true,
+        "task_binding": true,
+        "real_motion_case": true,
+        "robot_unchanged": true,
+        "world_only_declared_edits": true,
+        "launch_snapshots": true,
+        "raw_receipt": true,
+        "inputs_unchanged": true,
+        "actual_configuration": true,
+        "dev_only": true,
+        "qualified_map.json": true,
+        "qualified_localization_map.json": true,
+        "release_witnesses": true,
+        "committed_geometry_matches_case": true,
+        "complete_raw_logs": true
+      },
+      "raw_result": {
+        "result": "PASS",
+        "pilot": true,
+        "formal_denominator": false,
+        "cohort_id": null,
+        "stage": "recovery",
+        "phase": "recovery_follow",
+        "independent_goal_error_m": 0.1271049741888091,
+        "nonzero_commands": {
+          "/cmd_vel_nav": 812,
+          "/cmd_vel": 812
+        },
+        "states": {
+          "planner_server": 3,
+          "controller_server": 3,
+          "collision_monitor": 3
+        },
+        "scan_messages": 302,
+        "registration_passed": true,
+        "source_unchanged": true
+      },
+      "observed_goal_within_original_limit": true,
+      "independent_checks_passed": true
+    }
+  ]
+}

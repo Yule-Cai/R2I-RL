@@ -1,0 +1,4 @@
+---
+uint64 active_epoch
+rulesync_interfaces/RuleVolume[] active_volumes
+string active_hash

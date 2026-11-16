@@ -1,0 +1,3493 @@
+{
+  "doi_entries": 42,
+  "verified": 42,
+  "unresolved": [],
+  "no_doi": [
+    {
+      "key": "koenig2002dstar",
+      "title": "{D* Lite}",
+      "url": null
+    },
+    {
+      "key": "nav2keepout",
+      "title": "Keepout Filter Parameters",
+      "url": "https://docs.nav2.org/rolling/configuration_and_development/configuration_guide/core_servers/costmap_2d/costmap_filters/keepout_filter/"
+    },
+    {
+      "key": "nav2collision",
+      "title": "Collision Monitor",
+      "url": "https://docs.nav2.org/jazzy/configuration_and_development/configuration_guide/core_servers/collision_monitor/"
+    }
+  ],
+  "rows": [
+    {
+      "key": "reitblatt2012updates",
+      "doi": "10.1145/2342356.2342427",
+      "manuscript_title": "Abstractions for Network Update",
+      "registry_title": "Abstractions for network update",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Mark",
+          "family": "Reitblatt",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nate",
+          "family": "Foster",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University, Ithaca, NY, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jennifer",
+          "family": "Rexford",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University, Princeton, NJ, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cole",
+          "family": "Schlesinger",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University, Princeton, NJ, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Walker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Princeton University, Princeton, NJ, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/2342356.2342427",
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            8,
+            13
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/2342356.2342427",
+      "cache_sha256": "ccdfc98d59581681c2c65e011110c788b27ddc32bb9ce4e9bd6d148d5fa464da"
+    },
+    {
+      "key": "macenski2020marathon",
+      "doi": "10.1109/IROS45743.2020.9341207",
+      "manuscript_title": "The Marathon 2: A Navigation System",
+      "registry_title": "The Marathon 2: A Navigation System",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Steve",
+          "family": "Macenski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Francisco",
+          "family": "Martin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ruffin",
+          "family": "White",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonatan Gines",
+          "family": "Clavero",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/iros45743.2020.9341207",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            24
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/IROS45743.2020.9341207",
+      "cache_sha256": "95ca1bd59200e6192e4a56df8e728d646b04bba6f06a5590adae39ff536b0fbd"
+    },
+    {
+      "key": "macenski2023survey",
+      "doi": "10.1016/j.robot.2023.104493",
+      "manuscript_title": "From the Desks of {ROS} Maintainers: A Survey of Modern \\& Capable Mobile Robotics Algorithms in the Robot Operating System 2",
+      "registry_title": "From the desks of ROS maintainers: A survey of modern &amp; capable mobile robotics algorithms in the robot operating system 2",
+      "similarity": 0.9852216748768473,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1090-7733",
+          "authenticated-orcid": false,
+          "given": "Steve",
+          "family": "Macenski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8070-9578",
+          "authenticated-orcid": false,
+          "given": "Tom",
+          "family": "Moore",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David V.",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexey",
+          "family": "Merzlyakov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Ferguson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1016/j.robot.2023.104493",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1016/j.robot.2023.104493",
+      "cache_sha256": "dda194b75e7cd0ba627636b5d90c0854e14f9d819945e1896590d2e72d21ace2"
+    },
+    {
+      "key": "sun2025namrrrt",
+      "doi": "10.1109/TASE.2025.3551464",
+      "manuscript_title": "{NAMR-RRT}: Neural Adaptive Motion Planning for Mobile Robots in Dynamic Environments",
+      "registry_title": "NAMR-RRT: Neural Adaptive Motion Planning for Mobile Robots in Dynamic Environments",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0009-0009-4977-1969",
+          "authenticated-orcid": false,
+          "given": "Zhirui",
+          "family": "Sun",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Electrical Engineering, Shenzhen Key Laboratory of Robotics Perception and Intelligence, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3932-7070",
+          "authenticated-orcid": false,
+          "given": "Bingyi",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Electrical Engineering, Shenzhen Key Laboratory of Robotics Perception and Intelligence, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-5743-2369",
+          "authenticated-orcid": false,
+          "given": "Peijia",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Electrical Engineering, Shenzhen Key Laboratory of Robotics Perception and Intelligence, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3789-2271",
+          "authenticated-orcid": false,
+          "given": "Xiaoxiao",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harbin Institute of Technology at Shenzhen, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9139-0291",
+          "authenticated-orcid": false,
+          "given": "Jiankun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Electrical Engineering, Shenzhen Key Laboratory of Robotics Perception and Intelligence, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tase.2025.3551464",
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TASE.2025.3551464",
+      "cache_sha256": "1452006fb9dab4a05a1673d4dfd62d7d15170e4191f6140257852cc8fcf7ff44"
+    },
+    {
+      "key": "zhu2025adaptive",
+      "doi": "10.1109/TASE.2025.3579573",
+      "manuscript_title": "Environment-Adaptive Motion Planning via Reinforcement Learning-Based Trajectory Optimization",
+      "registry_title": "Environment-Adaptive Motion Planning via Reinforcement Learning-Based Trajectory Optimization",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0009-0003-8312-8893",
+          "authenticated-orcid": false,
+          "given": "Zhejin",
+          "family": "Zhu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Artificial Intelligence, the Institute of Robotics and Automatic Information System (IRAIS), and the Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1503-1219",
+          "authenticated-orcid": false,
+          "given": "Runhua",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Artificial Intelligence, the Institute of Robotics and Automatic Information System (IRAIS), and the Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yisong",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Artificial Intelligence, the Institute of Robotics and Automatic Information System (IRAIS), and the Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0519-6458",
+          "authenticated-orcid": false,
+          "given": "Yaonan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National Engineering Research Center of RVC, Hunan University, Changsha, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5308-6539",
+          "authenticated-orcid": false,
+          "given": "Xuebo",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Artificial Intelligence, the Institute of Robotics and Automatic Information System (IRAIS), and the Tianjin Key Laboratory of Intelligent Robotics, Nankai University, Tianjin, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tase.2025.3579573",
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TASE.2025.3579573",
+      "cache_sha256": "631b62ad825a33d876e9f6584f388bf0e0a9a045f51d27908cd82b1af7c4dc2a"
+    },
+    {
+      "key": "tonola2025reactive",
+      "doi": "10.1109/TASE.2025.3607037",
+      "manuscript_title": "Reactive and Safety-Aware Path Replanning for Collaborative Applications",
+      "registry_title": "Reactive and Safety-Aware Path Replanning for Collaborative Applications",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7956-0523",
+          "authenticated-orcid": false,
+          "given": "Cesare",
+          "family": "Tonola",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "STIIMA-CNR, National Research Council of Italy, Institute of Intelligent Industrial Technologies and Systems, Milan, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9633-4301",
+          "authenticated-orcid": false,
+          "given": "Marco",
+          "family": "Faroni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Dipartimento di Elettronica, Informazione e Bioingegneria, Politecnico di Milano, Milan, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0077-5757",
+          "authenticated-orcid": false,
+          "given": "Saeed",
+          "family": "Abdolshah",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Munich Institute of Robotics and Machine Intelligence (MIRMI), Technical University of Munich, Munich, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7811-6204",
+          "authenticated-orcid": false,
+          "given": "Mazin",
+          "family": "Hamad",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Munich Institute of Robotics and Machine Intelligence (MIRMI), Technical University of Munich, Munich, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7696-4955",
+          "authenticated-orcid": false,
+          "given": "Sami",
+          "family": "Haddadin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Munich Institute of Robotics and Machine Intelligence (MIRMI), Technical University of Munich, Munich, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1610-001X",
+          "authenticated-orcid": false,
+          "given": "Nicola",
+          "family": "Pedrocchi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "STIIMA-CNR, National Research Council of Italy, Institute of Intelligent Industrial Technologies and Systems, Milan, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8845-2313",
+          "authenticated-orcid": false,
+          "given": "Manuel",
+          "family": "Beschi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "STIIMA-CNR, National Research Council of Italy, Institute of Intelligent Industrial Technologies and Systems, Milan, Italy"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tase.2025.3607037",
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TASE.2025.3607037",
+      "cache_sha256": "7a7329d3410b8778939ef51bff8ac8a5c95c2bde890269791f6c6ce89157565b"
+    },
+    {
+      "key": "lin2025repair",
+      "doi": "10.1109/TRO.2025.3613550",
+      "manuscript_title": "Traffic-Rule-Compliant Trajectory Repair via Satisfiability Modulo Theories and Reachability Analysis",
+      "registry_title": "Traffic-Rule-Compliant Trajectory Repair via Satisfiability Modulo Theories and Reachability Analysis",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2859-0095",
+          "authenticated-orcid": false,
+          "given": "Yuanfei",
+          "family": "Lin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Engineering, Technical University of Munich, Garching, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0000-4266-8189",
+          "authenticated-orcid": false,
+          "given": "Zekun",
+          "family": "Xing",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Engineering, Technical University of Munich, Garching, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-1309-2143",
+          "authenticated-orcid": false,
+          "given": "Xuyuan",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Engineering, Technical University of Munich, Garching, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3733-842X",
+          "authenticated-orcid": false,
+          "given": "Matthias",
+          "family": "Althoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Computer Engineering, Technical University of Munich, Garching, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tro.2025.3613550",
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TRO.2025.3613550",
+      "cache_sha256": "58d0390c12f97b5d0011d07f7d4dbd4d9de93c4d590239c7ba1d2ab57cdfa44a"
+    },
+    {
+      "key": "yang2026safefuzzy",
+      "doi": "10.1109/TASE.2026.3695304",
+      "manuscript_title": "Safe {Fuzzy-CBF}: A Monitoring Approach for Deep Reinforcement Learning Navigation Agents",
+      "registry_title": "Safe Fuzzy-CBF: A Monitoring Approach for Deep Reinforcement Learning Navigation Agents",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-7282-0759",
+          "authenticated-orcid": false,
+          "given": "Min",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Tongji University",
+              "place": [
+                "Shanghai, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7523-4827",
+          "authenticated-orcid": false,
+          "given": "Guanjun",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tongji University",
+              "place": [
+                "Shanghai, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2649-8666",
+          "authenticated-orcid": false,
+          "given": "Ziyuan",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tongji University",
+              "place": [
+                "Shanghai, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4947-6267",
+          "authenticated-orcid": false,
+          "given": "Gaiyun",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Xidian University",
+              "place": [
+                "Xi\u2019an, China"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tase.2026.3695304",
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TASE.2026.3695304",
+      "cache_sha256": "5513c8ff369309d61ffb04669b87db1a88447cb5b6a4b8fd842c76c1ead6c77e"
+    },
+    {
+      "key": "ames2017cbf",
+      "doi": "10.1109/TAC.2016.2638961",
+      "manuscript_title": "Control Barrier Function Based Quadratic Programs for Safety Critical Systems",
+      "registry_title": "Control Barrier Function Based Quadratic Programs for Safety Critical Systems",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Aaron D.",
+          "family": "Ames",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiangru",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jessy W.",
+          "family": "Grizzle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paulo",
+          "family": "Tabuada",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tac.2016.2638961",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            8
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TAC.2016.2638961",
+      "cache_sha256": "0d93aeca6dc03580e07eee56af9447763787916a3fe01c44364b4da1eac10066"
+    },
+    {
+      "key": "desai2019soter",
+      "doi": "10.1109/DSN.2019.00027",
+      "manuscript_title": "{SOTER}: A Runtime Assurance Framework for Programming Safe Robotics Systems",
+      "registry_title": "SOTER: A Runtime Assurance Framework for Programming Safe Robotics Systems",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Ankush",
+          "family": "Desai",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shromona",
+          "family": "Ghosh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sanjit A.",
+          "family": "Seshia",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Natarajan",
+          "family": "Shankar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ashish",
+          "family": "Tiwari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/dsn.2019.00027",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            6
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/DSN.2019.00027",
+      "cache_sha256": "64b0a0f93e6043079b435ff345c676d3241bc43bcfaa71fdfb385baef78000a7"
+    },
+    {
+      "key": "huang2014rosrv",
+      "doi": "10.1007/978-3-319-11164-3_20",
+      "manuscript_title": "{ROSRV}: Runtime Verification for Robots",
+      "registry_title": "ROSRV: Runtime Verification for Robots",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Jeff",
+          "family": "Huang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cansu",
+          "family": "Erdogan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yi",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brandon",
+          "family": "Moore",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qingzhou",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aravind",
+          "family": "Sundaresan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Grigore",
+          "family": "Rosu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1007/978-3-319-11164-3_20",
+      "published": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1007/978-3-319-11164-3_20",
+      "cache_sha256": "aff9249814eeb5697335b662ef6bb007077a47f2013d322eb9c756b6929796ef"
+    },
+    {
+      "key": "herbert2017fastrack",
+      "doi": "10.1109/CDC.2017.8263867",
+      "manuscript_title": "{FaSTrack}: A Modular Framework for Fast and Guaranteed Safe Motion Planning",
+      "registry_title": "FaSTrack: A modular framework for fast and guaranteed safe motion planning",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Sylvia L.",
+          "family": "Herbert",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mo",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "SooJean",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Somil",
+          "family": "Bansal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jaime F.",
+          "family": "Fisac",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Claire J.",
+          "family": "Tomlin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/cdc.2017.8263867",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            12
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/CDC.2017.8263867",
+      "cache_sha256": "2f7f115c579bafdeaf46679c543e483a66f2ba0358d66b03ec9ed1e85990a8ba"
+    },
+    {
+      "key": "ogiwara2023transactional",
+      "doi": "10.1587/transinf.2023PAP0006",
+      "manuscript_title": "Transactional {TF}: Transform Library with Concurrency and Correctness",
+      "registry_title": "Transactional TF: Transform Library with Concurrency and Correctness",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Yushi",
+          "family": "OGIWARA",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Graduate School of Media and Governance, Keio University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ayanori",
+          "family": "YOROZU",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Systems and Information Engineering, University of Tsukuba"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Akihisa",
+          "family": "OHYA",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Systems and Information Engineering, University of Tsukuba"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hideyuki",
+          "family": "KAWASHIMA",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Environment and Information Studies, Keio University"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1587/transinf.2023pap0006",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            1
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1587/transinf.2023PAP0006",
+      "cache_sha256": "d230f8d9f2e6335f849119474570b12dd48553f18240a6bae5f9db56fbf9aa08"
+    },
+    {
+      "key": "otte2016rrtx",
+      "doi": "10.1177/0278364915594679",
+      "manuscript_title": "{RRTX}: Asymptotically Optimal Single-Query Sampling-Based Motion Planning With Quick Replanning",
+      "registry_title": "RRT\n                    <sup>X</sup>\n                    : Asymptotically optimal single-query sampling-based motion planning with quick replanning",
+      "similarity": 0.9647058823529412,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Michael",
+          "family": "Otte",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratory for Information and Decision, Massachusetts Institute of Technology, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emilio",
+          "family": "Frazzoli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory for Information and Decision, Massachusetts Institute of Technology, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1177/0278364915594679",
+      "published": {
+        "date-parts": [
+          [
+            2015,
+            9,
+            20
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1177/0278364915594679",
+      "cache_sha256": "3c90f285cbece570883ae6db04083547950473420f1156d2fab07f1eb65a19f3"
+    },
+    {
+      "key": "wang2025minerrrt",
+      "doi": "10.1109/TASE.2025.3531504",
+      "manuscript_title": "{MINER-RRT*}: A Hierarchical and Fast Trajectory Planning Framework in 3D Cluttered Environments",
+      "registry_title": "MINER-RRT*: A Hierarchical and Fast Trajectory Planning Framework in 3D Cluttered Environments",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-1820-7815",
+          "authenticated-orcid": false,
+          "given": "Pengyu",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Shenzhen Key Laboratory of Robotics Perception and Intelligence and the Department of Electronic and Electrical Engineering, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4448-0021",
+          "authenticated-orcid": false,
+          "given": "Jiawei",
+          "family": "Tang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Hong Kong, SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-3266-3212",
+          "authenticated-orcid": false,
+          "given": "Hin",
+          "family": "Wang Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Hong Kong, SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-2647-6381",
+          "authenticated-orcid": false,
+          "given": "Fan",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Hong Kong, SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5780-7284",
+          "authenticated-orcid": false,
+          "given": "Chaoqun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Control Science and Engineering, Shandong University, Shandong, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9139-0291",
+          "authenticated-orcid": false,
+          "given": "Jiankun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Shenzhen Key Laboratory of Robotics Perception and Intelligence and the Department of Electronic and Electrical Engineering, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6771-8258",
+          "authenticated-orcid": false,
+          "given": "Ling",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electronic and Computer Engineering, The Hong Kong University of Science and Technology, Hong Kong, SAR, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5255-5898",
+          "authenticated-orcid": false,
+          "given": "Max Q.-H.",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Shenzhen Key Laboratory of Robotics Perception and Intelligence and the Department of Electronic and Electrical Engineering, Southern University of Science and Technology, Shenzhen, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tase.2025.3531504",
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TASE.2025.3531504",
+      "cache_sha256": "4e5a046fe112933b500b74813270aa0712b7cd700720d1edcab3d1c5fea270b9"
+    },
+    {
+      "key": "gray2006commit",
+      "doi": "10.1145/1132863.1132867",
+      "manuscript_title": "Consensus on Transaction Commit",
+      "registry_title": "Consensus on transaction commit",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Jim",
+          "family": "Gray",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, San Francisco, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leslie",
+          "family": "Lamport",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Mountain View, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/1132863.1132867",
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            3
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/1132863.1132867",
+      "cache_sha256": "8353929d2dcb118b286117f619c89f19e4246966251dff8fc76844145d08dcb1"
+    },
+    {
+      "key": "hsu2024safetyfilter",
+      "doi": "10.1146/annurev-control-071723-102940",
+      "manuscript_title": "The Safety Filter: A Unified View of Safety-Critical Control in Autonomous Systems",
+      "registry_title": "The Safety Filter: A Unified View of Safety-Critical Control in Autonomous Systems",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Kai-Chieh",
+          "family": "Hsu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Engineering, Princeton University, Princeton, New Jersey, USA; email: kaichieh@princeton.edu, haiminh@princeton.edu, jfisac@princeton.edu"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haimin",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Engineering, Princeton University, Princeton, New Jersey, USA; email: kaichieh@princeton.edu, haiminh@princeton.edu, jfisac@princeton.edu"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jaime F.",
+          "family": "Fisac",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Electrical and Computer Engineering, Princeton University, Princeton, New Jersey, USA; email: kaichieh@princeton.edu, haiminh@princeton.edu, jfisac@princeton.edu"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1146/annurev-control-071723-102940",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            10
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1146/annurev-control-071723-102940",
+      "cache_sha256": "f9da2e7c1e9d2df23c88d2237b014257730ebc09fcc23cf4f9d0352388464b5e"
+    },
+    {
+      "key": "knoedler2025safetyfly",
+      "doi": "10.1109/LRA.2025.3597847",
+      "manuscript_title": "Safety on the Fly: Constructing Robust Safety Filters via Policy Control Barrier Functions at Runtime",
+      "registry_title": "Safety on the Fly: Constructing Robust Safety Filters via Policy Control Barrier Functions at Runtime",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0417-9912",
+          "authenticated-orcid": false,
+          "given": "Luzia",
+          "family": "Knoedler",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Cognitive Robotics, Delft University of Technology, Delft, CD, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5411-3663",
+          "authenticated-orcid": false,
+          "given": "Oswin",
+          "family": "So",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Aeronautics and Astronautics, Massachusetts Institute of Technology, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3576-4364",
+          "authenticated-orcid": false,
+          "given": "Ji",
+          "family": "Yin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "D. Guggenheim School of Aerospace Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3857-1146",
+          "authenticated-orcid": false,
+          "given": "Mitchell",
+          "family": "Black",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MIT Lincoln Laboratory, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0975-2204",
+          "authenticated-orcid": false,
+          "given": "Zachary",
+          "family": "Serlin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "MIT Lincoln Laboratory, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7563-4129",
+          "authenticated-orcid": false,
+          "given": "Panagiotis",
+          "family": "Tsiotras",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "D. Guggenheim School of Aerospace Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0058-570X",
+          "authenticated-orcid": false,
+          "given": "Javier",
+          "family": "Alonso-Mora",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Cognitive Robotics, Delft University of Technology, Delft, CD, The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4671-233X",
+          "authenticated-orcid": false,
+          "given": "Chuchu",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Aeronautics and Astronautics, Massachusetts Institute of Technology, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/lra.2025.3597847",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/LRA.2025.3597847",
+      "cache_sha256": "99a27eaa1f93b79ed490cd8a988e2b2e4482bed6904b75a2f867c421ffa5fcf1"
+    },
+    {
+      "key": "lin2026onefilter",
+      "doi": "10.1109/TRO.2025.3644957",
+      "manuscript_title": "One Filter to Deploy Them All: Robust Safety for Quadrupedal Navigation in Unknown Environments",
+      "registry_title": "One Filter to Deploy Them All: Robust Safety for Quadrupedal Navigation in Unknown Environments",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8123-4225",
+          "authenticated-orcid": false,
+          "given": "Albert",
+          "family": "Lin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Southern California, Los Angeles, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1943-7777",
+          "authenticated-orcid": false,
+          "given": "Shuang",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Southern California, Los Angeles, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5826-7686",
+          "authenticated-orcid": false,
+          "given": "Somil",
+          "family": "Bansal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tro.2025.3644957",
+      "published": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TRO.2025.3644957",
+      "cache_sha256": "9d4ddde7f84f5b2e79eb15e38a8c61881d0f357f932f2fa1d1bb8b3915b19aa5"
+    },
+    {
+      "key": "macenski2022ros2",
+      "doi": "10.1126/scirobotics.abm6074",
+      "manuscript_title": "{Robot Operating System 2}: Design, Architecture, and Uses in the Wild",
+      "registry_title": "Robot Operating System 2: Design, architecture, and uses in the wild",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1090-7733",
+          "authenticated-orcid": true,
+          "given": "Steven",
+          "family": "Macenski",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Samsung Research America, Mountain View, CA 94043, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7022-6801",
+          "authenticated-orcid": true,
+          "given": "Tully",
+          "family": "Foote",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Open Robotics, Mountain View, CA 94041, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Gerkey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Open Robotics, Mountain View, CA 94041, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chris",
+          "family": "Lalancette",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Open Robotics, Mountain View, CA 94041, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3690-9497",
+          "authenticated-orcid": true,
+          "given": "William",
+          "family": "Woodall",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Open Robotics, Mountain View, CA 94041, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1126/scirobotics.abm6074",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            25
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1126/scirobotics.abm6074",
+      "cache_sha256": "62c79a3e1940fc7d2abc2d5d50859ed1a8648d8a7ba455248df12f22d60249c2"
+    },
+    {
+      "key": "karaman2011optimal",
+      "doi": "10.1177/0278364911406761",
+      "manuscript_title": "Sampling-Based Algorithms for Optimal Motion Planning",
+      "registry_title": "Sampling-based algorithms for optimal motion planning",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Sertac",
+          "family": "Karaman",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, Cambridge, MA, USA,"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emilio",
+          "family": "Frazzoli",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Laboratory for Information and Decision Systems, Massachusetts Institute of Technology, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1177/0278364911406761",
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            6
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1177/0278364911406761",
+      "cache_sha256": "2f93e776dfbdb0067c0d963f65d3fee22a253c27b7851ac865eab9ae4caa74f4"
+    },
+    {
+      "key": "gammell2014informed",
+      "doi": "10.1109/IROS.2014.6942976",
+      "manuscript_title": "Informed {RRT*}: Optimal Sampling-Based Path Planning Focused via Direct Sampling of an Admissible Ellipsoidal Heuristic",
+      "registry_title": "Informed RRT*: Optimal sampling-based path planning focused via direct sampling of an admissible ellipsoidal heuristic",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Jonathan D.",
+          "family": "Gammell",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Autonomous Space Robotics Lab at the University of Toronto Institute for Aerospace Studies, Ontario, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Siddhartha S.",
+          "family": "Srinivasa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Robotics Institute, Carnegie Mellon University, Pittsburgh, Pennsylvania, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Timothy D.",
+          "family": "Barfoot",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Autonomous Space Robotics Lab at the University of Toronto Institute for Aerospace Studies, Ontario, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/iros.2014.6942976",
+      "published": {
+        "date-parts": [
+          [
+            2014,
+            9
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/IROS.2014.6942976",
+      "cache_sha256": "2ef724115bb781a4f69129d4af9d6858f705f1d9665b1bc55a731f424abf01d3"
+    },
+    {
+      "key": "koenig2004lifelong",
+      "doi": "10.1016/j.artint.2003.12.001",
+      "manuscript_title": "Lifelong Planning {A*}",
+      "registry_title": "Lifelong Planning A\u2217",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Sven",
+          "family": "Koenig",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maxim",
+          "family": "Likhachev",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Furcy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1016/j.artint.2003.12.001",
+      "published": {
+        "date-parts": [
+          [
+            2004,
+            5
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1016/j.artint.2003.12.001",
+      "cache_sha256": "be8ac5bcef1cb93fbd758fcca4735c8b9c48290ded35497355b3b76d3dded423"
+    },
+    {
+      "key": "ratliff2009chomp",
+      "doi": "10.1109/ROBOT.2009.5152817",
+      "manuscript_title": "{CHOMP}: Gradient Optimization Techniques for Efficient Motion Planning",
+      "registry_title": "CHOMP: Gradient optimization techniques for efficient motion planning",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Nathan",
+          "family": "Ratliff",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matt",
+          "family": "Zucker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J. Andrew",
+          "family": "Bagnell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Siddhartha",
+          "family": "Srinivasa",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/robot.2009.5152817",
+      "published": {
+        "date-parts": [
+          [
+            2009,
+            5
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/ROBOT.2009.5152817",
+      "cache_sha256": "c0c8a39784fb8fba0e9db44c7166a7a4ff6e7f08a6365ccad31990d226a79825"
+    },
+    {
+      "key": "schulman2013trajopt",
+      "doi": "10.15607/RSS.2013.IX.031",
+      "manuscript_title": "Finding Locally Optimal, Collision-Free Trajectories with Sequential Convex Optimization",
+      "registry_title": "Finding Locally Optimal, Collision-Free Trajectories with Sequential Convex Optimization",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "John",
+          "family": "Schulman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Ho",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ibrahim",
+          "family": "Awwal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Henry",
+          "family": "Bradlow",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pieter",
+          "family": "Abbeel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.15607/rss.2013.ix.031",
+      "published": {
+        "date-parts": [
+          [
+            2013,
+            6,
+            23
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.15607/RSS.2013.IX.031",
+      "cache_sha256": "b55989de704109e73ecbea47f0d9fe3115d98edf027474e09c6616837120e9d4"
+    },
+    {
+      "key": "sha2001simplicity",
+      "doi": "10.1109/MS.2001.936213",
+      "manuscript_title": "Using Simplicity to Control Complexity",
+      "registry_title": "Using simplicity to control complexity",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "family": "Lui Sha",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/ms.2001.936213",
+      "published": {
+        "date-parts": [
+          [
+            2001,
+            7
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/MS.2001.936213",
+      "cache_sha256": "ef5434e5adedbb34a35d294acfd62f37e937f2c8f22e5cd67ad1b9d2fa021d9c"
+    },
+    {
+      "key": "ferrando2020rosmonitoring",
+      "doi": "10.1007/978-3-030-63486-5_40",
+      "manuscript_title": "{ROSMonitoring}: A Runtime Verification Framework for {ROS}",
+      "registry_title": "ROSMonitoring: A Runtime Verification Framework for ROS",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Angelo",
+          "family": "Ferrando",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rafael C.",
+          "family": "Cardoso",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Fisher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Davide",
+          "family": "Ancona",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luca",
+          "family": "Franceschini",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Viviana",
+          "family": "Mascardi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1007/978-3-030-63486-5_40",
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1007/978-3-030-63486-5_40",
+      "cache_sha256": "d99a4fe8f1d3a23b2999f6f97aba13767002daf6bf6581a82923f50878192414"
+    },
+    {
+      "key": "alshiekh2018shielding",
+      "doi": "10.1609/aaai.v32i1.11797",
+      "manuscript_title": "Safe Reinforcement Learning via Shielding",
+      "registry_title": "Safe Reinforcement Learning via Shielding",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Mohammed",
+          "family": "Alshiekh",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roderick",
+          "family": "Bloem",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "R\u00fcdiger",
+          "family": "Ehlers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bettina",
+          "family": "K\u00f6nighofer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Scott",
+          "family": "Niekum",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ufuk",
+          "family": "Topcu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1609/aaai.v32i1.11797",
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            29
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1609/aaai.v32i1.11797",
+      "cache_sha256": "23297585916cc1ff5cc965cbfbc4f888f1413e4d7824bfa42a417cebc1ce98cd"
+    },
+    {
+      "key": "wabersich2021filter",
+      "doi": "10.1016/j.automatica.2021.109597",
+      "manuscript_title": "A Predictive Safety Filter for Learning-Based Control of Constrained Nonlinear Dynamical Systems",
+      "registry_title": "A predictive safety filter for learning-based control of constrained nonlinear dynamical systems",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Kim Peter",
+          "family": "Wabersich",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Melanie N.",
+          "family": "Zeilinger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1016/j.automatica.2021.109597",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1016/j.automatica.2021.109597",
+      "cache_sha256": "fc5603d408b69a5dc4fb2d951fe437b3dc5ed4380a2e8d06c13c9fc5d7411da1"
+    },
+    {
+      "key": "bansal2017reachability",
+      "doi": "10.1109/CDC.2017.8263977",
+      "manuscript_title": "Hamilton--Jacobi Reachability: A Brief Overview and Recent Advances",
+      "registry_title": "Hamilton-Jacobi reachability: A brief overview and recent advances",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Somil",
+          "family": "Bansal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mo",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sylvia",
+          "family": "Herbert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Claire J.",
+          "family": "Tomlin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/cdc.2017.8263977",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            12
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/CDC.2017.8263977",
+      "cache_sha256": "216a7e11d2d3e223d0183e4ace4de0c232cb9abc89009874fdd694905aec105c"
+    },
+    {
+      "key": "hobbs2023runtime",
+      "doi": "10.1109/MCS.2023.3234380",
+      "manuscript_title": "Runtime Assurance for Safety-Critical Systems: An Introduction to Safety Filtering Approaches for Complex Control Systems",
+      "registry_title": "Runtime Assurance for Safety-Critical Systems: An Introduction to Safety Filtering Approaches for Complex Control Systems",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5215-2231",
+          "authenticated-orcid": false,
+          "given": "Kerianne L.",
+          "family": "Hobbs",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Air Force Research Laboratory, Wright-Patterson Air Force Base, OH, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mark L.",
+          "family": "Mote",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pytheia, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew C.L.",
+          "family": "Abate",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Pytheia, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Samuel D.",
+          "family": "Coogan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Electrical and Computer Engineering and the School of Civil and Environmental Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric M.",
+          "family": "Feron",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/mcs.2023.3234380",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/MCS.2023.3234380",
+      "cache_sha256": "c4d489016c92fa64ee30cf57fd9a2988d6dcbe72803aab55f0446982927018e1"
+    },
+    {
+      "key": "herlihy1990linearizability",
+      "doi": "10.1145/78969.78972",
+      "manuscript_title": "Linearizability: A Correctness Condition for Concurrent Objects",
+      "registry_title": "Linearizability: a correctness condition for concurrent objects",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Maurice P.",
+          "family": "Herlihy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Carnegie-Mellon Univ., Pittsburgh, PA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jeannette M.",
+          "family": "Wing",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie-Mellon Univ., Pittsburgh, PA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/78969.78972",
+      "published": {
+        "date-parts": [
+          [
+            1990,
+            7
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/78969.78972",
+      "cache_sha256": "871f390ddc7feb8fed9198aa6ec4ab3b5df1a01027c6cef1281294a250bb5354"
+    },
+    {
+      "key": "mohan1992aries",
+      "doi": "10.1145/128765.128770",
+      "manuscript_title": "{ARIES}: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging",
+      "registry_title": "ARIES: a transaction recovery method supporting fine-granularity locking and partial rollbacks using write-ahead logging",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "C.",
+          "family": "Mohan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "IBM Almaden Research Center, San Jose, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Don",
+          "family": "Haderle",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IBM Santa Teresa Lab, San Jose, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bruce",
+          "family": "Lindsay",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IBM Almaden Research Center, San Jose, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hamid",
+          "family": "Pirahesh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IBM Almaden Research Center, San Jose, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter",
+          "family": "Schwarz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IBM Almaden Research Center, San Jose, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/128765.128770",
+      "published": {
+        "date-parts": [
+          [
+            1992,
+            3
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/128765.128770",
+      "cache_sha256": "cd6c676667da11cdb8352d29973c3299493dac072cf2c46d7a0314d6fe21f745"
+    },
+    {
+      "key": "chandra1996failure",
+      "doi": "10.1145/226643.226647",
+      "manuscript_title": "Unreliable Failure Detectors for Reliable Distributed Systems",
+      "registry_title": "Unreliable failure detectors for reliable distributed systems",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Tushar Deepak",
+          "family": "Chandra",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "IBM, Hawthorne, NY"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sam",
+          "family": "Toueg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell Univ., Ithaca, NY"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/226643.226647",
+      "published": {
+        "date-parts": [
+          [
+            1996,
+            3
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/226643.226647",
+      "cache_sha256": "68361f2ccef4a7bcba9775fcb6068833a3471478b6967f19bdc5d35b95fc79ec"
+    },
+    {
+      "key": "chandy1985snapshots",
+      "doi": "10.1145/214451.214456",
+      "manuscript_title": "Distributed Snapshots: Determining Global States of Distributed Systems",
+      "registry_title": "Distributed snapshots: determining global states of distributed systems",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "K. Mani",
+          "family": "Chandy",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Computer Sciences, University of Texas at Austin, Austin, TX"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leslie",
+          "family": "Lamport",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford Research Institute, Menlo Park, CA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/214451.214456",
+      "published": {
+        "date-parts": [
+          [
+            1985,
+            2
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/214451.214456",
+      "cache_sha256": "ef06808c62eda0918bcf30798f187066588921d4bb8781310d8c9960af0adfb3"
+    },
+    {
+      "key": "foerster2019survey",
+      "doi": "10.1109/COMST.2018.2876749",
+      "manuscript_title": "Survey of Consistent Software-Defined Network Updates",
+      "registry_title": "Survey of Consistent Software-Defined Network Updates",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4635-4480",
+          "authenticated-orcid": false,
+          "given": "Klaus-Tycho",
+          "family": "Foerster",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7798-1711",
+          "authenticated-orcid": false,
+          "given": "Stefan",
+          "family": "Schmid",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3699-8127",
+          "authenticated-orcid": false,
+          "given": "Stefano",
+          "family": "Vissicchio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/comst.2018.2876749",
+      "published": {
+        "date-parts": [
+          [
+            2019
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/COMST.2018.2876749",
+      "cache_sha256": "da473ad92e52cd7ff1752b839f23d869a2292d7887f784df0000e61f89be166b"
+    },
+    {
+      "key": "lozanoperez1983spatial",
+      "doi": "10.1109/TC.1983.1676196",
+      "manuscript_title": "Spatial Planning: A Configuration Space Approach",
+      "registry_title": "Spatial Planning: A Configuration Space Approach",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "family": "Lozano-Perez",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Artificial Intelligence Laboratory, Massachusetts Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/tc.1983.1676196",
+      "published": {
+        "date-parts": [
+          [
+            1983,
+            2
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/TC.1983.1676196",
+      "cache_sha256": "d49b926cca5df1c5995641e723ee7d8f3e134422d5fb274da13db42200a18f3a"
+    },
+    {
+      "key": "shewchuk1997predicates",
+      "doi": "10.1007/PL00009321",
+      "manuscript_title": "Adaptive Precision Floating-Point Arithmetic and Fast Robust Geometric Predicates",
+      "registry_title": "Adaptive Precision Floating-Point Arithmetic and Fast Robust Geometric Predicates",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Jonathan",
+          "family": "Richard Shewchuk",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1007/pl00009321",
+      "published": {
+        "date-parts": [
+          [
+            1997,
+            10
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1007/PL00009321",
+      "cache_sha256": "073240c479705ccf5266f65cf18ce6953516132cc3e7c0e07193baa30339485e"
+    },
+    {
+      "key": "klosowski1998collision",
+      "doi": "10.1109/2945.675649",
+      "manuscript_title": "Efficient Collision Detection Using Bounding Volume Hierarchies of {k-DOPs}",
+      "registry_title": "Efficient collision detection using bounding volume hierarchies of k-DOPs",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "J.T.",
+          "family": "Klosowski",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.",
+          "family": "Held",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J.S.B.",
+          "family": "Mitchell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "H.",
+          "family": "Sowizral",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "K.",
+          "family": "Zikan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/2945.675649",
+      "published": {
+        "date-parts": [
+          [
+            1998
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/2945.675649",
+      "cache_sha256": "c8e62c6b1f78aa8af435967fefb716c9bb688797b783a6541d0efb95e22e5de6"
+    },
+    {
+      "key": "guttman1984rtrees",
+      "doi": "10.1145/602259.602266",
+      "manuscript_title": "{R-Trees}: A Dynamic Index Structure for Spatial Searching",
+      "registry_title": "R-trees: a dynamic index structure for spatial searching",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Antonin",
+          "family": "Guttman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/602259.602266",
+      "published": {
+        "date-parts": [
+          [
+            1984
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/602259.602266",
+      "cache_sha256": "66ae24703ffcf8696bb4da72eccc828cf47dc216b80344e81a248f06180e1d33"
+    },
+    {
+      "key": "clarke1986verification",
+      "doi": "10.1145/5397.5399",
+      "manuscript_title": "Automatic Verification of Finite-State Concurrent Systems Using Temporal Logic Specifications",
+      "registry_title": "Automatic verification of finite-state concurrent systems using temporal logic specifications",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "E. M.",
+          "family": "Clarke",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon Univ."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "E. A.",
+          "family": "Emerson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Univ. of Texas, Austin"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "A. P.",
+          "family": "Sistla",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "GTE Laboratories, Inc."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1145/5397.5399",
+      "published": {
+        "date-parts": [
+          [
+            1986,
+            4
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1145/5397.5399",
+      "cache_sha256": "56bba9cc5df19c23f7a58563f01cf24149b5ae0cd52bf2e67c08e5575c881856"
+    },
+    {
+      "key": "khanna2024hssd",
+      "doi": "10.1109/CVPR52733.2024.01550",
+      "manuscript_title": "Habitat Synthetic Scenes Dataset ({HSSD-200}): An Analysis of {3D} Scene Scale and Realism Tradeoffs for ObjectGoal Navigation",
+      "registry_title": "Habitat Synthetic Scenes Dataset (HSSD-200): An Analysis of 3D Scene Scale and Realism Tradeoffs for ObjectGoal Navigation",
+      "similarity": 1.0,
+      "verified": true,
+      "authors": [
+        {
+          "given": "Mukul",
+          "family": "Khanna",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Georgia Tech"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yongsen",
+          "family": "Mao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simon Fraser University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hanxiao",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simon Fraser University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sanjay",
+          "family": "Haresh",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simon Fraser University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brennan",
+          "family": "Shacklett",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dhruv",
+          "family": "Batra",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Georgia Tech"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Clegg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Meta AI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eric",
+          "family": "Undersander",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Meta AI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Angel X.",
+          "family": "Chang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simon Fraser University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Manolis",
+          "family": "Savva",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Simon Fraser University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "registry_doi": "10.1109/cvpr52733.2024.01550",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "source": "https://api.crossref.org/works/10.1109/CVPR52733.2024.01550",
+      "cache_sha256": "5de0050fd5ab0c26b83acea5dbb75564ca197515ac7506b547fc694b89d4539b"
+    }
+  ]
+}

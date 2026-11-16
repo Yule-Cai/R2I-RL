@@ -1,0 +1,40 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local experiment outputs and scratch work. Reproducible paper source data
+# are curated separately under manuscript/RuleSync_JSA_v5/source_data/.
+output/
+tmp/
+
+# LaTeX/editor build products; source, bibliography, figures, and curated
+# artifact tables remain trackable.
+manuscript/**/.DS_Store
+manuscript/**/*.aux
+manuscript/**/*.blg
+manuscript/**/*.log
+manuscript/**/*.out
+manuscript/**/*.synctex.gz
+manuscript/**/RuleSync_TASE_Draft_*.pdf
+
+# Local release bundles duplicate tracked source/results.
+*.zip
+*.tar.gz
+*.tgz
+
+# Offline virtual environments and local backups
+.venv-rulesync/
+*.bundle
+
+# Generated verification/visualization outputs
+/artifacts/jsa_20261116/qa/
+/artifacts/jsa_20261116/figures/
+/artifacts/jsa_20261116/figure_previews/
+/artifacts/jsa_20261116/*_table.tex
+/artifacts/jsa_20261116/study_numbers.tex

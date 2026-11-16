@@ -1,0 +1,19 @@
+{
+  "kind": "navigation_floor_support_domain_v1",
+  "source_sha256": "697384a0c2f308bfb8cdb9c1dd4758212c3d47c58b340d16284596ba8982d53b",
+  "upstream_map_sha256": "eceb3672e206ba55105d7ec748b68796b1f8da0a8db50bd61d867b1cdd04ba4b",
+  "upstream_manifest_sha256": "56979983447c496652adf3fbbf393a391d369091820dbadb3adbb5f0e7a410e4",
+  "projections": {
+    "navigation": {
+      "sha256": "1fdce609d49827ace27502ad8f70ac6b54d4ebd805eca466d5ee2a6b7d6e0e60"
+    },
+    "localization": {
+      "sha256": "01e2cd9ba126590f29b2691df58711fa3a1d691531d9a81955ec8f1c86eabcd4"
+    }
+  },
+  "converted_unknown_cells": 2374,
+  "blocked_cell_set_unchanged": true,
+  "world_mesh_physics_unchanged": true,
+  "source_world_sha256": "1011b90d6b9676173c0b967742fa060b8085e0f8cf580c922f73ae80a288aa9f",
+  "formal_denominator": false
+}
