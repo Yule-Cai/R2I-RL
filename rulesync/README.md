@@ -32,25 +32,17 @@ RuleGuard's deterministic core and authorization digest are in
 
 ## Build
 
-The measured environment used ROS 2 Lyrical. Create a workspace and link or copy
-the packages under `rulesync/src/`, plus the repository's `rulesync3d/` and
-`topopatch_ros/` directories, into its `src/` directory, then run:
+The recorded environment used ROS 2 Lyrical. Build the five packages under `rulesync/src/` together with `rulesync3d/`, `topopatch_ros/` and `rulepatch_ros/` in a separate workspace. The [root integration guide](../README.md#ros-2-integration) provides the complete symlink, rosdep and colcon recipe. Use a fresh ROS terminal with the system Python environment.
 
-```bash
-source /opt/ros/lyrical/setup.bash
-cd /path/to/rulesync_ws
-colcon build --symlink-install
-source install/setup.bash
-```
-
-Nav2/Gazebo dependencies are system packages and are not installed by the
-repository's Python requirements file.
+Nav2/Gazebo are supplied by the ROS/system environment; the offline Python requirements serve the ROS-free checks.
 
 ## Launch
 
 ```bash
 ros2 launch rulesync_demo rulesync_sim.launch.py
 ```
+
+`rulesync_sim.launch.py` starts the durable manager and bridge. The selected world, Nav2, gate and controller are supplied separately by the integration or experiment runner.
 
 The real-robot launch file is configuration-only. No motion starts automatically:
 

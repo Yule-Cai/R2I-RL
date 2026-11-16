@@ -19,8 +19,8 @@
       "rebuild_output": false
     },
     "README.md": {
-      "bytes": 3844,
-      "sha256": "d102753700d6d5912523efb1126295557364a76a0528324acc848ddccf2342f6",
+      "bytes": 14599,
+      "sha256": "0e7453ab8514c522141e6b14935f4cb74a3d0183f0fd298918cd7c72a430fdf3",
       "rebuild_output": false
     },
     "artifacts/jsa_20261116/README.md": {
@@ -1674,8 +1674,8 @@
       "rebuild_output": false
     },
     "docs/README_ZH.md": {
-      "bytes": 1769,
-      "sha256": "7384b2a1cdf0d85bb8abce3fbdb6b4f1046b9e837efd1d59856ab70da4af61ee",
+      "bytes": 6313,
+      "sha256": "dbfb8fccb23c60d040e11c2f369505289efe2d69f8e5e7e7d147ff3c48ca1c36",
       "rebuild_output": false
     },
     "docs/RULESYNC_REPRODUCIBILITY_20261116.md": {
@@ -2274,8 +2274,8 @@
       "rebuild_output": false
     },
     "rulesync/README.md": {
-      "bytes": 3760,
-      "sha256": "df0e076e852800eb11a6ebc4b8564ccb243a9b1caee531450277e67573c5b15a",
+      "bytes": 3947,
+      "sha256": "575f57e4f96ef9cb38c1f8bab65aa5667c2cdafe12b050baeacc9c7878fbf482",
       "rebuild_output": false
     },
     "rulesync/nav2_params_rulesync.yaml": {
