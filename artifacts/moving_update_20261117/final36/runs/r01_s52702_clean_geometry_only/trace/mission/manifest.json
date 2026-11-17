@@ -1,0 +1,187 @@
+{
+  "pilot": true,
+  "formal_denominator": false,
+  "cohort_id": null,
+  "stage": "recovery",
+  "trial": {
+    "arm": "geometry_only",
+    "condition": "normal",
+    "direction": 1,
+    "rep": 0,
+    "seed": 52702,
+    "speed_mps": 0.2
+  },
+  "source_sha256": {
+    "/reference/benchmark_nav2_combination.py": "f5f584f516ba15cee5cdfdc73f7ca672f22c7fbe6b52d0e59c9a300b222665a0",
+    "/reference/audit_nav2_combination.py": "b020d3dad1481360609bc65b47ad7101d1445a78d20c439b2148d851f000af69",
+    "/reference/nav2_combination_pilot.py": "2155250eac0b8c85899df66ce52751e6147691fc52c3321a78a9d6c2dcdc9165",
+    "/work/scripts/gazebo_world_pose.py": "6b99b02066aebc9d6b9e7768bf99e68bacb1764205377da0b888cb2c16b0c5a4",
+    "/work/scripts/benchmark_dynamic_rule_update.py": "7027262a7713b33d03ffec261b27087038de5b0cb76646633021905462ff9dbd",
+    "/work/scripts/benchmark_rule_churn.py": "fae542e020e9505fa79b613bb1cbe9f9ec4e5c05e45162019febd507e3552e80",
+    "/work/build/rulesync_manager/rulesync_manager/manager_node.py": "27a1c7617fd345c03a5c57f905ad7ee5c36ce71abafb7c575ca5acaebdc90aaf",
+    "/work/build/rulesync_manager/rulesync_manager/snapshot_identity.py": "d84b2296c4eade82e1cae696cbe607d89922ad07830087c56fec18b24d8924ec",
+    "/work/build/rulesync_manager/rulesync_manager/vote_coordinator.py": "6222edfa096c41b700bd1c8f262afb337e30f2156eaab550ab34ff486f542ae6",
+    "/work/build/rulesync_manager/rulesync_manager/validator.py": "2a405e9e305e72f5b6bde2132375c0fd976f1f339e417eecee9a207ce4d45998",
+    "/work/install/rulesync_nav2_bridge/lib/python3.14/site-packages/rulesync_nav2_bridge/bridge_node.py": "b5a4b6b4f15eb47822e1b1e5c8e49eb171589741e978eb32b3d98181a7794259",
+    "/work/install/rulesync_guard/lib/python3.14/site-packages/rulesync_guard/guard_node.py": "368563f9e62929d3554d22ede3ccc9bddc73edd5e3c518d83ded51cd5796771f",
+    "/work/install/topopatch_ros/lib/python3.14/site-packages/topopatch_ros/gate_node.py": "2b7df979289eaa714a38475ebaad4f2feedf047fd0162809ce03e8df05e98696",
+    "/work/install/rulesync3d/lib/python3.14/site-packages/rulesync3d/ruleguard.py": "8fd86f7b1fa3887bc12928475d4aab56c3b79fdadddf8e05750d09484e4ee0ff",
+    "/work/install/rulesync3d/lib/python3.14/site-packages/rulesync3d/gate2d.py": "e67c6e1febc5f423602d9b716487f10dd20b0bbbeaa45bae6bd334072a1fe92f",
+    "/work/install/rulesync3d/lib/python3.14/site-packages/rulesync3d/authorization.py": "8c6ca852b65b35ec6513c56d6192d0b1fc4b63abc112ad91629e24fb4c491be6",
+    "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/worlds/tb3_empty_world.sdf.xacro": "8a171c785730ab16b5c2d58923f361bd3f9fe75cf24b4574cf69b7108ec99312",
+    "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/urdf/gz_waffle.sdf.xacro": "1681baf60c92c5be045a40c6fb1b8a6e7ca903365b8ac93aeb7be81b707f3e1d",
+    "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/urdf/turtlebot3_waffle.urdf": "d381b55d119d70d5cd78d2261107d386455fc93d553151dbe25da7013f8cfba5",
+    "/opt/ros/lyrical/share/nav2_minimal_tb3_sim/configs/turtlebot3_waffle_bridge.yaml": "8166a3562d4505edebc53b4d7b3320e363a4bb23e46eb08e149ba123a6c1e2dc"
+  },
+  "parameters_sha256": "6f13c4aaf343c6d8ae024f351c57654e9da260f720eb2fc8efcfd64894f5d705",
+  "world": "Pinned Clearpath complete office with original collision/visual meshes",
+  "spawn": [
+    -1.3500000000000014,
+    8.5
+  ],
+  "goal": [
+    -8.55,
+    8.3
+  ],
+  "requested_speed_mps": 0.2,
+  "seed": 52702,
+  "controller_profile": "legacy",
+  "planner_geometry": {
+    "profile": "standard",
+    "stop_zone": [
+      [
+        0.35,
+        0.3
+      ],
+      [
+        0.35,
+        -0.3
+      ],
+      [
+        -0.3,
+        -0.3
+      ],
+      [
+        -0.3,
+        0.3
+      ]
+    ],
+    "circumscribed_stop_radius_m": 0.4609772228646443,
+    "costmap_radius_m": 0.3,
+    "effective_readback": false
+  },
+  "controller_source_sha256": null,
+  "render_mode": "gpu",
+  "gpu_device": "/dev/dri/renderD128",
+  "target_real_time_factor": 1.0,
+  "physics_step_size_s": 0.003,
+  "timing_profile": "target_1x_simulation",
+  "task_id": "office_route_01_identity_refresh",
+  "task_source_sha256": "94458518bd1f32e611459ae88dc51ea04b15285c825739f3b3220f2777148792",
+  "costmap_probes": {
+    "1": {
+      "inside": [
+        -0.375,
+        8.275000000000002
+      ],
+      "outside": [
+        -4.019551313337011,
+        8.500037079305002
+      ]
+    },
+    "2": {
+      "inside": [
+        -0.375,
+        8.275000000000002
+      ],
+      "outside": [
+        -4.019551313337011,
+        8.500037079305002
+      ]
+    }
+  },
+  "initial_rule": [
+    [
+      -0.475,
+      8.175000000000002
+    ],
+    [
+      -0.275,
+      8.175000000000002
+    ],
+    [
+      -0.275,
+      8.375000000000002
+    ],
+    [
+      -0.475,
+      8.375000000000002
+    ]
+  ],
+  "replacement_rule": [
+    [
+      -0.475,
+      8.175000000000002
+    ],
+    [
+      -0.275,
+      8.175000000000002
+    ],
+    [
+      -0.275,
+      8.375000000000002
+    ],
+    [
+      -0.475,
+      8.375000000000002
+    ]
+  ],
+  "max_follow_wall_s": 483.75,
+  "max_follow_sim_s": 157.5,
+  "ros_domain_id": 228,
+  "gazebo_partition": "rulesync_scene_mission",
+  "declared_concurrent_jobs": 1,
+  "runtime_world_sha256": "a57c9ae7931983b9f5379640fa10b9aefa6916b60cf2afe30aae40acca8745ad",
+  "runtime_world_edits": [
+    "documentation camera save paths"
+  ],
+  "camera_output_root": "/supplement/runs/r01_s52702_clean_geometry_only/trace/mission/images",
+  "seed_consumers": [
+    "Gazebo --seed (including simulated sensor noise)",
+    "AMCL random_seed",
+    "Python random",
+    "NumPy random"
+  ],
+  "task_goal_known_map_clearance_m": 0.7104663554494878,
+  "task_goal_min_clearance_m": 0.5,
+  "localization": "AMCL map-to-odom and wheel odometry for recovery; fixed alignment only in stationary preflight; ECM pose evaluation only",
+  "body_envelope_xy": [
+    [
+      -0.21,
+      -0.17
+    ],
+    [
+      0.11,
+      -0.17
+    ],
+    [
+      0.11,
+      0.17
+    ],
+    [
+      -0.21,
+      0.17
+    ]
+  ],
+  "max_world_sim_gap_s": 0.1,
+  "gate_rho_m": 0.3,
+  "device": "one handheld; no physical robot or second edge device",
+  "scenario": "geometry-qualified long-route replacement DEV",
+  "runner_sha256": "018551fec7b61d5d1cf2e691b2c703e057ef4bc7b51b2b5425e63a477cef249e",
+  "mechanism_exposure": {
+    "seconds": 5.0,
+    "external_update": true,
+    "common_stop_at_window_end": true,
+    "snapshot_identity_check": false
+  }
+}

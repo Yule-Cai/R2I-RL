@@ -2,11 +2,13 @@
 
 **把已提交的规则状态，连接到具体路径的执行许可。** RuleSync 面向模块化机器人导航：路径即使仍然畅通，也可能已经不再由当前规则版本授权。系统通过完整快照、连续路径准入、内容绑定和独立执行端检查，明确运动由哪个规则决策授权。
 
-[项目首页](../README.md) · [离线核验](#快速核验) · [ROS 2接入](../README.md#ros-2-integration) · [数据目录](../artifacts/jsa_20261116/README.md) · [完整复现说明](RULESYNC_REPRODUCIBILITY_20261116.md)
+[项目首页](../README.md) · [离线核验](#快速核验) · [ROS 2接入](../README.md#ros-2-integration) · [最终36次评估](../artifacts/moving_update_20261117/README.md) · [历史数据目录](../artifacts/jsa_20261116/README.md) · [完整复现说明](RULESYNC_REPRODUCIBILITY_20261116.md)
 
 ![RuleSync架构](assets/rulesync-overview.svg)
 
 代码和复现材料直接位于默认 **main** 分支，无需切换开发分支。
+
+**新增完整运动中更新评估：36次、18对，36次重新授权，35次满足固定20cm独立到达判据。** [逐次结果](../artifacts/moving_update_20261117/trial_results.csv)与[独立核验入口](../artifacts/moving_update_20261117/README.md)均已提供。
 
 ## 机制主线
 
@@ -42,9 +44,10 @@ python -m pip install -r requirements-rulesync.txt
 bash scripts/check_rulesync_offline.sh
 python scripts/verify_jsa_release.py
 bash scripts/check_jsa_harnesses.sh
+python scripts/verify_final_moving_update.py
 ```
 
-三个入口分别核对核心算法/恢复契约、科学数据/原始记录、固定实验/观察器契约。没有ROS环境时，依赖ROS的测试会跳过；其它离线核验可以独立运行。
+前三个入口分别核对核心算法/恢复契约、科学数据/原始记录、固定实验/观察器契约。最后一个入口独立复核最终36次运动更新评估，单独使用时仅需Python 3.9+标准库。没有ROS环境时，依赖ROS的测试会跳过；其它离线核验可以独立运行。
 
 数据核验结果写入`artifacts/jsa_20261116/verification_latest.json`，细分收据位于其`qa/`目录。
 
@@ -81,6 +84,21 @@ ros2 launch rulesync_demo rulesync_guard.launch.py \
 | `path_start_tolerance` | `0.25 m` | 实际位姿与路径起点的连接距离上限 |
 
 这些是当前源码默认值；历史实验参数以各自清单为准。独立Gate覆盖硬禁行区几何；速度字段进入快照身份和Nav2传播，几何路径本身不规定时间化速度曲线。
+
+## 最终36次运动更新评估
+
+固定3条路线、3个种子、正常/2.5秒响应缺失以及Full/geometry-only两组，共36次、18对。全部完成重新授权；35次达到独立目标位置判据，剩余一次21.08cm超过固定20cm，原始FAIL保留。
+
+| 指标 | 本轮记录 |
+|:---|:---|
+| 完整执行与独立复核 | 36/36次、18/18对 |
+| 正常Full身份失效HOLD | 9/9；COMMIT后中位85.8ms |
+| 正常geometry-only保留旧执行状态 | 9/9 |
+| 响应缺失Full观测过期HOLD | 9/9；COMMIT后中位989.9ms |
+| 最终命令发布、数值和仿真桥接take关联 | 58,211条 |
+| 更新窗口内采样身体侵入 | 0/36 |
+
+[结果索引](../artifacts/moving_update_20261117/trial_results.csv) · [完整证据与复核说明](../artifacts/moving_update_20261117/README.md)。HOLD、稳定零命令发布、采样运动与任务到达分别统计；本轮数据不与早期pilot或开发资格验证合并。
 
 ## 数据与实验入口
 

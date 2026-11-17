@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "pilot": true,
+  "formal_denominator": false,
+  "cohort_id": null,
+  "stage": "recovery",
+  "phase": "recovery_follow",
+  "independent_goal_error_m": 0.08253182568075251,
+  "nonzero_commands": {
+    "/cmd_vel_nav": 2015,
+    "/cmd_vel": 2015
+  },
+  "states": {
+    "planner_server": 3,
+    "controller_server": 3,
+    "collision_monitor": 3
+  },
+  "scan_messages": 628,
+  "registration_passed": true,
+  "source_unchanged": true
+}

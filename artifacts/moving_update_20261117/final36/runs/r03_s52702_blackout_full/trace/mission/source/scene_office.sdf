@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sdf version="1.6">
+  <world name="default">
+    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin filename="gz-sim-navsat-system" name="gz::sim::systems::NavSat">
+    </plugin>
+    <plugin filename="gz-sim-sensors-system" name="gz::sim::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="gz-sim-imu-system" name="gz::sim::systems::Imu">
+    </plugin>
+    
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <world_frame_orientation>ENU</world_frame_orientation>
+      <latitude_deg>55.944831</latitude_deg>
+      <longitude_deg>-3.186998</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <light name="sun" type="directional">
+      <cast_shadows>0</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.8 0.8 0.8 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    <scene>
+      <shadows>0</shadows>
+    <ambient>0.6 0.6 0.6 1</ambient><background>0.9 0.93 0.96 1</background></scene>
+    <physics name="3ms" type="ode">
+      <max_step_size>0.003</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+    
+  <model name="office">
+      <pose>0 0 0 0 0 0</pose>
+      <static>true</static>
+      <link name="office">
+        <collision name="office_collision">
+          <geometry>
+            <mesh>
+              <uri>/assets/office/clearpath_gz/meshes/office/office.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="office_visual">
+          <geometry>
+            <mesh>
+              <uri>/assets/office/clearpath_gz/meshes/office/office.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="charge_dock">
+      <pose>23 -5 0 0 0 2.356194490192345</pose>
+      <static>true</static>
+      <link name="charge_dock">
+        <collision name="charge_dock_collision">
+          <geometry>
+            <mesh>
+              <uri>/assets/office/clearpath_gz/meshes/accessories/wibotic_tr301.stl</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="charge_dock_visual">
+          <geometry>
+            <mesh>
+              <uri>/assets/office/clearpath_gz/meshes/accessories/wibotic_tr301.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  <model name="perspective"><static>true</static><pose>0 -6 4 0 0.5280744484263596 1.5707963267948966</pose><link name="camera_link"><sensor name="perspective" type="camera"><always_on>true</always_on><update_rate>1</update_rate><topic>/capture/perspective</topic><camera><horizontal_fov>1.05</horizontal_fov><image><width>1600</width><height>1000</height><format>R8G8B8</format></image><clip><near>.05</near><far>100</far></clip><save enabled="true"><path>/experiment/current/images/perspective</path></save></camera></sensor></link></model><model name="overview"><static>true</static><pose>18 -23 31 0 0.8151842454335781 2.234842489621581</pose><link name="camera_link"><sensor name="overview" type="camera"><always_on>true</always_on><update_rate>1</update_rate><topic>/capture/overview</topic><camera><horizontal_fov>1.05</horizontal_fov><image><width>1600</width><height>1000</height><format>R8G8B8</format></image><clip><near>.05</near><far>100</far></clip><save enabled="true"><path>/experiment/current/images/overview</path></save></camera></sensor></link></model></world>
+</sdf>

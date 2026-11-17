@@ -1,0 +1,7 @@
+[
+  {
+    "node_name": "collision_monitor",
+    "topic_type": "geometry_msgs/msg/TwistStamped",
+    "reliability": "1"
+  }
+]

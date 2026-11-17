@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "original_native_events": 813676,
+  "retained_native_events": 7886,
+  "final_commands": 1014,
+  "full_and_subset_timeline_sha256": "0c107e4c1544f370717ffb9c09d1925b8d9c64f0ad9f7ac0bb3cf15029f0a223"
+}

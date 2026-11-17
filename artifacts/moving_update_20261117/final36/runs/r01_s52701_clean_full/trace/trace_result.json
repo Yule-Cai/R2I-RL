@@ -1,0 +1,49 @@
+{
+  "scope": "one Nav2 instrumentation/channel DEV case;not a formal comparison or1350 replacement",
+  "runner_arguments": [
+    "/supplement/source/runner_channel_v2.py",
+    "--scene-id",
+    "office",
+    "--scene",
+    "/experiment/office_prepared_v3_native",
+    "--case",
+    "/supplement/inputs/supplement_route_01.json",
+    "--speed",
+    "0.2",
+    "--seed",
+    "52701",
+    "--ros-domain",
+    "228",
+    "--concurrency",
+    "1",
+    "--output",
+    "/supplement/runs/r01_s52701_clean_full/trace/mission",
+    "--stage",
+    "recovery",
+    "--render-mode",
+    "gpu",
+    "--controller-profile",
+    "legacy",
+    "--geometry-profile",
+    "standard"
+  ],
+  "collector_ros_domain_id": 228,
+  "wrapper_sha256": "f0a8819ed7972cf8d7146dde0920d90ce63abebd15176526d0b21ae971b3985b",
+  "runner_sha256": "ac17fb811391a12a384c3e37b4155b14f220dcc6482ef4538ab24ab9ccab6c71",
+  "command_witness_source_sha256": "d51ce532e795b158c28de2f97c9f3b236b214e079be060d4e16726489234cee0",
+  "runner_started_monotonic_ns": 164161420077864,
+  "runner_exit_code": 0,
+  "runner_finished_monotonic_ns": 164263460896968,
+  "command_witness_exit_code": 0,
+  "trace": {
+    "events": 812514,
+    "discarded_messages": [],
+    "clocks": {
+      "monotonic": {
+        "frequency": 1000000000,
+        "offset_seconds": 1794746955,
+        "offset_cycles": 927303988
+      }
+    }
+  }
+}

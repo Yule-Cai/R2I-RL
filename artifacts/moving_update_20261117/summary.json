@@ -1,0 +1,17 @@
+{
+  "cohort": "RAS_final_moving_update_36_20261117",
+  "manifest_sha256": "5947f35dd0ca096052d4f7293bf3aacf75e52ae02a2defeede633f0c7991baf6",
+  "planned_attempts": 36,
+  "completed_attempts": 36,
+  "assessed_attempts": 36,
+  "paired_settings": 18,
+  "renewed_releases": 36,
+  "task_arrivals_within_0_20_m": 35,
+  "task_failures": 1,
+  "remaining_task_goal_error_m": 0.21082709241385617,
+  "native_commands_correlated": 58211,
+  "sampled_body_entries": 0,
+  "full_clean_commit_to_hold_median_ms": 85.813796,
+  "full_omission_commit_to_hold_median_ms": 989.884549,
+  "measurement_scope": "Same-host software events and sampled simulated body poses; arrival has a separate fixed endpoint."
+}

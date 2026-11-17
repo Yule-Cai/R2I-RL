@@ -8,6 +8,7 @@
   <a href="#architecture">Architecture</a> ·
   <a href="#ros-2-integration">ROS 2 integration</a> ·
   <a href="#data-and-reproduction">Data &amp; reproduction</a> ·
+  <a href="#final-moving-update-evaluation">Moving updates</a> ·
   <a href="docs/README_ZH.md">中文导读</a>
 </p>
 
@@ -17,9 +18,9 @@
 
 RuleSync integrates with ROS 2/Nav2 while retaining existing planners and controllers. Source code, experimental records and reproduction tools are available directly on the default **main** branch.
 
-| Navigation records | Furnished layouts | Paired admission measurements | Pinned data sources |
+| Navigation records | Furnished layouts | Moving-update evaluation | Paired admission measurements |
 |:---:|:---:|:---:|:---:|
-| **2,970 attempts** | **23 layouts** | **720 pairs** | **93 files** |
+| **2,970 attempts** | **23 layouts** | **36 attempts / 18 pairs** | **720 pairs** |
 
 ## Quick start
 
@@ -36,6 +37,7 @@ python -m pip install -r requirements-rulesync.txt
 bash scripts/check_rulesync_offline.sh
 python scripts/verify_jsa_release.py
 bash scripts/check_jsa_harnesses.sh
+python scripts/verify_final_moving_update.py
 ```
 
 | Command | What it checks |
@@ -43,6 +45,7 @@ bash scripts/check_jsa_harnesses.sh
 | `check_rulesync_offline.sh` | Geometry, authorization content, monitor state, transaction recovery and helper contracts |
 | `verify_jsa_release.py` | Repository/data hashes, fixed campaign inputs, original receiver records and recomputed measurement endpoints |
 | `check_jsa_harnesses.sh` | Frozen campaign and observer-ledger contracts, with their module paths configured explicitly |
+| `verify_final_moving_update.py` | All 36 final moving-update attempts, native command correlations and original task outcomes; Python standard library only |
 
 The verification scripts print their results to the terminal. Data-verification receipts are written under `artifacts/jsa_20261116/`; detailed component receipts use its `qa/` directory. ROS-dependent tests are skipped when the ROS environment is unavailable.
 
@@ -151,7 +154,7 @@ See the [receiver parameters](rulesync/src/rulesync_guard/rulesync_guard/guard_n
 
 ## Data and reproduction
 
-The [artifact index](artifacts/jsa_20261116/README.md) describes the retained files. The [reproduction guide](docs/RULESYNC_REPRODUCIBILITY_20261116.md) maps each study to its inputs and checks.
+The [final moving-update collection](artifacts/moving_update_20261117/README.md) supplies the new 36-attempt evaluation. The [earlier artifact index](artifacts/jsa_20261116/README.md) describes the retained frozen studies. The [reproduction guide](docs/RULESYNC_REPRODUCIBILITY_20261116.md) maps each study to its inputs and checks.
 
 | Collection | Included records | Entry point |
 |:---|:---|:---|
@@ -161,11 +164,26 @@ The [artifact index](artifacts/jsa_20261116/README.md) describes the retained fi
 | Navigation | All 2,970 trial rows across 23 furnished layouts | [Trial-level CSV](artifacts/jsa_20261116/source_data/formal2970.csv) |
 | Admission cost | 720 paired measurements, warmups and condition summaries | [Measurement records](artifacts/jsa_20261116/source_data/ros_admission_performance/) |
 | Recovery timing | Per-trial renewal endpoints and missing-data accounting | [Timing rows](artifacts/jsa_20261116/source_data/formal_recovery_timing_rows.json) |
-| Moving update | One matched update during motion, with recorded command/observation events | [Trace records](artifacts/jsa_20261116/source_data/moving_update/) |
+| Final moving updates | 36 attempts / 18 matched pairs; all 36 renewed releases, 35 independent task arrivals | [Study and verification](artifacts/moving_update_20261117/README.md) · [All trial rows](artifacts/moving_update_20261117/trial_results.csv) |
+| Earlier moving pilot | One separately retained matched update during motion | [Pilot trace records](artifacts/jsa_20261116/source_data/moving_update/) |
 | Volumetric assessment | 140 original outcomes and active-snapshot assessments | [Assessment records](artifacts/jsa_20261116/source_data/volumetric140_review.json) |
 | Fixed campaign inputs | 197 maps, cases, world references and helper sources | [Frozen inputs](artifacts/jsa_20261116/frozen_inputs/) |
 
 Original task failures and unassessed intervals remain explicit. The included numerical data and selected raw records can be checked locally. The full bulk navigation/volumetric motion logs and upstream HSSD meshes are retained separately; acquire source scenes through the dataset's distribution terms.
+
+### Final moving-update evaluation
+
+The final matrix crosses three routes, three seeds, clean/2.5 s response-omission conditions and Full/geometry-only monitoring. **All 36 attempts obtain renewed release; 35 satisfy the fixed 0.20 m independent arrival criterion.** The remaining task retains its original FAIL label with a 0.210827 m endpoint error.
+
+Under clean observation, Full records identity-triggered HOLD in all nine runs, a median **85.8 ms** after durable COMMIT; all nine geometry-only counterparts retain the old execution under the new observed authority. Under response omission, Full reaches HOLD through observation expiry at a median **989.9 ms**. The records independently associate **58,211 final commands** with their values and simulator-bridge takes.
+
+Verify this collection alone with Python 3.9+ and no external dependencies:
+
+```bash
+python3 scripts/verify_final_moving_update.py
+```
+
+[Per-trial results](artifacts/moving_update_20261117/trial_results.csv) · [Timing distributions and frozen inputs](artifacts/moving_update_20261117/final36/aggregate.json) · [Evidence coverage](artifacts/moving_update_20261117/README.md)
 
 ### Regenerate numerical visualizations
 
@@ -180,8 +198,9 @@ The output directory must be new. The wrapper runs in a temporary workspace and 
 
 ### Experiment runners
 
-All active runners are under [experiments/rulesync_experiments/](experiments/rulesync_experiments/).
+Navigation and earlier study runners are under [experiments/rulesync_experiments/](experiments/rulesync_experiments/). The final moving-update collection keeps its source-pinned runner alongside its evidence.
 
+- [Final moving-update campaign](artifacts/moving_update_20261117/final36/campaign.py): [frozen runtime sources](artifacts/moving_update_20261117/final36/source/) and [fixed protocol](artifacts/moving_update_20261117/final36/PROTOCOL_ZH.md).
 - [Formal campaign](experiments/rulesync_experiments/formal_dualmap_20261108_v2/): frozen contracts, queues and navigation runners.
 - [Message diagnostics](experiments/rulesync_experiments/authorization_diagnostic_20261115/): observer ledgers, probe logic and diagnostic runners.
 - [Snapshot-aligned volumetric study](experiments/rulesync_experiments/quad3d_snapshot_dev_20261114_v3/): volumetric geometry and audit sources.
@@ -201,7 +220,8 @@ R2I-RL/
 │   └── rulesync_experiments/  Frozen campaign and diagnostic harnesses
 ├── scripts/                   Tests, verification and analysis tools
 ├── artifacts/
-│   └── jsa_20261116/          Source data, fixed inputs and raw records
+│   ├── jsa_20261116/          Earlier frozen studies and raw records
+│   └── moving_update_20261117/ Final 36-run study and independent verification
 └── docs/                      Integration and reproduction guides
 ```
 

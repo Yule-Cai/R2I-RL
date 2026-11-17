@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "condition": "clean",
+  "critical_requests_verified": 211,
+  "all_captured_serializations_field_verified": true,
+  "field_exact_guard_receipts": 2512,
+  "measured_window_actions": {
+    "forward": 99
+  },
+  "measured_window_delivered": 99,
+  "startup_requests_without_source_response": [],
+  "startup_forwarded_without_guard_callback": [],
+  "post_window_forwarded_without_guard_callback": [],
+  "outside_active_forward_not_dispatched": [],
+  "post_window_requests_without_source_response": [],
+  "post_window_pending_request_times_ns": {},
+  "verified_active_interval_start_ns": 167083545843154,
+  "auditor_sha256": "a76256cacc557bdebfccd1a3fc2b6bc3ed4e344ad2e1bee809322c14dfcd17f9",
+  "interval": "COMMIT-anchored source-response omission in [0,2.5s); measured exposure [0,5s)",
+  "scope": "Actual application service responses; not IP packet loss"
+}

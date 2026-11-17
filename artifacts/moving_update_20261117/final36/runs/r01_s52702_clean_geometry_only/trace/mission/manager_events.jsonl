@@ -1,0 +1,2 @@
+{"event": "durable_commit", "t_ns": 164902881260060, "epoch": 1, "snapshot_hash": "61d3c6d0141b9d89ad007ad9a8acf7296fe8a71bea593dffc3937f1b99cbd836", "txn_id": "ruletx-e1-n1"}
+{"event": "durable_commit", "t_ns": 164919882889374, "epoch": 2, "snapshot_hash": "449caf8736df24af4742823e6ed2d47c4da2f2c9457c8ba491371f70dc847db2", "txn_id": "ruletx-e2-n2"}

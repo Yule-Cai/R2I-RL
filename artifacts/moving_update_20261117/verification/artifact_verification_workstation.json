@@ -1,0 +1,264 @@
+{
+  "passed": true,
+  "verified_files": 2181,
+  "included_attempts": 36,
+  "verified_runs": 36,
+  "unassessed_attempts": 0,
+  "planned_runs": 36,
+  "final_commands": 58211,
+  "records": [
+    {
+      "id": "r01_s52701_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1011,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52701_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 986,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52701_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1009,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52701_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1006,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52702_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1013,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52702_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 985,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52702_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1014,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52702_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1016,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52703_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1013,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52703_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 988,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52703_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1012,
+      "task_complete": true
+    },
+    {
+      "id": "r01_s52703_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1006,
+      "task_complete": false
+    },
+    {
+      "id": "r02_s52701_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2076,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52701_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2052,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52701_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2073,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52701_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2066,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52702_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2085,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52702_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2046,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52702_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2090,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52702_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2064,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52703_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2087,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52703_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2059,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52703_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2089,
+      "task_complete": true
+    },
+    {
+      "id": "r02_s52703_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 2076,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52701_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1803,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52701_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1773,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52701_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1803,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52701_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1794,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52702_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1738,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52702_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1702,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52702_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1794,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52702_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1799,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52703_clean_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1737,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52703_clean_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1764,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52703_blackout_geometry_only",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1795,
+      "task_complete": true
+    },
+    {
+      "id": "r03_s52703_blackout_full",
+      "assessed": true,
+      "passed": true,
+      "final_commands": 1787,
+      "task_complete": true
+    }
+  ],
+  "scope": "Independent native-record, decoded-field, timing and sampled-footprint rechecks; no robot experiment"
+}

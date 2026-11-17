@@ -1,0 +1,29 @@
+{
+  "scope": "paired execution-identity ablation under external rule update",
+  "immutable_runner_sha256": "018551fec7b61d5d1cf2e691b2c703e057ef4bc7b51b2b5425e63a477cef249e",
+  "extra_source_sha256": {
+    "runner_channel_v2.py": "ac17fb811391a12a384c3e37b4155b14f220dcc6482ef4538ab24ab9ccab6c71",
+    "snapshot_response_proxy_v1.py": "e3bdba75a87fbb515806f39ea6c416d00c2df1c2723bde4ae078b37996a3854d",
+    "snapshot_response_proxy_v2.py": "0ab7820cec1e416f9e94ccaace806fdc2f9b79f2f94160c879a80d861ac374e6",
+    "channel_window_schedule_v1.py": "cf7f2b5b2ed7db37c4feba544f35422db3c17a32b4bc873017cfa6be4b3ce2e3",
+    "r02_s52703_clean_full.json": "a5fe8ede7e31f6f6aa3c4d6f2cbf1e4569717b4d70134809b2c6bbf2731ac955",
+    "channel_guard_observer_v1.py": "8c77ff9df5497c08f535566fe74c6b20fccdc7fbf15395382f0a348d5d6714a7"
+  },
+  "condition": "clean",
+  "observation_service": "/experiment/channel/list_rules",
+  "changes": [
+    "RuleGuard manager_service routing only",
+    "wait for matching independently observed authority before full gate submission",
+    "same5s external-update observation window in both arms;no anticipatory stop"
+  ],
+  "unchanged": [
+    "backend",
+    "planner/controller/low-level collision monitor",
+    "task geometry",
+    "speed",
+    "pose/snapshot expiry and polling",
+    "acceptance thresholds"
+  ],
+  "monitor_arm": "full",
+  "external_update_exposure_s": 5.0
+}

@@ -1,0 +1,11 @@
+--- frozen_scene_runner_v1.py
++++ supplement_scene_runner_v2.py
+@@ -400,7 +400,7 @@
+             invalidated=base.path_intersects_polygons([[p.pose.position.x,p.pose.position.y] for p in path.poses],
+                 [bench.NEW],inflation_radius=.30)
+             node.event('replacement_invalidates_initial_path',invalidated=bool(invalidated))
+-            assert invalidated,'Actual initial Nav2 path avoids the replacement; task needs qualification'
++            assert bool(invalidated)==case.get('expect_path_invalidated',True),'Actual path does not match the preregistered geometry condition'
+         bench.admit(node,path,1); node.active=True
+         initial=bench.follow(node,path,1)
+         if case:

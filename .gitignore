@@ -9,12 +9,11 @@ __pycache__/
 venv/
 
 # Local experiment outputs and scratch work. Reproducible paper source data
-# are curated separately under manuscript/RuleSync_JSA_v5/source_data/.
+# are curated separately under artifacts/.
 output/
 tmp/
 
-# LaTeX/editor build products; source, bibliography, figures, and curated
-# artifact tables remain trackable.
+# LaTeX/editor build products.
 manuscript/**/.DS_Store
 manuscript/**/*.aux
 manuscript/**/*.blg
@@ -38,3 +37,7 @@ manuscript/**/RuleSync_TASE_Draft_*.pdf
 /artifacts/jsa_20261116/figure_previews/
 /artifacts/jsa_20261116/*_table.tex
 /artifacts/jsa_20261116/study_numbers.tex
+
+# Unpublished manuscripts and submission packages stay local.
+/manuscript/
+/submission/

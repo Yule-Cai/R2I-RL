@@ -1,3 +1,7 @@
+## Final moving-update extension (2026-11-17)
+
+The completed final cohort and its standard-library verification are now available in [artifacts/moving_update_20261117](../artifacts/moving_update_20261117/README.md). Run `python3 scripts/verify_final_moving_update.py` from the repository root to reconstruct all 36 attempts in 18 pairs, including the original 35 PASS / 1 FAIL task outcomes. This cohort is separate from the earlier moving pilot documented below.
+
 # Reproducing the RuleSync research artifact
 
 ## Offline verification

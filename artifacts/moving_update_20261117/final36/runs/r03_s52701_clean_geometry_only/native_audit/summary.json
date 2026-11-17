@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "scope": "same-host native command audit; task failures and absent renewals retained; no physical-actuator application",
+  "native_events": 1301599,
+  "native_event_kinds": {
+    "ros2:rmw_publisher_init": 147,
+    "ros2:rmw_subscription_init": 102,
+    "ros2:rmw_publish": 110507,
+    "ros2:rcl_node_init": 21,
+    "ros2:rmw_take": 497835,
+    "ros2:rcl_publisher_init": 131,
+    "ros2:rcl_publish": 109730,
+    "ros2:rcl_subscription_init": 86,
+    "ros2:rclcpp_publish": 95071,
+    "ros2:rcl_take": 487969
+  },
+  "final_publisher": "collision_monitor",
+  "final_publications": 1773,
+  "observer_takes": 1773,
+  "observer_callbacks": 1773,
+  "value_observer": "rulesync_command_witness",
+  "require_complete_values": true,
+  "primary_benchmark_native_takes": 1772,
+  "simulator_bridge_takes": 1773,
+  "publication_values_unobserved": 0,
+  "observed_nonzero_publications_after_commit_before_release": 4,
+  "late_observer_receipts_of_precommit_nonzero_publications": 0,
+  "trace_discarded_messages": 0,
+  "independent_scene_audit_passed": null,
+  "clock": "native monotonic raw nanoseconds checked against manager/observer monotonic clock",
+  "correlation": "PID-scoped handles+exact unique middleware source timestamps;not Twist-value matching",
+  "audit_source_sha256": "1330264c62141dd60c5e8b9166693ddc90b86ab548a552b3b67548b7434d9326"
+}

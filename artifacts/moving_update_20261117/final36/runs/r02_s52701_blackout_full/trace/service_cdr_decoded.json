@@ -1,0 +1,233 @@
+{
+  "scope": "Independent ROS2 deserialization of retained application serializations;not wire packet capture",
+  "serialized_records": 4895,
+  "unique_cdr_serializations": 6,
+  "all_snapshot_hashes_verified": true,
+  "decoder_sha256": "7f85c02586034e211cc27d879fb332e663772a721ada28da4ce9312007ee4856",
+  "decoded": {
+    "4d45da6a0c19c76bc6e11666b2c59dab06c57070a42835d55e134a8543205ecf": {
+      "fields": {
+        "active": [],
+        "active_hash": "f283bd0b4d56cc5a35110d16e536ffa43be7f3d7ccf6fde234f65935cb64fbb9",
+        "degraded": true,
+        "epoch": 0,
+        "staged": []
+      },
+      "canonical_sha256": "b5d2a5fcae16d48d0b65e43e1249d3ce552b41735fd8634fa4631bd34e930f82"
+    },
+    "2f26a0893dbf22f6c3a1e13c0235cf1114c7ac7c07212691f9fc1259d339785d": {
+      "fields": {
+        "active": [],
+        "active_hash": "f283bd0b4d56cc5a35110d16e536ffa43be7f3d7ccf6fde234f65935cb64fbb9",
+        "degraded": false,
+        "epoch": 0,
+        "staged": []
+      },
+      "canonical_sha256": "71d22b26dffc73d9db5f5deb2c4a00e861a247ea5cf285531f719aca4821ea88"
+    },
+    "6e33a77cc394e7c48c69d8f8c5fb1c4361ac09dafa764934a0f7a4481d384d13": {
+      "fields": {
+        "active": [
+          {
+            "epoch": 1,
+            "frame_id": "map",
+            "polygon": {
+              "points": [
+                {
+                  "x": -10.975000381469727,
+                  "y": -1.524999976158142,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.774999618530273,
+                  "y": -1.524999976158142,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.774999618530273,
+                  "y": -1.3250000476837158,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.975000381469727,
+                  "y": -1.3250000476837158,
+                  "z": 0.0
+                }
+              ]
+            },
+            "rule_id": "nav2_combination_zone",
+            "rule_type": 0,
+            "severity": 1,
+            "speed_limit": 0.0,
+            "valid_from": {
+              "nanosec": 0,
+              "sec": 0
+            },
+            "valid_until": {
+              "nanosec": 0,
+              "sec": 3600
+            }
+          }
+        ],
+        "active_hash": "5fbae05754d37030ef4d0b8a72c41cb3ff1c4d56d95362cd7a5cfe22e2438583",
+        "degraded": false,
+        "epoch": 1,
+        "staged": []
+      },
+      "canonical_sha256": "0e677d907655ecf86668c3612d51085f2186255b13b5bcb6b95e751af7e93eaa"
+    },
+    "05e9a53877084f8f22c13897eb5185954dd78a9f6a101afb1503d1bde9d8af87": {
+      "fields": {
+        "active": [
+          {
+            "epoch": 2,
+            "frame_id": "map",
+            "polygon": {
+              "points": [
+                {
+                  "x": -12.417386054992676,
+                  "y": 0.16684913635253906,
+                  "z": 0.0
+                },
+                {
+                  "x": -11.817386627197266,
+                  "y": 0.16684913635253906,
+                  "z": 0.0
+                },
+                {
+                  "x": -11.817386627197266,
+                  "y": 0.766849160194397,
+                  "z": 0.0
+                },
+                {
+                  "x": -12.417386054992676,
+                  "y": 0.766849160194397,
+                  "z": 0.0
+                }
+              ]
+            },
+            "rule_id": "nav2_combination_zone",
+            "rule_type": 0,
+            "severity": 1,
+            "speed_limit": 0.0,
+            "valid_from": {
+              "nanosec": 0,
+              "sec": 0
+            },
+            "valid_until": {
+              "nanosec": 0,
+              "sec": 3600
+            }
+          }
+        ],
+        "active_hash": "93b8ef3a1636de414c7a4b3e390b11f744ef17d59687affdbe3af12caa128737",
+        "degraded": false,
+        "epoch": 2,
+        "staged": []
+      },
+      "canonical_sha256": "1c36df90a4cf9fd8d25b2c5e883774443dbae90e0c10e74f6ac70289eea2d8dc"
+    },
+    "079fd7dbc7fa0e3bf9bbdc8598bc1cc045b18d0a7d7677f16fc1adbad5cee5f5": {
+      "fields": {
+        "active": [
+          {
+            "epoch": 1,
+            "frame_id": "map",
+            "polygon": {
+              "points": [
+                {
+                  "x": -10.975000381469727,
+                  "y": -1.524999976158142,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.774999618530273,
+                  "y": -1.524999976158142,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.774999618530273,
+                  "y": -1.3250000476837158,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.975000381469727,
+                  "y": -1.3250000476837158,
+                  "z": 0.0
+                }
+              ]
+            },
+            "rule_id": "nav2_combination_zone",
+            "rule_type": 0,
+            "severity": 1,
+            "speed_limit": 0.0,
+            "valid_from": {
+              "nanosec": 0,
+              "sec": 0
+            },
+            "valid_until": {
+              "nanosec": 0,
+              "sec": 3600
+            }
+          }
+        ],
+        "active_hash": "5fbae05754d37030ef4d0b8a72c41cb3ff1c4d56d95362cd7a5cfe22e2438583",
+        "degraded": false,
+        "epoch": 1,
+        "staged": []
+      },
+      "canonical_sha256": "0e677d907655ecf86668c3612d51085f2186255b13b5bcb6b95e751af7e93eaa"
+    },
+    "014940a39a059e9b80a6a2c97fa1d46981cc5406a33061626deb36bdef7b8138": {
+      "fields": {
+        "active": [
+          {
+            "epoch": 1,
+            "frame_id": "map",
+            "polygon": {
+              "points": [
+                {
+                  "x": -10.975000381469727,
+                  "y": -1.524999976158142,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.774999618530273,
+                  "y": -1.524999976158142,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.774999618530273,
+                  "y": -1.3250000476837158,
+                  "z": 0.0
+                },
+                {
+                  "x": -10.975000381469727,
+                  "y": -1.3250000476837158,
+                  "z": 0.0
+                }
+              ]
+            },
+            "rule_id": "nav2_combination_zone",
+            "rule_type": 0,
+            "severity": 1,
+            "speed_limit": 0.0,
+            "valid_from": {
+              "nanosec": 0,
+              "sec": 0
+            },
+            "valid_until": {
+              "nanosec": 0,
+              "sec": 3600
+            }
+          }
+        ],
+        "active_hash": "5fbae05754d37030ef4d0b8a72c41cb3ff1c4d56d95362cd7a5cfe22e2438583",
+        "degraded": false,
+        "epoch": 1,
+        "staged": []
+      },
+      "canonical_sha256": "0e677d907655ecf86668c3612d51085f2186255b13b5bcb6b95e751af7e93eaa"
+    }
+  }
+}

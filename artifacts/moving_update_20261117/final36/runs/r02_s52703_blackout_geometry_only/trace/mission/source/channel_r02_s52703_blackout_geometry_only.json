@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "scope": "DEV_commit_anchored_delivery",
+  "condition": "blackout",
+  "channel": "guard_snapshot_observation",
+  "seed": 52703,
+  "anchor_epoch": 2,
+  "window_start_s": 0.0,
+  "window_end_s": 2.5,
+  "maximum_requests": 100000,
+  "delay_base_s": 0.2,
+  "delay_jitter_s": 0.15,
+  "response_loss_probability": 0.5,
+  "source_payload_mutation": false,
+  "monitor_arm": "geometry_only",
+  "external_update_exposure_s": 5.0,
+  "wait_for_relay_ready": true,
+  "timing": "Shared-host monotonic; actual service-response omission, not IP loss",
+  "comparison": "Selected execution identity disagreement ablation; all other checks retained"
+}

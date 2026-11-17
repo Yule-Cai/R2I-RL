@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "fixed_seed": 20261117,
+  "cases": 1000,
+  "shapely_version": "2.1.2",
+  "maximum_distance_error_m": 8.881784197001252e-16,
+  "intersection_disagreements": 0
+}

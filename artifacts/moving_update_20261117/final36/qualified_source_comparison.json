@@ -1,0 +1,8 @@
+{
+  "changed_from_development": [
+    "snapshot_response_proxy_v1.py"
+  ],
+  "final_source_matches_qualified_diagnostic": true,
+  "original_manifest_sha256": "ae03a0f7ef131b1c7c2e2922f85745831fb3e6e07103d4e48d0b0193f2236367",
+  "qualified_manifest_sha256": "217ed3d7affbc28862789adbf900e425fe81afe11a6ca861d7daf66f9d258960"
+}

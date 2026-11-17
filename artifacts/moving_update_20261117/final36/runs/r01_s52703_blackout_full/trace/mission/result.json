@@ -1,0 +1,10 @@
+{
+  "result": "FAIL",
+  "pilot": true,
+  "formal_denominator": false,
+  "cohort_id": null,
+  "stage": "recovery",
+  "phase": "recovery_follow",
+  "error": "AssertionError(0.21082709241385617)",
+  "source_unchanged": true
+}

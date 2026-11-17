@@ -1,0 +1,7 @@
+{
+  "archive_sha256": "5cc90acf9a44655738b42e165e55f20ec4a2c44fa8a90566b910d921cf42f43f",
+  "member": "authorization_probe_20261114/scene_runner_authorization_probe.py",
+  "member_sha256": "65bf9136d1cd406d8d6e823b6821d9ac64d4018363bd620cf590aa5fd527f2cb",
+  "original_redundant_observation_list_persisted_before_assertion": false,
+  "interpretation": "The failure assertion precedes the witness write. Detailed redundant-observer timestamps are not retained for failed probes, so historical root cause cannot be reconstructed from that list. Later diagnostic traces are independent evidence, not repaired historical outcomes."
+}

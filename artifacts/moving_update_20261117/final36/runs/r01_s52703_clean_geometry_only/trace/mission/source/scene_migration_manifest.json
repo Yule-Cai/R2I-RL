@@ -1,0 +1,109 @@
+{
+  "stage": "migration_preparation",
+  "scene": "office",
+  "formal_denominator": false,
+  "world_source_sha256": "ad9b9f34b42c69800ec91219fad4c3c0a1e623aabde938f5731e07901560aaa7",
+  "template_sha256": "d08df035fe996572c2b9bdf9f3e7ccc6c90ab0ed9fff6ef911cc50147e6088d1",
+  "world_sha256": "173ca7ef270ac9ea74f4d18442fbc698e70576f3ed255e91de201a3c63bdc046",
+  "asset_files_sha256": {
+    "LICENSE": "c5b036522ecf21b207daad625d10aff273d170b5cb46e3cae89129f67a6603c7",
+    "clearpath_gz/meshes/accessories/wibotic_tr301.dae": "f207ae483556a61d1db986dc2a794e9edb68c4e36b55dd5d28fe00763ab3795e",
+    "clearpath_gz/meshes/accessories/wibotic_tr301.stl": "5b7bfbb12242ebbc4fcbe34f5026afce15da805e27cc576bbb94986651f867bd",
+    "clearpath_gz/meshes/office/Bricks01_COL_VAR1_3K.jpg.002.jpg": "7f713a77b8f9d3bf55f242ad177635f9dc00f2a956e6b3c77b902bcd87a5b703",
+    "clearpath_gz/meshes/office/ConcreteWall001_COL_VAR1_3K.jpg.002.jpg": "4e3619d839690f21cf9a216c8d997196cf19a5c22ac97ebd0f6f0306685b3dde",
+    "clearpath_gz/meshes/office/GroundClay002_COL_VAR1_3K.jpg.001.jpg": "961f5e43fbd145bc336d636c9a810022cdec742a8bfa0a62052e5a9ab97fbed5",
+    "clearpath_gz/meshes/office/InteriorDesignRugStarryNight001_COL_VAR1_3K.jpg.001.jpg": "00af0f74ebf49b9b2b59cd96eaa4d71cefb02b736a58b689068db610f1e75bba",
+    "clearpath_gz/meshes/office/MetalCorrodedHeavy001_COL_3K_METALNESS.jpg.002.jpg": "cbaffdbc7c5fb99f5fa28d2d2b6561070089783cc95a184a5bfaa7f8a34c8d1d",
+    "clearpath_gz/meshes/office/MetalCorrugatedIronSheet002_METALNESS_3K_METALNESS.jpg.002.jpg": "1b79acf0b03c9e0b6f44acd73a214feae06671e66043f797e57cd0e07924d3cd",
+    "clearpath_gz/meshes/office/MetalSpottyDiscoloration001_COL_3K_METALNESS.jpg.002.jpg": "9ef162ba4273c9c968af36b20bf41994800d7addb37090074058e81bc4acae93",
+    "clearpath_gz/meshes/office/Tiles05_COL_VAR1_3K.jpg.001.jpg": "ecf0139bbe8065f3abb60eed5db4d5da224b64ddfd89c16c09a433e6a8c4f916",
+    "clearpath_gz/meshes/office/TilesRectangularMirrorGray001_COL_3K.jpg.001.jpg": "141c6ddb6191763a415f742ccc86d923ea9719a3e3effc370537c86f836dfb00",
+    "clearpath_gz/meshes/office/WoodFlooring044_COL_3K.jpg.001.jpg": "7df5f0798631267e2a21df45db10337e590261f9f49804981c8f521216181635",
+    "clearpath_gz/meshes/office/WoodFlooring061_COL_3K.jpg.001.jpg": "13b48ee81931e9bfc93cb53778b1a0e570d08a822213b688d3431d06325928df",
+    "clearpath_gz/meshes/office/WoodFlooringMahoganyAfricanSanded001_COL_3K.jpg.001.jpg": "3720e643a6c6559728a146ef81e9374ee8293b2a4078d88d64632d7bf85384f7",
+    "clearpath_gz/meshes/office/WoodPlanksWorn33_COL_VAR1_3K.jpg.002.jpg": "a1a711e460d0fe613a7baedcac4cbfd1582e7dae76a4ba5f7ed42b3683b8656d",
+    "clearpath_gz/meshes/office/cardboard.jpg": "90a5fcdb48326cd2a791b62a446d55ac4dd320ad7a7089a6603b7ed4c812470c",
+    "clearpath_gz/meshes/office/concrete_bag.jpg": "8ed26496105b483f61d7c8dc120cfe4e2b2a33e14c3b9662d1dadc04c45bb386",
+    "clearpath_gz/meshes/office/cp_walls.jpg": "654090dc884208eb1f84110b62f8aca582122cce66a33386ebe850ef27372ba6",
+    "clearpath_gz/meshes/office/office.dae": "b3fe071a54093209e6b0073220c24f1adc74ce0b0f5c977df41369f5c3f2be05",
+    "clearpath_gz/meshes/office/office_construction.dae": "9dea2702a6ffd8686897db915565b85a2c7d2793739f85a4e6dee72b42d3c801",
+    "clearpath_gz/meshes/office/whiteboard.jpg": "dc7feca07e8fed4050a833b462b00269471248a339c7540e3c073d0cb0bdfb98",
+    "clearpath_gz/worlds/office.sdf": "ad9b9f34b42c69800ec91219fad4c3c0a1e623aabde938f5731e07901560aaa7"
+  },
+  "models": [
+    {
+      "name": "office",
+      "pose": "0 0 0 0 0 0",
+      "model_source": "clearpath_gz/worlds/office.sdf",
+      "source_world_model": "office",
+      "model_sha256": "ad9b9f34b42c69800ec91219fad4c3c0a1e623aabde938f5731e07901560aaa7",
+      "collision_count": 1,
+      "visual_count": 1
+    },
+    {
+      "name": "charge_dock",
+      "pose": "23 -5 0 0 0 2.356194490192345",
+      "model_source": "clearpath_gz/worlds/office.sdf",
+      "source_world_model": "charge_dock",
+      "model_sha256": "ad9b9f34b42c69800ec91219fad4c3c0a1e623aabde938f5731e07901560aaa7",
+      "collision_count": 1,
+      "visual_count": 1
+    }
+  ],
+  "cameras": [
+    {
+      "name": "perspective",
+      "eye": [
+        0,
+        -6,
+        4
+      ],
+      "target": [
+        0,
+        0,
+        0.5
+      ],
+      "width": 1600,
+      "height": 1000,
+      "fov": 1.05
+    },
+    {
+      "name": "overview",
+      "eye": [
+        18,
+        -23,
+        31
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ],
+      "width": 1600,
+      "height": 1000,
+      "fov": 1.05
+    }
+  ],
+  "map_origin": [
+    -25.1,
+    -22.25,
+    0
+  ],
+  "map_resolution": 0.05,
+  "physical_geometry": "all original static collision/visual meshes and world poses; absolute URI resolution only",
+  "world_provenance_label": "Pinned Clearpath complete office with original collision/visual meshes",
+  "map_registration": "native survey independently verified by5 excluded spatial scans; no online world-pose feedback",
+  "prior_rejected_projection": {
+    "report_sha256": "6334bcf207aadc93201e9aae6a610763af6a21bace062ac6390e96ab4cf3b9ca",
+    "map_sha256": "c04e2f19450cbb931e4b2637f57c67d3e41d2215da76738afca887ddc78607a7",
+    "builder_sha256": "cd0bafd292f7b08b55a452fc691c32aa3cd067353d021ce0e98e3b143699f891"
+  },
+  "native_survey": {
+    "map_sha256": "0539889af80b8ae5c62b8f621a5b25d47a49292208f2f9e6ee69e68bd1adb8aa",
+    "report_sha256": "96e7c4000dd07a31246f3c9f946e0498ff95a099b999e9f6564be7805bea51dd",
+    "observations_sha256": "4c230aba070e3b34e8acf9e96c55297cecc62322e57c08b155ef19d66c006071",
+    "builder_sha256": "be4f9e1037f14de8f4973bd6f5f5287d18d39ac2f84c19160cc63e416d06c9b0",
+    "original_map_sha256": "252b56d814308358830304064e187ce0c84e1fee72fcf14a15ef650a5b472d95",
+    "extent_policy": "original source-floor extent plus predeclared10m padding on each side"
+  }
+}

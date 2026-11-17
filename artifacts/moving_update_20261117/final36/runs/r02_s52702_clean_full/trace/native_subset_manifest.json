@@ -1,0 +1,14 @@
+{
+  "scope": "Unchanged original native records for command and authorization topics; full-trace hashes retained",
+  "topics": [
+    "/cmd_vel",
+    "/rulepatch/executable_path",
+    "/rulesync/execution_authorization"
+  ],
+  "full_native_sha256": "eed47f44ed09bcc48839c38d81b559e7553c238437c9d0c47ab906e33f156bdf",
+  "full_native_events": 1450979,
+  "selected_events": 13197,
+  "selected_sha256": "c06f5fef7b95dfac6c304e1a2f9999a70a6f54aa5158ccf169dc0dbab39e55c1",
+  "original_trace_result_sha256": "e26a1155b2883a3f3f9c07cc776246dc28f92f2a8f9025efd76853fcbda445e1",
+  "exporter_sha256": "50e63fb6a2a3657006858a3914717925399943d84504e31223f41394532ba75a"
+}
